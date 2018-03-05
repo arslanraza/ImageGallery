@@ -14,6 +14,10 @@
 		A85D159F204D70AF0047C80E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A85D159E204D70AF0047C80E /* Assets.xcassets */; };
 		A85D15A2204D70AF0047C80E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85D15A0204D70AF0047C80E /* LaunchScreen.storyboard */; };
 		A85D15AD204D70AF0047C80E /* ImageGalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D15AC204D70AF0047C80E /* ImageGalleryTests.swift */; };
+		A85D15CA204D7F000047C80E /* ImageGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D15C9204D7F000047C80E /* ImageGalleryViewController.swift */; };
+		A85D15CC204D7F1B0047C80E /* ImageCaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D15CB204D7F1B0047C80E /* ImageCaptureViewController.swift */; };
+		A85D15CE204D7F260047C80E /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D15CD204D7F260047C80E /* AboutViewController.swift */; };
+		A85D15D0204D80EB0047C80E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D15CF204D80EB0047C80E /* TabBarController.swift */; };
 		F0FDFBEC8BB000C7F17A9BA8 /* Pods_ImageGallery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A538E51409CE8EBF9A2FAC /* Pods_ImageGallery.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +48,10 @@
 		A85D15A8204D70AF0047C80E /* ImageGalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageGalleryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85D15AC204D70AF0047C80E /* ImageGalleryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGalleryTests.swift; sourceTree = "<group>"; };
 		A85D15AE204D70AF0047C80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A85D15C9204D7F000047C80E /* ImageGalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGalleryViewController.swift; sourceTree = "<group>"; };
+		A85D15CB204D7F1B0047C80E /* ImageCaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCaptureViewController.swift; sourceTree = "<group>"; };
+		A85D15CD204D7F260047C80E /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		A85D15CF204D80EB0047C80E /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +119,7 @@
 			children = (
 				A85D1597204D70AF0047C80E /* AppDelegate.swift */,
 				A85D1599204D70AF0047C80E /* ViewController.swift */,
+				A85D15CF204D80EB0047C80E /* TabBarController.swift */,
 				A85D159B204D70AF0047C80E /* Main.storyboard */,
 				A85D15C6204D73380047C80E /* Utilitise */,
 				A85D15B7204D73380047C80E /* Gallery */,
@@ -160,6 +169,7 @@
 		A85D15BA204D73380047C80E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A85D15C9204D7F000047C80E /* ImageGalleryViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -199,6 +209,7 @@
 		A85D15BF204D73380047C80E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A85D15CB204D7F1B0047C80E /* ImageCaptureViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -238,6 +249,7 @@
 		A85D15C4204D73380047C80E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A85D15CD204D7F260047C80E /* AboutViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -474,6 +486,10 @@
 			files = (
 				A85D159A204D70AF0047C80E /* ViewController.swift in Sources */,
 				A85D1598204D70AF0047C80E /* AppDelegate.swift in Sources */,
+				A85D15CC204D7F1B0047C80E /* ImageCaptureViewController.swift in Sources */,
+				A85D15D0204D80EB0047C80E /* TabBarController.swift in Sources */,
+				A85D15CE204D7F260047C80E /* AboutViewController.swift in Sources */,
+				A85D15CA204D7F000047C80E /* ImageGalleryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
