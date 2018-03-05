@@ -4,4 +4,4 @@ xcode_scheme: ImageGallery
 osx_image: xcode9.2
 xcode_sdk: iphonesimulator10.2
 #script:
-- xcodebuild -workspace ImageGallery.xcworkspace -scheme 'ImageGallery' -destination 'platform=iOS Simulator,name=iPhone 7' test 
+- xcodebuild -workspace ImageGallery.xcworkspace -scheme 'ImageGallery' -destination 'platform=iOS Simulator,name=iPhone 7' test
