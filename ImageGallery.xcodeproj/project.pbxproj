@@ -23,6 +23,11 @@
 		A85D16ED204ED2B00047C80E /* SparkImageGalleryCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A85D16E5204ED2B00047C80E /* SparkImageGalleryCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A85D16F4204ED2C00047C80E /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D16F3204ED2C00047C80E /* Picture.swift */; };
 		A85D16F7204ED4630047C80E /* SparkGalleryCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D16F6204ED4630047C80E /* SparkGalleryCoreTests.swift */; };
+		A89C4BBF204EF91100E91C61 /* SparkImageNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A89C4BB6204EF91100E91C61 /* SparkImageNetwork.framework */; };
+		A89C4BC6204EF91100E91C61 /* SparkImageNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89C4BC5204EF91100E91C61 /* SparkImageNetworkTests.swift */; };
+		A89C4BC8204EF91100E91C61 /* SparkImageNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = A89C4BB8204EF91100E91C61 /* SparkImageNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A89C4BCB204EF91100E91C61 /* SparkImageNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A89C4BB6204EF91100E91C61 /* SparkImageNetwork.framework */; };
+		A89C4BCC204EF91100E91C61 /* SparkImageNetwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A89C4BB6204EF91100E91C61 /* SparkImageNetwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F0FDFBEC8BB000C7F17A9BA8 /* Pods_ImageGallery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A538E51409CE8EBF9A2FAC /* Pods_ImageGallery.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +46,27 @@
 			remoteGlobalIDString = A85D16E4204ED2B00047C80E;
 			remoteInfo = SparkImageGalleryCore;
 		};
+		A89C4BC0204EF91100E91C61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85D158C204D70AF0047C80E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A89C4BB5204EF91100E91C61;
+			remoteInfo = SparkImageNetwork;
+		};
+		A89C4BC2204EF91100E91C61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85D158C204D70AF0047C80E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A85D1593204D70AF0047C80E;
+			remoteInfo = ImageGallery;
+		};
+		A89C4BC9204EF91100E91C61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85D158C204D70AF0047C80E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A89C4BB5204EF91100E91C61;
+			remoteInfo = SparkImageNetwork;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +77,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				A85D16ED204ED2B00047C80E /* SparkImageGalleryCore.framework in Embed Frameworks */,
+				A89C4BCC204EF91100E91C61 /* SparkImageNetwork.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,6 +110,12 @@
 		A85D16E8204ED2B00047C80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A85D16F3204ED2C00047C80E /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
 		A85D16F6204ED4630047C80E /* SparkGalleryCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkGalleryCoreTests.swift; sourceTree = "<group>"; };
+		A89C4BB6204EF91100E91C61 /* SparkImageNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SparkImageNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A89C4BB8204EF91100E91C61 /* SparkImageNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SparkImageNetwork.h; sourceTree = "<group>"; };
+		A89C4BB9204EF91100E91C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A89C4BBE204EF91100E91C61 /* SparkImageNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SparkImageNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A89C4BC5204EF91100E91C61 /* SparkImageNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkImageNetworkTests.swift; sourceTree = "<group>"; };
+		A89C4BC7204EF91100E91C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A85D16EC204ED2B00047C80E /* SparkImageGalleryCore.framework in Frameworks */,
+				A89C4BCB204EF91100E91C61 /* SparkImageNetwork.framework in Frameworks */,
 				F0FDFBEC8BB000C7F17A9BA8 /* Pods_ImageGallery.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -107,6 +141,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89C4BB2204EF91100E91C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89C4BBB204EF91100E91C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A89C4BBF204EF91100E91C61 /* SparkImageNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +188,8 @@
 				A85D1596204D70AF0047C80E /* ImageGallery */,
 				A85D15AB204D70AF0047C80E /* ImageGalleryTests */,
 				A85D16E6204ED2B00047C80E /* SparkImageGalleryCore */,
+				A89C4BB7204EF91100E91C61 /* SparkImageNetwork */,
+				A89C4BC4204EF91100E91C61 /* SparkImageNetworkTests */,
 				A85D1595204D70AF0047C80E /* Products */,
 				6C743FFDCCF014ED234C162C /* Pods */,
 				19D81195E7488803DE620E8B /* Frameworks */,
@@ -151,6 +202,8 @@
 				A85D1594204D70AF0047C80E /* ImageGallery.app */,
 				A85D15A8204D70AF0047C80E /* ImageGalleryTests.xctest */,
 				A85D16E5204ED2B00047C80E /* SparkImageGalleryCore.framework */,
+				A89C4BB6204EF91100E91C61 /* SparkImageNetwork.framework */,
+				A89C4BBE204EF91100E91C61 /* SparkImageNetworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -344,6 +397,24 @@
 			path = SparkImageGalleryCore;
 			sourceTree = "<group>";
 		};
+		A89C4BB7204EF91100E91C61 /* SparkImageNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				A89C4BB8204EF91100E91C61 /* SparkImageNetwork.h */,
+				A89C4BB9204EF91100E91C61 /* Info.plist */,
+			);
+			path = SparkImageNetwork;
+			sourceTree = "<group>";
+		};
+		A89C4BC4204EF91100E91C61 /* SparkImageNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				A89C4BC5204EF91100E91C61 /* SparkImageNetworkTests.swift */,
+				A89C4BC7204EF91100E91C61 /* Info.plist */,
+			);
+			path = SparkImageNetworkTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -352,6 +423,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A85D16E9204ED2B00047C80E /* SparkImageGalleryCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89C4BB3204EF91100E91C61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A89C4BC8204EF91100E91C61 /* SparkImageNetwork.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +453,7 @@
 			);
 			dependencies = (
 				A85D16EB204ED2B00047C80E /* PBXTargetDependency */,
+				A89C4BCA204EF91100E91C61 /* PBXTargetDependency */,
 			);
 			name = ImageGallery;
 			productName = ImageGallery;
@@ -419,6 +499,43 @@
 			productReference = A85D16E5204ED2B00047C80E /* SparkImageGalleryCore.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		A89C4BB5204EF91100E91C61 /* SparkImageNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A89C4BD1204EF91100E91C61 /* Build configuration list for PBXNativeTarget "SparkImageNetwork" */;
+			buildPhases = (
+				A89C4BB1204EF91100E91C61 /* Sources */,
+				A89C4BB2204EF91100E91C61 /* Frameworks */,
+				A89C4BB3204EF91100E91C61 /* Headers */,
+				A89C4BB4204EF91100E91C61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SparkImageNetwork;
+			productName = SparkImageNetwork;
+			productReference = A89C4BB6204EF91100E91C61 /* SparkImageNetwork.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A89C4BBD204EF91100E91C61 /* SparkImageNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A89C4BD2204EF91100E91C61 /* Build configuration list for PBXNativeTarget "SparkImageNetworkTests" */;
+			buildPhases = (
+				A89C4BBA204EF91100E91C61 /* Sources */,
+				A89C4BBB204EF91100E91C61 /* Frameworks */,
+				A89C4BBC204EF91100E91C61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A89C4BC1204EF91100E91C61 /* PBXTargetDependency */,
+				A89C4BC3204EF91100E91C61 /* PBXTargetDependency */,
+			);
+			name = SparkImageNetworkTests;
+			productName = SparkImageNetworkTests;
+			productReference = A89C4BBE204EF91100E91C61 /* SparkImageNetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -443,6 +560,15 @@
 						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
+					A89C4BB5204EF91100E91C61 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A89C4BBD204EF91100E91C61 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A85D1593204D70AF0047C80E;
+					};
 				};
 			};
 			buildConfigurationList = A85D158F204D70AF0047C80E /* Build configuration list for PBXProject "ImageGallery" */;
@@ -461,6 +587,8 @@
 				A85D1593204D70AF0047C80E /* ImageGallery */,
 				A85D15A7204D70AF0047C80E /* ImageGalleryTests */,
 				A85D16E4204ED2B00047C80E /* SparkImageGalleryCore */,
+				A89C4BB5204EF91100E91C61 /* SparkImageNetwork */,
+				A89C4BBD204EF91100E91C61 /* SparkImageNetworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -484,6 +612,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A85D16E3204ED2B00047C80E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89C4BB4204EF91100E91C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89C4BBC204EF91100E91C61 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -627,6 +769,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A89C4BB1204EF91100E91C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89C4BBA204EF91100E91C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A89C4BC6204EF91100E91C61 /* SparkImageNetworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -639,6 +796,21 @@
 			isa = PBXTargetDependency;
 			target = A85D16E4204ED2B00047C80E /* SparkImageGalleryCore */;
 			targetProxy = A85D16EA204ED2B00047C80E /* PBXContainerItemProxy */;
+		};
+		A89C4BC1204EF91100E91C61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A89C4BB5204EF91100E91C61 /* SparkImageNetwork */;
+			targetProxy = A89C4BC0204EF91100E91C61 /* PBXContainerItemProxy */;
+		};
+		A89C4BC3204EF91100E91C61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A85D1593204D70AF0047C80E /* ImageGallery */;
+			targetProxy = A89C4BC2204EF91100E91C61 /* PBXContainerItemProxy */;
+		};
+		A89C4BCA204EF91100E91C61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A89C4BB5204EF91100E91C61 /* SparkImageNetwork */;
+			targetProxy = A89C4BC9204EF91100E91C61 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -892,6 +1064,90 @@
 			};
 			name = Release;
 		};
+		A89C4BCD204EF91100E91C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6KF8AM7J9K;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SparkImageNetwork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arslan.SparkImageNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A89C4BCE204EF91100E91C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6KF8AM7J9K;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SparkImageNetwork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arslan.SparkImageNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A89C4BCF204EF91100E91C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KF8AM7J9K;
+				INFOPLIST_FILE = SparkImageNetworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arslan.SparkImageNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageGallery.app/ImageGallery";
+			};
+			name = Debug;
+		};
+		A89C4BD0204EF91100E91C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KF8AM7J9K;
+				INFOPLIST_FILE = SparkImageNetworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arslan.SparkImageNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageGallery.app/ImageGallery";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -927,6 +1183,24 @@
 			buildConfigurations = (
 				A85D16EE204ED2B00047C80E /* Debug */,
 				A85D16EF204ED2B00047C80E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A89C4BD1204EF91100E91C61 /* Build configuration list for PBXNativeTarget "SparkImageNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A89C4BCD204EF91100E91C61 /* Debug */,
+				A89C4BCE204EF91100E91C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A89C4BD2204EF91100E91C61 /* Build configuration list for PBXNativeTarget "SparkImageNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A89C4BCF204EF91100E91C61 /* Debug */,
+				A89C4BD0204EF91100E91C61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

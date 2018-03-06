@@ -54,6 +54,16 @@
                ReferencedContainer = "container:ImageGallery.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A89C4BBD204EF91100E91C61"
+               BuildableName = "SparkImageNetworkTests.xctest"
+               BlueprintName = "SparkImageNetworkTests"
+               ReferencedContainer = "container:ImageGallery.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
