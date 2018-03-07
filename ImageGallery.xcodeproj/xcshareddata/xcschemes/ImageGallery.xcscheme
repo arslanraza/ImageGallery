@@ -14,34 +14,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A85D16E4204ED2B00047C80E"
-               BuildableName = "SparkImageGalleryCore.framework"
-               BlueprintName = "SparkImageGalleryCore"
-               ReferencedContainer = "container:ImageGallery.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A89C4BB5204EF91100E91C61"
-               BuildableName = "SparkImageNetwork.framework"
-               BlueprintName = "SparkImageNetwork"
-               ReferencedContainer = "container:ImageGallery.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "A85D1593204D70AF0047C80E"
                BuildableName = "ImageGallery.app"
                BlueprintName = "ImageGallery"

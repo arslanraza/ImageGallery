@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2587B8B50CEBF77EE55989CE /* Pods_SparkImageNetworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC2A1DF54AD13C2FD520A1C /* Pods_SparkImageNetworkTests.framework */; };
 		47CB571A1E3ED8C691111890 /* Pods_ImageGalleryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD007F820C02160651A42B5 /* Pods_ImageGalleryTests.framework */; };
+		A81E62752050020A004A5A8E /* SparkImageGalleryCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A85D16E5204ED2B00047C80E /* SparkImageGalleryCore.framework */; };
 		A85D1598204D70AF0047C80E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D1597204D70AF0047C80E /* AppDelegate.swift */; };
 		A85D159A204D70AF0047C80E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D1599204D70AF0047C80E /* ViewController.swift */; };
 		A85D159D204D70AF0047C80E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85D159B204D70AF0047C80E /* Main.storyboard */; };
@@ -41,6 +42,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A81E627320500203004A5A8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85D158C204D70AF0047C80E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A85D16E4204ED2B00047C80E;
+			remoteInfo = SparkImageGalleryCore;
+		};
 		A85D15A9204D70AF0047C80E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A85D158C204D70AF0047C80E /* Project object */;
@@ -168,6 +176,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A81E62752050020A004A5A8E /* SparkImageGalleryCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,6 +584,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				A81E627420500203004A5A8E /* PBXTargetDependency */,
 			);
 			name = SparkImageNetwork;
 			productName = SparkImageNetwork;
@@ -916,6 +926,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A81E627420500203004A5A8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A85D16E4204ED2B00047C80E /* SparkImageGalleryCore */;
+			targetProxy = A81E627320500203004A5A8E /* PBXContainerItemProxy */;
+		};
 		A85D15AA204D70AF0047C80E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A85D1593204D70AF0047C80E /* ImageGallery */;
