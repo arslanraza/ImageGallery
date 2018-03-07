@@ -20,7 +20,7 @@ public enum PicturesFeed {
 
 extension PicturesFeed: EndPoint {
   var base: String {
-    return "http://sparttest.com"
+    return "http://sparktest.com"
   }
   
   var path: String {
