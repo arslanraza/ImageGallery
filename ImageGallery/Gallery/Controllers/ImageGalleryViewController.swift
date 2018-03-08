@@ -11,6 +11,7 @@ import SparkImageNetwork
 
 class ImageGalleryViewController: UIViewController {
   
+  @IBOutlet weak var collectionView: UICollectionView!
   let picturesAPI = PicturesAPIClient()
   
   override func viewDidLoad() {
@@ -27,9 +28,18 @@ class ImageGalleryViewController: UIViewController {
     
   }
   
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
+}
+
+extension ImageGalleryViewController: UICollectionViewDataSource {
+  func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    return 0
   }
+  
+  func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    return UICollectionViewCell()
+  }
+}
+
+extension ImageGalleryViewController: UICollectionViewDelegate {
   
 }
