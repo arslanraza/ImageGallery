@@ -16,6 +16,8 @@
 		A81E62852051454A004A5A8E /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81E62842051454A004A5A8E /* URLSessionProtocol.swift */; };
 		A81E628720514580004A5A8E /* URLSessionDataTaskProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81E628620514580004A5A8E /* URLSessionDataTaskProtocol.swift */; };
 		A81E628A205166B8004A5A8E /* ImageGalleryViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81E6289205166B8004A5A8E /* ImageGalleryViewControllerTests.swift */; };
+		A81E628C205169A0004A5A8E /* GalleryViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81E628B205169A0004A5A8E /* GalleryViewModelTest.swift */; };
+		A81E628E20516A2B004A5A8E /* GalleryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81E628D20516A2B004A5A8E /* GalleryViewModel.swift */; };
 		A85D1598204D70AF0047C80E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D1597204D70AF0047C80E /* AppDelegate.swift */; };
 		A85D159A204D70AF0047C80E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D1599204D70AF0047C80E /* ViewController.swift */; };
 		A85D159D204D70AF0047C80E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85D159B204D70AF0047C80E /* Main.storyboard */; };
@@ -120,6 +122,8 @@
 		A81E62842051454A004A5A8E /* URLSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol.swift; sourceTree = "<group>"; };
 		A81E628620514580004A5A8E /* URLSessionDataTaskProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionDataTaskProtocol.swift; sourceTree = "<group>"; };
 		A81E6289205166B8004A5A8E /* ImageGalleryViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGalleryViewControllerTests.swift; sourceTree = "<group>"; };
+		A81E628B205169A0004A5A8E /* GalleryViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewModelTest.swift; sourceTree = "<group>"; };
+		A81E628D20516A2B004A5A8E /* GalleryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewModel.swift; sourceTree = "<group>"; };
 		A85D1594204D70AF0047C80E /* ImageGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85D1597204D70AF0047C80E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A85D1599204D70AF0047C80E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -229,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				A81E6289205166B8004A5A8E /* ImageGalleryViewControllerTests.swift */,
+				A81E628B205169A0004A5A8E /* GalleryViewModelTest.swift */,
 			);
 			path = Gallery;
 			sourceTree = "<group>";
@@ -302,6 +307,7 @@
 		A85D15B8204D73380047C80E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A81E628D20516A2B004A5A8E /* GalleryViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -898,6 +904,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A85D159A204D70AF0047C80E /* ViewController.swift in Sources */,
+				A81E628E20516A2B004A5A8E /* GalleryViewModel.swift in Sources */,
 				A85D1598204D70AF0047C80E /* AppDelegate.swift in Sources */,
 				A85D15CC204D7F1B0047C80E /* ImageCaptureViewController.swift in Sources */,
 				A85D15D0204D80EB0047C80E /* TabBarController.swift in Sources */,
@@ -911,6 +918,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A81E628A205166B8004A5A8E /* ImageGalleryViewControllerTests.swift in Sources */,
+				A81E628C205169A0004A5A8E /* GalleryViewModelTest.swift in Sources */,
 				A85D15AD204D70AF0047C80E /* ImageGalleryTests.swift in Sources */,
 				A85D16F7204ED4630047C80E /* SparkGalleryCoreTests.swift in Sources */,
 			);
