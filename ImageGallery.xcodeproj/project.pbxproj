@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2587B8B50CEBF77EE55989CE /* Pods_SparkImageNetworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC2A1DF54AD13C2FD520A1C /* Pods_SparkImageNetworkTests.framework */; };
 		47CB571A1E3ED8C691111890 /* Pods_ImageGalleryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD007F820C02160651A42B5 /* Pods_ImageGalleryTests.framework */; };
+		A81E62752050020A004A5A8E /* SparkImageGalleryCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A85D16E5204ED2B00047C80E /* SparkImageGalleryCore.framework */; };
+		A81E62772050071A004A5A8E /* PicturesFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81E62762050071A004A5A8E /* PicturesFeedTests.swift */; };
+		A81E627C2050C140004A5A8E /* APIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81E627B2050C140004A5A8E /* APIClientTests.swift */; };
+		A81E627E2050EB60004A5A8E /* APIErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81E627D2050EB60004A5A8E /* APIErrorTests.swift */; };
+		A81E62852051454A004A5A8E /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81E62842051454A004A5A8E /* URLSessionProtocol.swift */; };
+		A81E628720514580004A5A8E /* URLSessionDataTaskProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81E628620514580004A5A8E /* URLSessionDataTaskProtocol.swift */; };
 		A85D1598204D70AF0047C80E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D1597204D70AF0047C80E /* AppDelegate.swift */; };
 		A85D159A204D70AF0047C80E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D1599204D70AF0047C80E /* ViewController.swift */; };
 		A85D159D204D70AF0047C80E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85D159B204D70AF0047C80E /* Main.storyboard */; };
@@ -18,10 +25,34 @@
 		A85D15CC204D7F1B0047C80E /* ImageCaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D15CB204D7F1B0047C80E /* ImageCaptureViewController.swift */; };
 		A85D15CE204D7F260047C80E /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D15CD204D7F260047C80E /* AboutViewController.swift */; };
 		A85D15D0204D80EB0047C80E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D15CF204D80EB0047C80E /* TabBarController.swift */; };
+		A85D16E9204ED2B00047C80E /* SparkImageGalleryCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A85D16E7204ED2B00047C80E /* SparkImageGalleryCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A85D16EC204ED2B00047C80E /* SparkImageGalleryCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A85D16E5204ED2B00047C80E /* SparkImageGalleryCore.framework */; };
+		A85D16ED204ED2B00047C80E /* SparkImageGalleryCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A85D16E5204ED2B00047C80E /* SparkImageGalleryCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A85D16F4204ED2C00047C80E /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D16F3204ED2C00047C80E /* Picture.swift */; };
+		A85D16F7204ED4630047C80E /* SparkGalleryCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D16F6204ED4630047C80E /* SparkGalleryCoreTests.swift */; };
+		A8752608204F702100C21FBA /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8752607204F702100C21FBA /* Result.swift */; };
+		A875260B204F70A100C21FBA /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A875260A204F70A100C21FBA /* EndPoint.swift */; };
+		A875260D204F70D300C21FBA /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A875260C204F70D300C21FBA /* ApiClient.swift */; };
+		A8752610204F71F600C21FBA /* PicturesFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = A875260F204F71F600C21FBA /* PicturesFeed.swift */; };
+		A8752612204F72FB00C21FBA /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8752611204F72FB00C21FBA /* APIError.swift */; };
+		A8752614204F750C00C21FBA /* PicturesAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8752613204F750C00C21FBA /* PicturesAPIClient.swift */; };
+		A8752618204FACC800C21FBA /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8752617204FACC800C21FBA /* ResultTests.swift */; };
+		A89C4BBF204EF91100E91C61 /* SparkImageNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A89C4BB6204EF91100E91C61 /* SparkImageNetwork.framework */; };
+		A89C4BC8204EF91100E91C61 /* SparkImageNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = A89C4BB8204EF91100E91C61 /* SparkImageNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A89C4BCB204EF91100E91C61 /* SparkImageNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A89C4BB6204EF91100E91C61 /* SparkImageNetwork.framework */; };
+		A89C4BCC204EF91100E91C61 /* SparkImageNetwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A89C4BB6204EF91100E91C61 /* SparkImageNetwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A89C4BD5204EFF8E00E91C61 /* ImageGalleryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89C4BD4204EFF8E00E91C61 /* ImageGalleryService.swift */; };
 		F0FDFBEC8BB000C7F17A9BA8 /* Pods_ImageGallery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A538E51409CE8EBF9A2FAC /* Pods_ImageGallery.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A81E627320500203004A5A8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85D158C204D70AF0047C80E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A85D16E4204ED2B00047C80E;
+			remoteInfo = SparkImageGalleryCore;
+		};
 		A85D15A9204D70AF0047C80E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A85D158C204D70AF0047C80E /* Project object */;
@@ -29,7 +60,50 @@
 			remoteGlobalIDString = A85D1593204D70AF0047C80E;
 			remoteInfo = ImageGallery;
 		};
+		A85D16EA204ED2B00047C80E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85D158C204D70AF0047C80E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A85D16E4204ED2B00047C80E;
+			remoteInfo = SparkImageGalleryCore;
+		};
+		A89C4BC0204EF91100E91C61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85D158C204D70AF0047C80E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A89C4BB5204EF91100E91C61;
+			remoteInfo = SparkImageNetwork;
+		};
+		A89C4BC2204EF91100E91C61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85D158C204D70AF0047C80E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A85D1593204D70AF0047C80E;
+			remoteInfo = ImageGallery;
+		};
+		A89C4BC9204EF91100E91C61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85D158C204D70AF0047C80E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A89C4BB5204EF91100E91C61;
+			remoteInfo = SparkImageNetwork;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A85D16F1204ED2B00047C80E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A85D16ED204ED2B00047C80E /* SparkImageGalleryCore.framework in Embed Frameworks */,
+				A89C4BCC204EF91100E91C61 /* SparkImageNetwork.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		142A3E92E53086D065439A26 /* Pods-ImageGalleryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageGalleryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageGalleryTests/Pods-ImageGalleryTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -38,6 +112,12 @@
 		4BBAFC6B1F11D4D72EA0E9A9 /* Pods-ImageGalleryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageGalleryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageGalleryTests/Pods-ImageGalleryTests.release.xcconfig"; sourceTree = "<group>"; };
 		4CD007F820C02160651A42B5 /* Pods_ImageGalleryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageGalleryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1FA458A708820A98B42BF48 /* Pods-ImageGallery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageGallery.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageGallery/Pods-ImageGallery.release.xcconfig"; sourceTree = "<group>"; };
+		A335B75F3A1E9AE53E9B42D5 /* Pods-SparkImageNetworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkImageNetworkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SparkImageNetworkTests/Pods-SparkImageNetworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A81E62762050071A004A5A8E /* PicturesFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesFeedTests.swift; sourceTree = "<group>"; };
+		A81E627B2050C140004A5A8E /* APIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientTests.swift; sourceTree = "<group>"; };
+		A81E627D2050EB60004A5A8E /* APIErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIErrorTests.swift; sourceTree = "<group>"; };
+		A81E62842051454A004A5A8E /* URLSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol.swift; sourceTree = "<group>"; };
+		A81E628620514580004A5A8E /* URLSessionDataTaskProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionDataTaskProtocol.swift; sourceTree = "<group>"; };
 		A85D1594204D70AF0047C80E /* ImageGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85D1597204D70AF0047C80E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A85D1599204D70AF0047C80E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +132,26 @@
 		A85D15CB204D7F1B0047C80E /* ImageCaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCaptureViewController.swift; sourceTree = "<group>"; };
 		A85D15CD204D7F260047C80E /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		A85D15CF204D80EB0047C80E /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		A85D16E5204ED2B00047C80E /* SparkImageGalleryCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SparkImageGalleryCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85D16E7204ED2B00047C80E /* SparkImageGalleryCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SparkImageGalleryCore.h; sourceTree = "<group>"; };
+		A85D16E8204ED2B00047C80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A85D16F3204ED2C00047C80E /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		A85D16F6204ED4630047C80E /* SparkGalleryCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkGalleryCoreTests.swift; sourceTree = "<group>"; };
+		A8752607204F702100C21FBA /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		A875260A204F70A100C21FBA /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		A875260C204F70D300C21FBA /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		A875260F204F71F600C21FBA /* PicturesFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesFeed.swift; sourceTree = "<group>"; };
+		A8752611204F72FB00C21FBA /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		A8752613204F750C00C21FBA /* PicturesAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesAPIClient.swift; sourceTree = "<group>"; };
+		A8752617204FACC800C21FBA /* ResultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTests.swift; sourceTree = "<group>"; };
+		A89C4BB6204EF91100E91C61 /* SparkImageNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SparkImageNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A89C4BB8204EF91100E91C61 /* SparkImageNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SparkImageNetwork.h; sourceTree = "<group>"; };
+		A89C4BB9204EF91100E91C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A89C4BBE204EF91100E91C61 /* SparkImageNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SparkImageNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A89C4BC7204EF91100E91C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A89C4BD4204EFF8E00E91C61 /* ImageGalleryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGalleryService.swift; sourceTree = "<group>"; };
+		EFC2A1DF54AD13C2FD520A1C /* Pods_SparkImageNetworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparkImageNetworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72A206A6E1AA2B9BBDDB16B /* Pods-SparkImageNetworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkImageNetworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SparkImageNetworkTests/Pods-SparkImageNetworkTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +159,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A85D16EC204ED2B00047C80E /* SparkImageGalleryCore.framework in Frameworks */,
+				A89C4BCB204EF91100E91C61 /* SparkImageNetwork.framework in Frameworks */,
 				F0FDFBEC8BB000C7F17A9BA8 /* Pods_ImageGallery.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,6 +173,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A85D16E1204ED2B00047C80E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89C4BB2204EF91100E91C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A81E62752050020A004A5A8E /* SparkImageGalleryCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89C4BBB204EF91100E91C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A89C4BBF204EF91100E91C61 /* SparkImageNetwork.framework in Frameworks */,
+				2587B8B50CEBF77EE55989CE /* Pods_SparkImageNetworkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,6 +205,7 @@
 			children = (
 				47A538E51409CE8EBF9A2FAC /* Pods_ImageGallery.framework */,
 				4CD007F820C02160651A42B5 /* Pods_ImageGalleryTests.framework */,
+				EFC2A1DF54AD13C2FD520A1C /* Pods_SparkImageNetworkTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -90,6 +217,8 @@
 				A1FA458A708820A98B42BF48 /* Pods-ImageGallery.release.xcconfig */,
 				142A3E92E53086D065439A26 /* Pods-ImageGalleryTests.debug.xcconfig */,
 				4BBAFC6B1F11D4D72EA0E9A9 /* Pods-ImageGalleryTests.release.xcconfig */,
+				A335B75F3A1E9AE53E9B42D5 /* Pods-SparkImageNetworkTests.debug.xcconfig */,
+				F72A206A6E1AA2B9BBDDB16B /* Pods-SparkImageNetworkTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -99,6 +228,9 @@
 			children = (
 				A85D1596204D70AF0047C80E /* ImageGallery */,
 				A85D15AB204D70AF0047C80E /* ImageGalleryTests */,
+				A85D16E6204ED2B00047C80E /* SparkImageGalleryCore */,
+				A89C4BB7204EF91100E91C61 /* SparkImageNetwork */,
+				A89C4BC4204EF91100E91C61 /* SparkImageNetworkTests */,
 				A85D1595204D70AF0047C80E /* Products */,
 				6C743FFDCCF014ED234C162C /* Pods */,
 				19D81195E7488803DE620E8B /* Frameworks */,
@@ -110,6 +242,9 @@
 			children = (
 				A85D1594204D70AF0047C80E /* ImageGallery.app */,
 				A85D15A8204D70AF0047C80E /* ImageGalleryTests.xctest */,
+				A85D16E5204ED2B00047C80E /* SparkImageGalleryCore.framework */,
+				A89C4BB6204EF91100E91C61 /* SparkImageNetwork.framework */,
+				A89C4BBE204EF91100E91C61 /* SparkImageNetworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,6 +270,7 @@
 		A85D15AB204D70AF0047C80E /* ImageGalleryTests */ = {
 			isa = PBXGroup;
 			children = (
+				A85D16F5204ED4470047C80E /* SparkImageGalleryCore */,
 				A85D15AC204D70AF0047C80E /* ImageGalleryTests.swift */,
 				A85D15AE204D70AF0047C80E /* Info.plist */,
 			);
@@ -276,7 +412,114 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		A85D16E6204ED2B00047C80E /* SparkImageGalleryCore */ = {
+			isa = PBXGroup;
+			children = (
+				A85D16F2204ED2B50047C80E /* Entities */,
+				A85D16E7204ED2B00047C80E /* SparkImageGalleryCore.h */,
+				A85D16E8204ED2B00047C80E /* Info.plist */,
+			);
+			path = SparkImageGalleryCore;
+			sourceTree = "<group>";
+		};
+		A85D16F2204ED2B50047C80E /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				A85D16F3204ED2C00047C80E /* Picture.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		A85D16F5204ED4470047C80E /* SparkImageGalleryCore */ = {
+			isa = PBXGroup;
+			children = (
+				A85D16F6204ED4630047C80E /* SparkGalleryCoreTests.swift */,
+			);
+			path = SparkImageGalleryCore;
+			sourceTree = "<group>";
+		};
+		A8752609204F709000C21FBA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A8752607204F702100C21FBA /* Result.swift */,
+				A8752611204F72FB00C21FBA /* APIError.swift */,
+				A875260A204F70A100C21FBA /* EndPoint.swift */,
+				A875260C204F70D300C21FBA /* ApiClient.swift */,
+				A81E62842051454A004A5A8E /* URLSessionProtocol.swift */,
+				A81E628620514580004A5A8E /* URLSessionDataTaskProtocol.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A875260E204F71D400C21FBA /* SparkApi */ = {
+			isa = PBXGroup;
+			children = (
+				A875260F204F71F600C21FBA /* PicturesFeed.swift */,
+				A8752613204F750C00C21FBA /* PicturesAPIClient.swift */,
+			);
+			path = SparkApi;
+			sourceTree = "<group>";
+		};
+		A8752615204FAB8000C21FBA /* SparkAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				A81E62762050071A004A5A8E /* PicturesFeedTests.swift */,
+			);
+			path = SparkAPITests;
+			sourceTree = "<group>";
+		};
+		A8752616204FAB8A00C21FBA /* NetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8752617204FACC800C21FBA /* ResultTests.swift */,
+				A81E627B2050C140004A5A8E /* APIClientTests.swift */,
+				A81E627D2050EB60004A5A8E /* APIErrorTests.swift */,
+			);
+			path = NetworkingTests;
+			sourceTree = "<group>";
+		};
+		A89C4BB7204EF91100E91C61 /* SparkImageNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				A875260E204F71D400C21FBA /* SparkApi */,
+				A8752609204F709000C21FBA /* Networking */,
+				A89C4BB8204EF91100E91C61 /* SparkImageNetwork.h */,
+				A89C4BB9204EF91100E91C61 /* Info.plist */,
+				A89C4BD4204EFF8E00E91C61 /* ImageGalleryService.swift */,
+			);
+			path = SparkImageNetwork;
+			sourceTree = "<group>";
+		};
+		A89C4BC4204EF91100E91C61 /* SparkImageNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8752616204FAB8A00C21FBA /* NetworkingTests */,
+				A8752615204FAB8000C21FBA /* SparkAPITests */,
+				A89C4BC7204EF91100E91C61 /* Info.plist */,
+			);
+			path = SparkImageNetworkTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A85D16E2204ED2B00047C80E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85D16E9204ED2B00047C80E /* SparkImageGalleryCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89C4BB3204EF91100E91C61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A89C4BC8204EF91100E91C61 /* SparkImageNetwork.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		A85D1593204D70AF0047C80E /* ImageGallery */ = {
@@ -289,10 +532,13 @@
 				A85D1592204D70AF0047C80E /* Resources */,
 				2459125DE56187166A23590F /* [CP] Embed Pods Frameworks */,
 				2E694A0D7303B4DC9C546E1A /* [CP] Copy Pods Resources */,
+				A85D16F1204ED2B00047C80E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A85D16EB204ED2B00047C80E /* PBXTargetDependency */,
+				A89C4BCA204EF91100E91C61 /* PBXTargetDependency */,
 			);
 			name = ImageGallery;
 			productName = ImageGallery;
@@ -320,6 +566,65 @@
 			productReference = A85D15A8204D70AF0047C80E /* ImageGalleryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		A85D16E4204ED2B00047C80E /* SparkImageGalleryCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A85D16F0204ED2B00047C80E /* Build configuration list for PBXNativeTarget "SparkImageGalleryCore" */;
+			buildPhases = (
+				A85D16E0204ED2B00047C80E /* Sources */,
+				A85D16E1204ED2B00047C80E /* Frameworks */,
+				A85D16E2204ED2B00047C80E /* Headers */,
+				A85D16E3204ED2B00047C80E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SparkImageGalleryCore;
+			productName = SparkImageGalleryCore;
+			productReference = A85D16E5204ED2B00047C80E /* SparkImageGalleryCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A89C4BB5204EF91100E91C61 /* SparkImageNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A89C4BD1204EF91100E91C61 /* Build configuration list for PBXNativeTarget "SparkImageNetwork" */;
+			buildPhases = (
+				A89C4BB1204EF91100E91C61 /* Sources */,
+				A89C4BB2204EF91100E91C61 /* Frameworks */,
+				A89C4BB3204EF91100E91C61 /* Headers */,
+				A89C4BB4204EF91100E91C61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A81E627420500203004A5A8E /* PBXTargetDependency */,
+			);
+			name = SparkImageNetwork;
+			productName = SparkImageNetwork;
+			productReference = A89C4BB6204EF91100E91C61 /* SparkImageNetwork.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A89C4BBD204EF91100E91C61 /* SparkImageNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A89C4BD2204EF91100E91C61 /* Build configuration list for PBXNativeTarget "SparkImageNetworkTests" */;
+			buildPhases = (
+				6F4B2DE2EF1A178BC2BF08CF /* [CP] Check Pods Manifest.lock */,
+				A89C4BBA204EF91100E91C61 /* Sources */,
+				A89C4BBB204EF91100E91C61 /* Frameworks */,
+				A89C4BBC204EF91100E91C61 /* Resources */,
+				8984DD47D997CCD20918C893 /* [CP] Embed Pods Frameworks */,
+				F116E34C7ED5351AD3C84C28 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A89C4BC1204EF91100E91C61 /* PBXTargetDependency */,
+				A89C4BC3204EF91100E91C61 /* PBXTargetDependency */,
+			);
+			name = SparkImageNetworkTests;
+			productName = SparkImageNetworkTests;
+			productReference = A89C4BBE204EF91100E91C61 /* SparkImageNetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -335,6 +640,21 @@
 						ProvisioningStyle = Automatic;
 					};
 					A85D15A7204D70AF0047C80E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A85D1593204D70AF0047C80E;
+					};
+					A85D16E4204ED2B00047C80E = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					A89C4BB5204EF91100E91C61 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					A89C4BBD204EF91100E91C61 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 						TestTargetID = A85D1593204D70AF0047C80E;
@@ -356,6 +676,9 @@
 			targets = (
 				A85D1593204D70AF0047C80E /* ImageGallery */,
 				A85D15A7204D70AF0047C80E /* ImageGalleryTests */,
+				A85D16E4204ED2B00047C80E /* SparkImageGalleryCore */,
+				A89C4BB5204EF91100E91C61 /* SparkImageNetwork */,
+				A89C4BBD204EF91100E91C61 /* SparkImageNetworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -372,6 +695,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A85D15A6204D70AF0047C80E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85D16E3204ED2B00047C80E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89C4BB4204EF91100E91C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89C4BBC204EF91100E91C61 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -447,15 +791,58 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6F4B2DE2EF1A178BC2BF08CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SparkImageNetworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8984DD47D997CCD20918C893 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SparkImageNetworkTests/Pods-SparkImageNetworkTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SparkImageNetworkTests/Pods-SparkImageNetworkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		CA254A59E04B42A8D511142A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ImageGalleryTests/Pods-ImageGalleryTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -475,6 +862,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageGalleryTests/Pods-ImageGalleryTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F116E34C7ED5351AD3C84C28 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SparkImageNetworkTests/Pods-SparkImageNetworkTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -498,16 +900,77 @@
 			buildActionMask = 2147483647;
 			files = (
 				A85D15AD204D70AF0047C80E /* ImageGalleryTests.swift in Sources */,
+				A85D16F7204ED4630047C80E /* SparkGalleryCoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85D16E0204ED2B00047C80E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85D16F4204ED2C00047C80E /* Picture.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89C4BB1204EF91100E91C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8752614204F750C00C21FBA /* PicturesAPIClient.swift in Sources */,
+				A875260B204F70A100C21FBA /* EndPoint.swift in Sources */,
+				A81E628720514580004A5A8E /* URLSessionDataTaskProtocol.swift in Sources */,
+				A8752610204F71F600C21FBA /* PicturesFeed.swift in Sources */,
+				A8752608204F702100C21FBA /* Result.swift in Sources */,
+				A81E62852051454A004A5A8E /* URLSessionProtocol.swift in Sources */,
+				A89C4BD5204EFF8E00E91C61 /* ImageGalleryService.swift in Sources */,
+				A875260D204F70D300C21FBA /* ApiClient.swift in Sources */,
+				A8752612204F72FB00C21FBA /* APIError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89C4BBA204EF91100E91C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A81E627E2050EB60004A5A8E /* APIErrorTests.swift in Sources */,
+				A8752618204FACC800C21FBA /* ResultTests.swift in Sources */,
+				A81E62772050071A004A5A8E /* PicturesFeedTests.swift in Sources */,
+				A81E627C2050C140004A5A8E /* APIClientTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A81E627420500203004A5A8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A85D16E4204ED2B00047C80E /* SparkImageGalleryCore */;
+			targetProxy = A81E627320500203004A5A8E /* PBXContainerItemProxy */;
+		};
 		A85D15AA204D70AF0047C80E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A85D1593204D70AF0047C80E /* ImageGallery */;
 			targetProxy = A85D15A9204D70AF0047C80E /* PBXContainerItemProxy */;
+		};
+		A85D16EB204ED2B00047C80E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A85D16E4204ED2B00047C80E /* SparkImageGalleryCore */;
+			targetProxy = A85D16EA204ED2B00047C80E /* PBXContainerItemProxy */;
+		};
+		A89C4BC1204EF91100E91C61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A89C4BB5204EF91100E91C61 /* SparkImageNetwork */;
+			targetProxy = A89C4BC0204EF91100E91C61 /* PBXContainerItemProxy */;
+		};
+		A89C4BC3204EF91100E91C61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A85D1593204D70AF0047C80E /* ImageGallery */;
+			targetProxy = A89C4BC2204EF91100E91C61 /* PBXContainerItemProxy */;
+		};
+		A89C4BCA204EF91100E91C61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A89C4BB5204EF91100E91C61 /* SparkImageNetwork */;
+			targetProxy = A89C4BC9204EF91100E91C61 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -642,6 +1105,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27339CE57C1D0D018F82A85B /* Pods-ImageGallery.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6KF8AM7J9K;
@@ -658,6 +1122,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A1FA458A708820A98B42BF48 /* Pods-ImageGallery.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6KF8AM7J9K;
@@ -706,6 +1171,148 @@
 			};
 			name = Release;
 		};
+		A85D16EE204ED2B00047C80E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6KF8AM7J9K;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SparkImageGalleryCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arslan.SparkImageGalleryCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A85D16EF204ED2B00047C80E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6KF8AM7J9K;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SparkImageGalleryCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arslan.SparkImageGalleryCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A89C4BCD204EF91100E91C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6KF8AM7J9K;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SparkImageNetwork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arslan.SparkImageNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A89C4BCE204EF91100E91C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6KF8AM7J9K;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SparkImageNetwork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arslan.SparkImageNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A89C4BCF204EF91100E91C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A335B75F3A1E9AE53E9B42D5 /* Pods-SparkImageNetworkTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KF8AM7J9K;
+				INFOPLIST_FILE = SparkImageNetworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arslan.SparkImageNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageGallery.app/ImageGallery";
+			};
+			name = Debug;
+		};
+		A89C4BD0204EF91100E91C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F72A206A6E1AA2B9BBDDB16B /* Pods-SparkImageNetworkTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KF8AM7J9K;
+				INFOPLIST_FILE = SparkImageNetworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arslan.SparkImageNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageGallery.app/ImageGallery";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -732,6 +1339,33 @@
 			buildConfigurations = (
 				A85D15B5204D70AF0047C80E /* Debug */,
 				A85D15B6204D70AF0047C80E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85D16F0204ED2B00047C80E /* Build configuration list for PBXNativeTarget "SparkImageGalleryCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85D16EE204ED2B00047C80E /* Debug */,
+				A85D16EF204ED2B00047C80E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A89C4BD1204EF91100E91C61 /* Build configuration list for PBXNativeTarget "SparkImageNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A89C4BCD204EF91100E91C61 /* Debug */,
+				A89C4BCE204EF91100E91C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A89C4BD2204EF91100E91C61 /* Build configuration list for PBXNativeTarget "SparkImageNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A89C4BCF204EF91100E91C61 /* Debug */,
+				A89C4BD0204EF91100E91C61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
