@@ -11,7 +11,7 @@ import Foundation
 
 /// Generic APIClient
 protocol APIClient {
-  var session: URLSession { get }
+  var session: URLSessionProtocol { get }
   func fetch<T: Decodable>(with request: URLRequest, decode: @escaping (Decodable) -> T?, completion: @escaping (Result<T, APIError>) -> Void)
   func cancel()
 }
@@ -19,7 +19,7 @@ protocol APIClient {
 extension APIClient {
   typealias CompletionHandler = (Decodable?, APIError?) -> Void
   
-  func decodingTask<T: Decodable>(with request: URLRequest, decodingType: T.Type, completionHandler completion: @escaping CompletionHandler) -> URLSessionDataTask {
+  func decodingTask<T: Decodable>(with request: URLRequest, decodingType: T.Type, completionHandler completion: @escaping CompletionHandler) -> URLSessionDataTaskProtocol {
     
     let task = session.dataTask(with: request) { data, response, error in
       

@@ -16,7 +16,7 @@ struct MockObject: Codable {
 }
 
 class MockAPI: APIClient {
-  var session: URLSession
+  var session: URLSessionProtocol
   
   init() {
    self.session = URLSession(configuration: .default)

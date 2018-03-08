@@ -11,7 +11,7 @@ import SparkImageGalleryCore
 
 public class PicturesAPIClient: APIClient {
   
-  let session: URLSession
+  let session: URLSessionProtocol
   
   public init(configuration: URLSessionConfiguration) {
     self.session = URLSession(configuration: configuration)
