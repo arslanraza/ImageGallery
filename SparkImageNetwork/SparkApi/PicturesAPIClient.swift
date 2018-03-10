@@ -9,7 +9,11 @@
 import Foundation
 import SparkImageGalleryCore
 
-public class PicturesAPIClient: APIClient {
+protocol PicturesService {
+   func getFeed(from picturesFeedType: PicturesFeed, completion: @escaping (Result<SparkPicturesResult?, APIError>) -> Void)
+}
+
+public class PicturesAPIClient: APIClient, PicturesService {
   
   let session: URLSessionProtocol
   
@@ -23,7 +27,7 @@ public class PicturesAPIClient: APIClient {
   
   public func getFeed(from picturesFeedType: PicturesFeed, completion: @escaping (Result<SparkPicturesResult?, APIError>) -> Void) {
     
-    completion(Result.success(generateMockPictures()))
+    completion(Result.success(SparkPicturesResult.generateMockPictures()))
     
 //    let endpoint = picturesFeedType
 //    let request = endpoint.request
@@ -37,8 +41,8 @@ public class PicturesAPIClient: APIClient {
   }
 }
 
-extension PicturesAPIClient {
-  fileprivate func generateMockPictures() -> SparkPicturesResult {
+extension SparkPicturesResult {
+  static func generateMockPictures() -> SparkPicturesResult {
     var pictures: [Picture] = []
     for i in 1...14 {
       let picture = Picture(id: "id_\(i)", url: "image_\(i).jpg", title: "Vacation", description: "", dateUpdated: "12312312", dateTaken: "1234231231")
