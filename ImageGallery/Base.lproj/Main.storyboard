@@ -13,19 +13,106 @@
         <!--About-->
         <scene sceneID="hQj-8B-YXD">
             <objects>
-                <viewController id="Vc6-6k-bfH" customClass="AboutViewController" customModule="ImageGallery" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AboutViewController" id="Vc6-6k-bfH" customClass="AboutViewController" customModule="ImageGallery" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="s7q-6o-JY1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="svz-eX-qkI">
+                                <rect key="frame" x="20" y="40" width="335" height="558"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="About">
+                                        <attributes>
+                                            <font key="NSFont" size="24" name="Arial-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">:
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="15" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+
+- The app is divided into 3 main targets
+
+1) </string>
+                                        <attributes>
+                                            <font key="NSFont" size="15" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="ImageGallery:">
+                                        <attributes>
+                                            <font key="NSFont" size="16" name="Arial-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> Main application
+
+2) </string>
+                                        <attributes>
+                                            <font key="NSFont" size="15" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="SparkImageGalleryCore:">
+                                        <attributes>
+                                            <font key="NSFont" size="16" name="Arial-BoldMT"/>
+                                            <font key="NSOriginalFont" size="16" name="Arial-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> The core models are defined in this framework
+
+3) </string>
+                                        <attributes>
+                                            <font key="NSFont" size="15" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="SparkImageNetwork:">
+                                        <attributes>
+                                            <font key="NSFont" size="16" name="Arial-BoldMT"/>
+                                            <font key="NSOriginalFont" size="16" name="Arial-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" Network layer and all the networking code is inside this framework">
+                                        <attributes>
+                                            <font key="NSFont" size="15" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="UfW-dW-Ta5" firstAttribute="trailing" secondItem="svz-eX-qkI" secondAttribute="trailing" constant="20" id="DVP-RG-Vkn"/>
+                            <constraint firstItem="svz-eX-qkI" firstAttribute="leading" secondItem="UfW-dW-Ta5" secondAttribute="leading" constant="20" id="Wpa-1d-H4a"/>
+                            <constraint firstItem="svz-eX-qkI" firstAttribute="top" secondItem="UfW-dW-Ta5" secondAttribute="top" constant="20" id="aWU-Xp-qDz"/>
+                            <constraint firstItem="UfW-dW-Ta5" firstAttribute="bottom" secondItem="svz-eX-qkI" secondAttribute="bottom" constant="20" id="kFK-5q-fDO"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="UfW-dW-Ta5"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="About" image="tabbar-icon-about" id="SfH-ct-ZXD"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="textView" destination="svz-eX-qkI" id="2Pd-f4-Yk5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o2Q-Bp-Py9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-92" y="347"/>
+            <point key="canvasLocation" x="-356" y="385"/>
         </scene>
         <!--Capture-->
         <scene sceneID="6yo-YK-8yy">
@@ -43,21 +130,81 @@
             </objects>
             <point key="canvasLocation" x="600" y="-117"/>
         </scene>
-        <!--Gallery-->
+        <!--Image Gallery View Controller-->
         <scene sceneID="Xbc-X3-6Pr">
             <objects>
-                <viewController id="j1t-0T-dRB" customClass="ImageGalleryViewController" customModule="ImageGallery" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ImageGalleryViewController" id="j1t-0T-dRB" customClass="ImageGalleryViewController" customModule="ImageGallery" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sRP-OL-uSz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="dTb-0p-6h6">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="mY0-LR-fJy">
+                                    <size key="itemSize" width="120" height="120"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                                <connections>
+                                    <outlet property="dataSource" destination="j1t-0T-dRB" id="HUO-ZY-S5P"/>
+                                    <outlet property="delegate" destination="j1t-0T-dRB" id="8mj-Xy-Oba"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dTb-0p-6h6" firstAttribute="top" secondItem="uiR-WP-O0v" secondAttribute="top" id="FSX-h5-02Y"/>
+                            <constraint firstItem="dTb-0p-6h6" firstAttribute="leading" secondItem="uiR-WP-O0v" secondAttribute="leading" id="Uym-Hz-YYo"/>
+                            <constraint firstItem="uiR-WP-O0v" firstAttribute="trailing" secondItem="dTb-0p-6h6" secondAttribute="trailing" id="XUS-4l-veO"/>
+                            <constraint firstItem="uiR-WP-O0v" firstAttribute="bottom" secondItem="dTb-0p-6h6" secondAttribute="bottom" id="iLH-7J-jqM"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="uiR-WP-O0v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Gallery" image="tabbar-icon-gallery" id="Rpe-zt-XQc"/>
+                    <navigationItem key="navigationItem" id="uqt-VH-x7x"/>
+                    <connections>
+                        <outlet property="collectionView" destination="dTb-0p-6h6" id="Nsh-Dx-SjY"/>
+                        <segue destination="EcP-gi-W3C" kind="show" identifier="imageDetail" id="k29-XW-IEw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gsY-EY-bGc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="598" y="-782"/>
+            <point key="canvasLocation" x="1340" y="-783.05847076461771"/>
+        </scene>
+        <!--Image Detail View Controller-->
+        <scene sceneID="jb4-k8-EzY">
+            <objects>
+                <viewController storyboardIdentifier="ImageDetailViewController" id="EcP-gi-W3C" customClass="ImageDetailViewController" customModule="ImageGallery" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="26l-b5-0jE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BrZ-x1-aEE">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="BrZ-x1-aEE" firstAttribute="top" secondItem="Kwi-WE-9pf" secondAttribute="top" id="3O8-zf-GiI"/>
+                            <constraint firstItem="Kwi-WE-9pf" firstAttribute="trailing" secondItem="BrZ-x1-aEE" secondAttribute="trailing" id="KOA-5j-d1G"/>
+                            <constraint firstItem="BrZ-x1-aEE" firstAttribute="leading" secondItem="Kwi-WE-9pf" secondAttribute="leading" id="SXg-fd-Bug"/>
+                            <constraint firstItem="Kwi-WE-9pf" firstAttribute="bottom" secondItem="BrZ-x1-aEE" secondAttribute="bottom" id="zu1-VS-W9X"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Kwi-WE-9pf"/>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="heroModalAnimationTypeString" value="fade"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="imageView" destination="BrZ-x1-aEE" id="etn-aL-qSj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nDX-aR-5Zx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2142" y="-783"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Rb5-1T-vgD">
@@ -69,7 +216,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="j1t-0T-dRB" kind="relationship" relationship="viewControllers" id="5Ml-UL-Tb1"/>
+                        <segue destination="gML-zZ-tPA" kind="relationship" relationship="viewControllers" id="5Ml-UL-Tb1"/>
                         <segue destination="l14-5z-Bgn" kind="relationship" relationship="viewControllers" id="2L4-zx-Jyu"/>
                         <segue destination="Vc6-6k-bfH" kind="relationship" relationship="viewControllers" id="ic8-C4-AVP"/>
                     </connections>
@@ -77,6 +224,28 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hi7-Hw-xRS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-356" y="-451"/>
+        </scene>
+        <!--Gallery-->
+        <scene sceneID="QIR-tk-ZQO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gML-zZ-tPA" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Gallery" image="tabbar-icon-gallery" id="Rpe-zt-XQc"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oBs-TF-qtc">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <segue destination="j1t-0T-dRB" kind="relationship" relationship="rootViewController" id="fjS-nE-QGc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yfb-hf-nmr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="596.79999999999995" y="-782.60869565217399"/>
         </scene>
     </scenes>
     <resources>

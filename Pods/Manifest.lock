@@ -1,15 +1,24 @@
 PODS:
+  - CropViewController (2.3.6)
+  - Hero (1.1.0)
+  - ImagePicker (3.0.0)
   - Nimble (7.0.3)
   - Quick (1.2.0)
 
 DEPENDENCIES:
+  - CropViewController
+  - Hero
+  - ImagePicker
   - Nimble
   - Quick
 
 SPEC CHECKSUMS:
+  CropViewController: e6d4bd512d15a1709e9ddf71fe7d98ffd05dda0f
+  Hero: ce59e81c79390613d97b43da7179e2c5e1017e04
+  ImagePicker: 973953c25960fe04729a7082a56194321c6762d2
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
 
-PODFILE CHECKSUM: bef36a34bdfe5606c99eda18a53823d45fabc904
+PODFILE CHECKSUM: 238b5b56ecbd8f401db290733bac111faacc43cd
 
 COCOAPODS: 1.3.1

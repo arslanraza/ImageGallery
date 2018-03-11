@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import CropViewController
+import ImagePicker
 
 class TabBarController: UITabBarController {
   
@@ -15,25 +17,21 @@ class TabBarController: UITabBarController {
     delegate = self
   }
   
-  /*
-   // MARK: - Navigation
-   
-   // In a storyboard-based application, you will often want to do a little preparation before navigation
-   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-   // Get the new view controller using segue.destinationViewController.
-   // Pass the selected object to the new view controller.
-   }
-   */
+  // MARK: Private Methods
+  fileprivate func openCamera() {
+    let imagePicker = ImageCaptureViewController()
+    let navigationController = UINavigationController.init(rootViewController: imagePicker)
+    self.present(navigationController, animated: true, completion: nil)
+  }
   
 }
 
 extension TabBarController: UITabBarControllerDelegate {
   func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
     if viewController.isMember(of: UIViewController.self) {
-      print("Open Image Capture")
+      openCamera()
       return false
     }
     return true
   }
-  
 }
