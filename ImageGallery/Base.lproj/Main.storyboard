@@ -176,7 +176,7 @@
         <!--Image Detail View Controller-->
         <scene sceneID="jb4-k8-EzY">
             <objects>
-                <viewController id="EcP-gi-W3C" customClass="ImageDetailViewController" customModule="ImageGallery" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ImageDetailViewController" id="EcP-gi-W3C" customClass="ImageDetailViewController" customModule="ImageGallery" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="26l-b5-0jE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

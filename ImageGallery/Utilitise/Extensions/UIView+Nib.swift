@@ -15,10 +15,4 @@ extension UIView {
     return UINib(nibName: String(describing: self), bundle: nil)
   }
   
-  class var viewFromNib: UIView? {
-    let views = Bundle.main.loadNibNamed(String(describing: self), owner: self, options: nil)
-    let view = views![0] as! UIView
-    return view
-  }
-  
 }

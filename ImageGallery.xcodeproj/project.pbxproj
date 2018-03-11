@@ -66,6 +66,7 @@
 		A89F90B62054FFD100EE8138 /* ImageCaptureViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89F90B52054FFD100EE8138 /* ImageCaptureViewControllerTests.swift */; };
 		A89F90B820550B2800EE8138 /* AboutViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89F90B720550B2800EE8138 /* AboutViewControllerTests.swift */; };
 		A89F90BB20551EE000EE8138 /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89F90BA20551EE000EE8138 /* ImageDetailViewController.swift */; };
+		A89F90BD205532DC00EE8138 /* ImageDetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89F90BC205532DC00EE8138 /* ImageDetailViewControllerTests.swift */; };
 		F0FDFBEC8BB000C7F17A9BA8 /* Pods_ImageGallery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A538E51409CE8EBF9A2FAC /* Pods_ImageGallery.framework */; };
 /* End PBXBuildFile section */
 
@@ -198,6 +199,7 @@
 		A89F90B52054FFD100EE8138 /* ImageCaptureViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCaptureViewControllerTests.swift; sourceTree = "<group>"; };
 		A89F90B720550B2800EE8138 /* AboutViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewControllerTests.swift; sourceTree = "<group>"; };
 		A89F90BA20551EE000EE8138 /* ImageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
+		A89F90BC205532DC00EE8138 /* ImageDetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewControllerTests.swift; sourceTree = "<group>"; };
 		EFC2A1DF54AD13C2FD520A1C /* Pods_SparkImageNetworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparkImageNetworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F72A206A6E1AA2B9BBDDB16B /* Pods-SparkImageNetworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkImageNetworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SparkImageNetworkTests/Pods-SparkImageNetworkTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -279,6 +281,7 @@
 				A88F99EA2054E40E00CF6F9A /* TabBarControllerTests.swift */,
 				A89F90B52054FFD100EE8138 /* ImageCaptureViewControllerTests.swift */,
 				A89F90B720550B2800EE8138 /* AboutViewControllerTests.swift */,
+				A89F90BC205532DC00EE8138 /* ImageDetailViewControllerTests.swift */,
 			);
 			path = Gallery;
 			sourceTree = "<group>";
@@ -1006,6 +1009,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A89F90BD205532DC00EE8138 /* ImageDetailViewControllerTests.swift in Sources */,
 				A81E628A205166B8004A5A8E /* ImageGalleryViewControllerTests.swift in Sources */,
 				A88F99EB2054E40E00CF6F9A /* TabBarControllerTests.swift in Sources */,
 				A89F90B820550B2800EE8138 /* AboutViewControllerTests.swift in Sources */,
