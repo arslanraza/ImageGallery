@@ -7,7 +7,7 @@ target 'ImageGallery' do
   # Pods for ImageGallery
   pod 'CropViewController'
   pod 'ImagePicker'
-
+  pod 'Hero'
 
   target 'ImageGalleryTests' do
     inherit! :search_paths

@@ -65,6 +65,7 @@
 		A89C4BD5204EFF8E00E91C61 /* ImageGalleryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89C4BD4204EFF8E00E91C61 /* ImageGalleryService.swift */; };
 		A89F90B62054FFD100EE8138 /* ImageCaptureViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89F90B52054FFD100EE8138 /* ImageCaptureViewControllerTests.swift */; };
 		A89F90B820550B2800EE8138 /* AboutViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89F90B720550B2800EE8138 /* AboutViewControllerTests.swift */; };
+		A89F90BB20551EE000EE8138 /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89F90BA20551EE000EE8138 /* ImageDetailViewController.swift */; };
 		F0FDFBEC8BB000C7F17A9BA8 /* Pods_ImageGallery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A538E51409CE8EBF9A2FAC /* Pods_ImageGallery.framework */; };
 /* End PBXBuildFile section */
 
@@ -196,6 +197,7 @@
 		A89C4BD4204EFF8E00E91C61 /* ImageGalleryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGalleryService.swift; sourceTree = "<group>"; };
 		A89F90B52054FFD100EE8138 /* ImageCaptureViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCaptureViewControllerTests.swift; sourceTree = "<group>"; };
 		A89F90B720550B2800EE8138 /* AboutViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewControllerTests.swift; sourceTree = "<group>"; };
+		A89F90BA20551EE000EE8138 /* ImageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
 		EFC2A1DF54AD13C2FD520A1C /* Pods_SparkImageNetworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparkImageNetworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F72A206A6E1AA2B9BBDDB16B /* Pods-SparkImageNetworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkImageNetworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SparkImageNetworkTests/Pods-SparkImageNetworkTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -395,6 +397,7 @@
 			isa = PBXGroup;
 			children = (
 				A85D15C9204D7F000047C80E /* ImageGalleryViewController.swift */,
+				A89F90BA20551EE000EE8138 /* ImageDetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -844,11 +847,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ImageGallery/Pods-ImageGallery-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CropViewController/CropViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
 				"${BUILT_PRODUCTS_DIR}/ImagePicker/ImagePicker.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CropViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImagePicker.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -993,6 +998,7 @@
 				A81E62B8205173A8004A5A8E /* PictureCollectionViewCell.swift in Sources */,
 				A81E62952051723B004A5A8E /* UIView+Nib.swift in Sources */,
 				A81E62922051709E004A5A8E /* UICollectionViewCell+ReuseIdentifier.swift in Sources */,
+				A89F90BB20551EE000EE8138 /* ImageDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

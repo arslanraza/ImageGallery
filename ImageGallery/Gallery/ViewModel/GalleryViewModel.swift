@@ -14,12 +14,14 @@ class GalleryViewModel {
   
   // MARK: Custom Callbacks
   typealias PicturesCallBack = ([Picture], Error?) -> Void
+  typealias ImageDetailCallBack = (Picture) -> Void
   
   // MARK: Properties
   var pictures: [Picture] = []
   let picturesAPI = PicturesAPIClient()
   
   var picturesDidFinishLoading: PicturesCallBack?
+  var shouldOpenImageDetail: ImageDetailCallBack?
   
   // MARK: Public Methods
   
@@ -34,6 +36,10 @@ class GalleryViewModel {
         strongSelf.picturesDidFinishLoading?([], error)
       }
     }
+  }
+  
+  func didSelectPicture(_ picture: Picture) {
+    shouldOpenImageDetail?(picture)
   }
   
 }
