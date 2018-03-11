@@ -13,15 +13,33 @@
         <!--About-->
         <scene sceneID="hQj-8B-YXD">
             <objects>
-                <viewController id="Vc6-6k-bfH" customClass="AboutViewController" customModule="ImageGallery" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AboutViewController" id="Vc6-6k-bfH" customClass="AboutViewController" customModule="ImageGallery" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="s7q-6o-JY1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="svz-eX-qkI">
+                                <rect key="frame" x="20" y="40" width="335" height="558"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="UfW-dW-Ta5" firstAttribute="trailing" secondItem="svz-eX-qkI" secondAttribute="trailing" constant="20" id="DVP-RG-Vkn"/>
+                            <constraint firstItem="svz-eX-qkI" firstAttribute="leading" secondItem="UfW-dW-Ta5" secondAttribute="leading" constant="20" id="Wpa-1d-H4a"/>
+                            <constraint firstItem="svz-eX-qkI" firstAttribute="top" secondItem="UfW-dW-Ta5" secondAttribute="top" constant="20" id="aWU-Xp-qDz"/>
+                            <constraint firstItem="UfW-dW-Ta5" firstAttribute="bottom" secondItem="svz-eX-qkI" secondAttribute="bottom" constant="20" id="kFK-5q-fDO"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="UfW-dW-Ta5"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="About" image="tabbar-icon-about" id="SfH-ct-ZXD"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="textView" destination="svz-eX-qkI" id="2Pd-f4-Yk5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o2Q-Bp-Py9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

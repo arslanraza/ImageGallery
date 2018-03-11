@@ -23,7 +23,7 @@ class ImageGalleryViewController: UIViewController {
     // Setting up observer
     viewModel.picturesDidFinishLoading = { [weak self] pictures, error in
       guard let strongSelf = self,
-        let _ = error else {
+        error == nil else {
         print("Error occured to retrive pictures")
         return
       }

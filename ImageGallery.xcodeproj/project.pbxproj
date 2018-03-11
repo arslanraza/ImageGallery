@@ -38,7 +38,6 @@
 		A81E62B8205173A8004A5A8E /* PictureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81E62B6205173A8004A5A8E /* PictureCollectionViewCell.swift */; };
 		A81E62B9205173A8004A5A8E /* PictureCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A81E62B7205173A8004A5A8E /* PictureCollectionViewCell.xib */; };
 		A85D1598204D70AF0047C80E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D1597204D70AF0047C80E /* AppDelegate.swift */; };
-		A85D159A204D70AF0047C80E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D1599204D70AF0047C80E /* ViewController.swift */; };
 		A85D159D204D70AF0047C80E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85D159B204D70AF0047C80E /* Main.storyboard */; };
 		A85D159F204D70AF0047C80E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A85D159E204D70AF0047C80E /* Assets.xcassets */; };
 		A85D15A2204D70AF0047C80E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85D15A0204D70AF0047C80E /* LaunchScreen.storyboard */; };
@@ -64,6 +63,8 @@
 		A89C4BCB204EF91100E91C61 /* SparkImageNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A89C4BB6204EF91100E91C61 /* SparkImageNetwork.framework */; };
 		A89C4BCC204EF91100E91C61 /* SparkImageNetwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A89C4BB6204EF91100E91C61 /* SparkImageNetwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A89C4BD5204EFF8E00E91C61 /* ImageGalleryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89C4BD4204EFF8E00E91C61 /* ImageGalleryService.swift */; };
+		A89F90B62054FFD100EE8138 /* ImageCaptureViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89F90B52054FFD100EE8138 /* ImageCaptureViewControllerTests.swift */; };
+		A89F90B820550B2800EE8138 /* AboutViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89F90B720550B2800EE8138 /* AboutViewControllerTests.swift */; };
 		F0FDFBEC8BB000C7F17A9BA8 /* Pods_ImageGallery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A538E51409CE8EBF9A2FAC /* Pods_ImageGallery.framework */; };
 /* End PBXBuildFile section */
 
@@ -164,7 +165,6 @@
 		A81E62B7205173A8004A5A8E /* PictureCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PictureCollectionViewCell.xib; sourceTree = "<group>"; };
 		A85D1594204D70AF0047C80E /* ImageGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85D1597204D70AF0047C80E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A85D1599204D70AF0047C80E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A85D159C204D70AF0047C80E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A85D159E204D70AF0047C80E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A85D15A1204D70AF0047C80E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -194,6 +194,8 @@
 		A89C4BBE204EF91100E91C61 /* SparkImageNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SparkImageNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A89C4BC7204EF91100E91C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A89C4BD4204EFF8E00E91C61 /* ImageGalleryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGalleryService.swift; sourceTree = "<group>"; };
+		A89F90B52054FFD100EE8138 /* ImageCaptureViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCaptureViewControllerTests.swift; sourceTree = "<group>"; };
+		A89F90B720550B2800EE8138 /* AboutViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewControllerTests.swift; sourceTree = "<group>"; };
 		EFC2A1DF54AD13C2FD520A1C /* Pods_SparkImageNetworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparkImageNetworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F72A206A6E1AA2B9BBDDB16B /* Pods-SparkImageNetworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkImageNetworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SparkImageNetworkTests/Pods-SparkImageNetworkTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -273,6 +275,8 @@
 				A81E6289205166B8004A5A8E /* ImageGalleryViewControllerTests.swift */,
 				A81E628B205169A0004A5A8E /* GalleryViewModelTest.swift */,
 				A88F99EA2054E40E00CF6F9A /* TabBarControllerTests.swift */,
+				A89F90B52054FFD100EE8138 /* ImageCaptureViewControllerTests.swift */,
+				A89F90B720550B2800EE8138 /* AboutViewControllerTests.swift */,
 			);
 			path = Gallery;
 			sourceTree = "<group>";
@@ -338,7 +342,6 @@
 			children = (
 				A81E6296205172EB004A5A8E /* Resources */,
 				A85D1597204D70AF0047C80E /* AppDelegate.swift */,
-				A85D1599204D70AF0047C80E /* ViewController.swift */,
 				A85D15CF204D80EB0047C80E /* TabBarController.swift */,
 				A85D159B204D70AF0047C80E /* Main.storyboard */,
 				A85D15C6204D73380047C80E /* Utilitise */,
@@ -448,26 +451,10 @@
 		A85D15C1204D73380047C80E /* About */ = {
 			isa = PBXGroup;
 			children = (
-				A85D15C2204D73380047C80E /* ViewModel */,
-				A85D15C3204D73380047C80E /* Model */,
 				A85D15C4204D73380047C80E /* Controllers */,
 				A85D15C5204D73380047C80E /* Views */,
 			);
 			path = About;
-			sourceTree = "<group>";
-		};
-		A85D15C2204D73380047C80E /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		A85D15C3204D73380047C80E /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		A85D15C4204D73380047C80E /* Controllers */ = {
@@ -997,7 +984,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A85D159A204D70AF0047C80E /* ViewController.swift in Sources */,
 				A81E628E20516A2B004A5A8E /* GalleryViewModel.swift in Sources */,
 				A85D1598204D70AF0047C80E /* AppDelegate.swift in Sources */,
 				A85D15CC204D7F1B0047C80E /* ImageCaptureViewController.swift in Sources */,
@@ -1016,7 +1002,9 @@
 			files = (
 				A81E628A205166B8004A5A8E /* ImageGalleryViewControllerTests.swift in Sources */,
 				A88F99EB2054E40E00CF6F9A /* TabBarControllerTests.swift in Sources */,
+				A89F90B820550B2800EE8138 /* AboutViewControllerTests.swift in Sources */,
 				A81E628C205169A0004A5A8E /* GalleryViewModelTest.swift in Sources */,
+				A89F90B62054FFD100EE8138 /* ImageCaptureViewControllerTests.swift in Sources */,
 				A85D16F7204ED4630047C80E /* SparkGalleryCoreTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
