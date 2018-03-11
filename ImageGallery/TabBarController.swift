@@ -17,7 +17,7 @@ class TabBarController: UITabBarController {
     delegate = self
   }
   
-  // MARK: Private Methodscontroller
+  // MARK: Private Methods
   fileprivate func openCamera() {
     let imagePicker = ImageCaptureViewController()
     let navigationController = UINavigationController.init(rootViewController: imagePicker)

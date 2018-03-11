@@ -58,6 +58,7 @@
 		A8752612204F72FB00C21FBA /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8752611204F72FB00C21FBA /* APIError.swift */; };
 		A8752614204F750C00C21FBA /* PicturesAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8752613204F750C00C21FBA /* PicturesAPIClient.swift */; };
 		A8752618204FACC800C21FBA /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8752617204FACC800C21FBA /* ResultTests.swift */; };
+		A88F99EB2054E40E00CF6F9A /* TabBarControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F99EA2054E40E00CF6F9A /* TabBarControllerTests.swift */; };
 		A89C4BBF204EF91100E91C61 /* SparkImageNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A89C4BB6204EF91100E91C61 /* SparkImageNetwork.framework */; };
 		A89C4BC8204EF91100E91C61 /* SparkImageNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = A89C4BB8204EF91100E91C61 /* SparkImageNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A89C4BCB204EF91100E91C61 /* SparkImageNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A89C4BB6204EF91100E91C61 /* SparkImageNetwork.framework */; };
@@ -186,6 +187,7 @@
 		A8752611204F72FB00C21FBA /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		A8752613204F750C00C21FBA /* PicturesAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesAPIClient.swift; sourceTree = "<group>"; };
 		A8752617204FACC800C21FBA /* ResultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTests.swift; sourceTree = "<group>"; };
+		A88F99EA2054E40E00CF6F9A /* TabBarControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControllerTests.swift; sourceTree = "<group>"; };
 		A89C4BB6204EF91100E91C61 /* SparkImageNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SparkImageNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A89C4BB8204EF91100E91C61 /* SparkImageNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SparkImageNetwork.h; sourceTree = "<group>"; };
 		A89C4BB9204EF91100E91C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -270,6 +272,7 @@
 			children = (
 				A81E6289205166B8004A5A8E /* ImageGalleryViewControllerTests.swift */,
 				A81E628B205169A0004A5A8E /* GalleryViewModelTest.swift */,
+				A88F99EA2054E40E00CF6F9A /* TabBarControllerTests.swift */,
 			);
 			path = Gallery;
 			sourceTree = "<group>";
@@ -1012,6 +1015,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A81E628A205166B8004A5A8E /* ImageGalleryViewControllerTests.swift in Sources */,
+				A88F99EB2054E40E00CF6F9A /* TabBarControllerTests.swift in Sources */,
 				A81E628C205169A0004A5A8E /* GalleryViewModelTest.swift in Sources */,
 				A85D16F7204ED4630047C80E /* SparkGalleryCoreTests.swift in Sources */,
 			);
