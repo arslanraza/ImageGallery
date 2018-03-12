@@ -10,6 +10,7 @@ import UIKit
 import SparkImageGalleryCore
 import SparkImageNetwork
 import Hero
+import SVProgressHUD
 
 class ImageGalleryViewController: UIViewController {
   
@@ -44,7 +45,22 @@ class ImageGalleryViewController: UIViewController {
       strongSelf.performSegue(withIdentifier: SegueIdentifier.imageDetail.rawValue, sender: strongSelf)
     }
     
-    viewModel.getPictures(for: .all)
+    SVProgressHUD.show()
+    Server.configureForInitialData { [weak self] in
+      DispatchQueue.main.async {
+        self?.viewModel.getPictures(for: .all)
+        SVProgressHUD.dismiss()
+      }
+    }
+    
+//    let realm = try! Realm(configuration: RealmConfig.main.configuration)
+//    let image = realm.object(ofType: Image.self, forPrimaryKey: "id_1")
+//    let encoder = JSONEncoder()
+//    let jsonData = try! encoder.encode(image)
+//    let string = String(data: jsonData, encoding: .utf8)
+//    print("Encoded JSON: \(String(describing: string))")
+    
+    
   }
   
   // MARK: Navigation

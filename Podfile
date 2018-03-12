@@ -8,13 +8,18 @@ target 'ImageGallery' do
   pod 'CropViewController'
   pod 'ImagePicker'
   pod 'Hero'
-
+  pod 'SVProgressHUD'
+  
+  target 'SparkImageNetwork' do
+    pod 'RealmSwift'
+  end
+  
   target 'ImageGalleryTests' do
     inherit! :search_paths
     # Pods for testing
     pod 'Quick'
     pod 'Nimble'
-
+    
   end
   
   target 'SparkImageNetworkTests' do
@@ -24,5 +29,5 @@ target 'ImageGallery' do
     pod 'Nimble'
     
   end
-
+  
 end

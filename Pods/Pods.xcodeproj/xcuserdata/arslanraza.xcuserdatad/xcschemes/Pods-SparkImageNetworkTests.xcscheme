@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D5F20F32F85EA01DBB7826977A262B03"
+               BlueprintIdentifier = "320D86DFC360A60F5B1E4A657F00FE64"
                BuildableName = "Pods_SparkImageNetworkTests.framework"
                BlueprintName = "Pods-SparkImageNetworkTests"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D5F20F32F85EA01DBB7826977A262B03"
+            BlueprintIdentifier = "320D86DFC360A60F5B1E4A657F00FE64"
             BuildableName = "Pods_SparkImageNetworkTests.framework"
             BlueprintName = "Pods-SparkImageNetworkTests"
             ReferencedContainer = "container:Pods.xcodeproj">
