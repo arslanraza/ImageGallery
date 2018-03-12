@@ -1,18 +1,15 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '10.0'
 inhibit_all_warnings!
+use_frameworks!
 
 target 'ImageGallery' do
-  use_frameworks!
+  
   # Pods for ImageGallery
   pod 'CropViewController'
   pod 'ImagePicker'
   pod 'Hero'
   pod 'SVProgressHUD'
-  
-  target 'SparkImageNetwork' do
-    pod 'RealmSwift'
-  end
   
   target 'ImageGalleryTests' do
     inherit! :search_paths
@@ -31,3 +28,9 @@ target 'ImageGallery' do
   end
   
 end
+
+target 'SparkImageNetwork' do
+  inherit! :search_paths
+  pod 'RealmSwift'
+end
+

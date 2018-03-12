@@ -17,6 +17,7 @@
 		038AF4D5E144E68E858B3E65448BB218 /* HeroTransition+Interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8493211D407F584E8B063FAA3A24FF78 /* HeroTransition+Interactive.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		03E0326059B2E45BBDD9BC0D73759AC3 /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = A561CFB1DBAD84E0D96FE3F7CB5D9FE1 /* QCKDSL.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		04158D2F8615F5F5D1D6346DE7FAD8B8 /* RLMSyncConfiguration_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = F46C35239ED66B42F71839CC32F26E5E /* RLMSyncConfiguration_Private.h */; };
+		04F194ECFEC82E290A1FDE73BEFC8E57 /* Pods-SparkImageNetworkTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9363C5FD3436FBA1ABA96F557BA509AF /* Pods-SparkImageNetworkTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05B1C03E709613D0845145FBF3B1C3C0 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD475D1323514330A79BDB24DD4E8FEC /* CameraView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		0720EA7E74BB968B2AE845EA973B98C6 /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 861A8CC56444BF251996B6B7CB6E19F0 /* zh-Hant.lproj */; };
 		073FD56A0DD0E3D2342C6B9899910E4D /* XCTestSuite+QuickTestSuiteBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F804E399B84B0E22E3FFEA363029FB4E /* XCTestSuite+QuickTestSuiteBuilder.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -79,7 +80,7 @@
 		232C23C460B56B0B2E662CA362F29FFD /* MatchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A3F968728F6D92207985B9BADBF511 /* MatchError.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		23D994212D7A102238E02469F748058E /* RLMObject_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = BD2768300EC87FC33504696D56DA2218 /* RLMObject_Private.h */; };
 		24F4BB92AEA1330D16DD7C86486C625F /* RealmSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A5EC5F8821BC1916CF8A70DA895172 /* RealmSwift-dummy.m */; };
-		258B5035EC949F2F064D8DBA5E7B91BD /* TOCropViewControllerBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A155D105DCF1CAF777F2578CD6FDE6D5 /* TOCropViewControllerBundle.bundle */; };
+		258B5035EC949F2F064D8DBA5E7B91BD /* TOCropViewControllerBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C377D60666BEF4CB948AA05366BD893D /* TOCropViewControllerBundle.bundle */; };
 		2845E1A12C0732E09BF412DC79C7629E /* ConditionalPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD759849C83347E37762E0A405429D82 /* ConditionalPreprocessor.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		2883060E82C842F010BC77913D62456D /* RLMConstants.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 6D1BF9CE980EC52F7A4529C806096292 /* RLMConstants.h */; };
 		28C2C003F68D9A9AD324CBA573D44CD1 /* RLMOptionalBase.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6B491D58D139A1EAC9A670BE18122E5A /* RLMOptionalBase.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.1.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC -w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -104,14 +105,12 @@
 		3183B216A3029A1DA75C77432B624473 /* HeroTransition+Complete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67608471A3BDDA9E36E823AB84E01883 /* HeroTransition+Complete.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		32C5D72A5F8B835CED8844C78085DCB2 /* CwlMachBadInstructionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FA510D41B0C05610961BE9734D69E297 /* CwlMachBadInstructionHandler.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		33B9F01F0041F6581DD1794429DC3D0D /* QuickSpecBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9991474D7974A728F148359975EFA454 /* QuickSpecBase.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		33D720F446C6704B8E3AEC9EEF0EAA15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D7BED008A2550304077F41BE32AFAD /* Foundation.framework */; };
 		35B068CCE2D50FCE34BD30055FB8B710 /* PostNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E810479A1A0CA542F1B755F19DED6385 /* PostNotification.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		35CADB1AD8E063A35DF68147F3183206 /* CwlMachBadInstructionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = E116CCD718E9D4E6E2014EB821E6C0CE /* CwlMachBadInstructionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35DED0AEE08CF7424CFDCC77A65194BB /* RLMRealmConfiguration_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D6DEABA120785A717D43B49026746A4D /* RLMRealmConfiguration_Private.h */; };
 		361959341E585965320C3DF9342DA7D2 /* CropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A3EC2D3EBF33290317F9F23267C6318E /* CropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37249EB3C1BE689482D7588FEFEB8F03 /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6670C9CD215EE13F63BDBEAD303260A2 /* nl.lproj */; };
 		378A01370E6BAA0476C3A9A58E6DFFD3 /* BeGreaterThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B76094FF5894711DCC7CF8A18BE34 /* BeGreaterThan.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		37DAD69C786EF414AEBF3EE4AC34CA52 /* Pods-ImageGallery-SparkImageNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C69D694BAD2B604CDAD0E8A865A0F4 /* Pods-ImageGallery-SparkImageNetwork-dummy.m */; };
 		382B4098CFDA3935D116D24129E55A21 /* SatisfyAnyOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4159328C26B4B235928FD9068325571C /* SatisfyAnyOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		387769D6F492F5ECF3C9C91766BE3753 /* RLMRealm+Sync.h in Headers */ = {isa = PBXBuildFile; fileRef = 94BBC3AC6676AE1059721B99ACA98514 /* RLMRealm+Sync.h */; };
 		387B87196B09565FBC40142C36F87275 /* RLMSyncUtil_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = B658CE7F21587CC74ED156D36CA4B249 /* RLMSyncUtil_Private.h */; };
@@ -137,6 +136,7 @@
 		434CF89B6E51A6FDFFC607ABFADE768B /* uuid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6656461F35F3FABC8A611DA676298F89 /* uuid.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.1.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4439DD199D15AE539295B21E33795C7E /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4FE018833F8A61FD224CE5CE21F810 /* Configuration.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4448E66F0495547295F20BF4EF876154 /* Quick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3385A49E90DDAFC2A86D1FE31F4AD611 /* Quick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446C571DC904044F06838956C705608E /* Pods-SparkImageNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3914DA00E8682AD11D60E29E1C6A0DEF /* Pods-SparkImageNetwork-dummy.m */; };
 		4551BA04EE17C450BFA740BD358D67F5 /* BeGreaterThanOrEqualTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F8AAE86B8514C90AC7E4E423629A92 /* BeGreaterThanOrEqualTo.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		45754BA273D8BAC0B7798831A63912F0 /* binding_callback_thread_observer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF9BCA1EC5013B4376A33D7C161148AF /* binding_callback_thread_observer.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.1.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		45BE30A16E3133E69E8A27B73F59D889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D7BED008A2550304077F41BE32AFAD /* Foundation.framework */; };
@@ -195,7 +195,7 @@
 		5EB4442C1C6213344439EB9BD086EF18 /* RLMConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D1BF9CE980EC52F7A4529C806096292 /* RLMConstants.h */; };
 		5F16F6C13F78C6313A08D83B785CDD3A /* RLMSyncCredentials.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 1A03FAB250915BDC059DCF6149E30FAD /* RLMSyncCredentials.h */; };
 		6011D2AC8A586BD84A3BCE2888041D5F /* RLMObject_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = BD2768300EC87FC33504696D56DA2218 /* RLMObject_Private.h */; };
-		6084D2E2B9686B112863C37DAD66A967 /* Pods-SparkImageNetworkTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B49C82E845CE276FB878DA0C108DF7A8 /* Pods-SparkImageNetworkTests-dummy.m */; };
+		603795326768BA01EFA3554168B0A68D /* Pods-SparkImageNetworkTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A216104E80CE0C6320A0C1D8025CCBBB /* Pods-SparkImageNetworkTests-dummy.m */; };
 		60B3D9879CF3E72348224405856C4C71 /* HeroPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AC3310FFD27B78A2567D8029967A4A /* HeroPlugin.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		610F3BF659A5E2C154398A7C85E1272F /* CwlCatchException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33044F9C0FFC847E9806503694713477 /* CwlCatchException.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6157A37DC3D7DDC3EDBB1F86D358EDA0 /* HeroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F86C03B60519071ED10DD34AAE0BAE /* HeroTransition.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -211,7 +211,7 @@
 		689C26AFB85A4D83A8736C699DECC147 /* RLMRealm.h in Headers */ = {isa = PBXBuildFile; fileRef = D065A60F775C5E0ADF4630B832F6D09C /* RLMRealm.h */; };
 		6925F210FD30DB788FA209C0C20FA650 /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD992352D3124BB9366EF5CC61579A1 /* TOCropToolbar.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6936C2BEB4F3EDCC5840D5E9FFEF4CCB /* HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CAD3E9236699525FCC3E4B2EED779E /* HeroModifier.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		695E1089B581582F41B2389C2E4D19A0 /* ImagePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B4F1986CEAA56DC1FD7E23320F9323DF /* ImagePicker.bundle */; };
+		695E1089B581582F41B2389C2E4D19A0 /* ImagePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 16DD711C2B9DB149615452E9981B603D /* ImagePicker.bundle */; };
 		69B80157634D6FAF248D37F397732357 /* CwlPreconditionTesting.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB71513032C61F9672CAA25518B2C04 /* CwlPreconditionTesting.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A0A2A8C45C3AF314DAD20CAACB1A03E /* ContainElementSatisfying.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5542E7A51961D155D866667D70335D /* ContainElementSatisfying.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6A4C8965972B0E05099D7A44B16FB92D /* RLMObjectSchema_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7978431B1AD607E35E335D6F9D0899E0 /* RLMObjectSchema_Private.h */; };
@@ -261,12 +261,12 @@
 		8477AF47FF4937875CE70DEE13159C15 /* RLMSyncManager_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 546E2E39C36248BE894ACCF2018A3B4D /* RLMSyncManager_Private.h */; };
 		856065023D6E6D76AE223A9D8E47A11A /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DE6DDCF3A8792D2815D62427994F3C81 /* de.lproj */; };
 		857231140D8B467878DC8B2873F82293 /* RLMSyncUtil_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B658CE7F21587CC74ED156D36CA4B249 /* RLMSyncUtil_Private.h */; };
+		8596BA8F7BF411F287AE9CDC787CF7C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D7BED008A2550304077F41BE32AFAD /* Foundation.framework */; };
 		865C32E3F45424F55C5647162D3C2428 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEEBC7973B0B094F2EB86A49929343E /* LocationManager.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		88E386C901130CDDD3E0F78DF9216248 /* RLMListBase.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7F21141F25770A30D67B18CAF88879CE /* RLMListBase.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.1.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		892252ABD34CB3D703D6BC90DE62C5AB /* list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8408BBCD6769450D2B2BA7E59FC90FE8 /* list.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.1.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		8A4C55A2B7F0D7464CC11B83CFF4ED88 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 12544243BD895E35B15BD34EBBA3CA1C /* en.lproj */; };
 		8ADC7BE06862E7A8D631BD7A987CC983 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D7BED008A2550304077F41BE32AFAD /* Foundation.framework */; };
-		8B15E3DF10A34408F3EDE030D94C1066 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D7BED008A2550304077F41BE32AFAD /* Foundation.framework */; };
 		8B293115670A9C71C45B1869D816CCA9 /* DSL.m in Sources */ = {isa = PBXBuildFile; fileRef = B49B2EC8A3E6CC62CDCBC3AC5143EE7B /* DSL.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		8B5B349F5BA5326B5F28E84752A5E7E6 /* RLMResults_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 649D833936226EE85BEEC68157303195 /* RLMResults_Private.h */; };
 		8C11F2A8B5BB6B7E03CA2B05CEE9C15D /* SourcePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11141D3791647979CF2D97C1C6DA3BE2 /* SourcePreprocessor.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -277,6 +277,7 @@
 		8FAFB392500A9034A24E70036AB8E0DE /* VideoInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F14BC084D0B281AC1B2455455995100 /* VideoInfoView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		8FB6590FBC73EF3DDA4926D31CE58882 /* ImageGalleryLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6742C0C1B57C97591A9BE88A7DC583 /* ImageGalleryLayout.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		90D4EE8B8976CC48798370359A6BE5B3 /* RLMThreadSafeReference.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 215F4533DA3331BE90B29A76B309AF9B /* RLMThreadSafeReference.h */; };
+		91B8E0CD1667F679D89E21D3568A54A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D7BED008A2550304077F41BE32AFAD /* Foundation.framework */; };
 		91E30D43778E1B38B1A9AE89D85B65EA /* DefaultAnimationPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DAD2809A88A1DEE5843B4618DC4386 /* DefaultAnimationPreprocessor.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		928D9AB220932DE21CD54CE8BDE0EB3B /* RLMRealmConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = E360E94786CA7F6545EC617752A7237C /* RLMRealmConfiguration.h */; };
 		93534E603FDA9ABFDC71B597BCFE0C19 /* RLMManagedArray.mm in Sources */ = {isa = PBXBuildFile; fileRef = B8C9605952AAB063DD927F0BABA2C2EB /* RLMManagedArray.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.1.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC -w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -298,7 +299,6 @@
 		9C8419809466991F4A7098D1BD3A905D /* sync_user.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCAD979A6EFEDC3C49C05FC8DD8C98 /* sync_user.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.1.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9CBC30ED2E07EC5B25EE0D0DB46A51C1 /* RLMCollection.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2022F7B605A55990F8AD5BD8D3DE7302 /* RLMCollection.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.1.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9D7F653181F8BFB720597630DAE129D1 /* ObjectiveCSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1062034FA6CC69602F07585A2E856D90 /* ObjectiveCSupport.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9EB6E7A36EBEF78291876260AEAA249D /* Pods-ImageGallery-SparkImageNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2723C392D2DC3622F53040A78008F63E /* Pods-ImageGallery-SparkImageNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9EDFA5A7B1DDEF5D8AB9EC862BE65435 /* ButtonPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4E8C0C0681787257F4F34EF24238E1 /* ButtonPicker.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9F81E56F8E6C503A6B74617BE2D45CA1 /* QuickConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6296DF32A2839C555ABA323FFD7D8A /* QuickConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A01CC083C9BE4CBE499F00015AB85EFF /* RLMArray.mm in Sources */ = {isa = PBXBuildFile; fileRef = 585B06DF333AD7EFAED5AD2EAF2A3D2D /* RLMArray.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.1.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC -w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -313,7 +313,7 @@
 		A4493BA37F66C3AB7A81954982F8396F /* Nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E584697A0862DD34B986921E3FA152E /* Nodes.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A50F09D10E907DEE57D57C6AD160F8F7 /* ON@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A7EF2EAC69279643B316634C5F6D44 /* ON@3x.png */; };
 		A7C329DAC98E3F301594B1BA8DDCA98B /* RLMPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9CC683F6E7144C73D946C57B375879 /* RLMPlatform.h */; };
-		A7E946E125FC52FB0F7185610914C806 /* Pods-ImageGalleryTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6629FFB4106CA0A3B85C501869652E85 /* Pods-ImageGalleryTests-dummy.m */; };
+		A7E946E125FC52FB0F7185610914C806 /* Pods-ImageGalleryTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB61F023F1FAB87E6D4A98A398E3D797 /* Pods-ImageGalleryTests-dummy.m */; };
 		A7F9D31B39BC245E36EDE22BA3BFA1DE /* RLMSyncSession.h in Headers */ = {isa = PBXBuildFile; fileRef = F13A72373A992FED718C4D93378D1B2D /* RLMSyncSession.h */; };
 		A86943B07AAAD75DF71AD1D266030E88 /* HeroModifier+HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A87DD7F60604D5F0453C03E488F4DF /* HeroModifier+HeroStringConvertible.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A8E1D3C442DA9B62F77C89EDEC48D9DA /* QuickConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E582006EDFA0DD10F1FFDEE7A9EBEA1 /* QuickConfiguration.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -337,6 +337,7 @@
 		B1518FDF584B3BBF21AD611E74073871 /* results.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E440B3EFA9C069CF69D9C582E075487 /* results.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.1.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		B174D4E18E80804684C7069B70789637 /* RLMSyncPermission.h in Headers */ = {isa = PBXBuildFile; fileRef = B9A37222FD4685F62C4D09A4758B403D /* RLMSyncPermission.h */; };
 		B18995BF84ADD76979AF1E57E8BC88A8 /* RLMCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B95BB919E894D6640612CB974BAE67D /* RLMCollection.h */; };
+		B2550BB402F7426A62827039A0FEAF71 /* Pods-SparkImageNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5B812FED617E54EFB6B14B6B94E0490 /* Pods-SparkImageNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B27C07A427580CB32C4E730E5707FB5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D7BED008A2550304077F41BE32AFAD /* Foundation.framework */; };
 		B3E19071C89D13CA3905A1ECA9C9148F /* RLMSyncUser.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3CCC9CE5B876E431449C63833A54768 /* RLMSyncUser.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.1.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		B46BB70B248B17BE8730A7F9C56066DD /* World+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDF7ADC390DA844864E828EB70B3232 /* World+DSL.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -356,7 +357,7 @@
 		BFC4BCB6E05AFC08BC442B15340222D4 /* TOActivityCroppedImageProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 39F6886E52D6F11BD119F2C03359865B /* TOActivityCroppedImageProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C17E6A258C12BC6EA36BA03264E0C7B8 /* RLMMigration_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 70093D162AF5816F9B0E9183220C1E24 /* RLMMigration_Private.h */; };
 		C2BC487C43C6774AB125DFD42FCF6806 /* NMBExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A4F2710D9A4703DA923DAE41D8A8A7 /* NMBExpectation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C305B99E86433CA4EFE6D0E822F51C1E /* Pods-ImageGallery-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F878FC9291BB1F9E07B09C24798F4C6 /* Pods-ImageGallery-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C305B99E86433CA4EFE6D0E822F51C1E /* Pods-ImageGallery-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F6E104D11B163212028870FC67DEF5C /* Pods-ImageGallery-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3290D6F80FE6EE0D5D6D419C93D0E80 /* cameraIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5D16DAF6F966CDEA72342847BD9B81C /* cameraIcon@3x.png */; };
 		C32DABF25AA3857854B4880DB2797CC0 /* RLMSyncSession.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = F13A72373A992FED718C4D93378D1B2D /* RLMSyncSession.h */; };
 		C331943DB0576F24DE29B386B00AD319 /* NSBundle+CurrentTestBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154BDB71F01837B1185EA61ADD2BD785 /* NSBundle+CurrentTestBundle.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -397,12 +398,11 @@
 		D862977CC08D93E88DEE576F81D07232 /* RLMResults.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFA83BFFEB5A74394B6DD67AA6363C59 /* RLMResults.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.1.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D88154D347A0554F0EA1D428729D086C /* NimbleEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF31248B55F2A2DEAD4C4B15038413DA /* NimbleEnvironment.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D8B2AC020A8652A88E36033FAB6C1747 /* Quick.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F6A78D2ED3BF5E62455C81452468452 /* Quick.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8B4CB0B5B353CD3F6F84F4B5DF154DA /* Pods-ImageGalleryTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB1B4B273801A152166E9A9358DE547C /* Pods-ImageGalleryTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8B4CB0B5B353CD3F6F84F4B5DF154DA /* Pods-ImageGalleryTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A05FE4CFC3A6D154F215262140D5BAD0 /* Pods-ImageGalleryTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D971CA3EB06ED20C00ED2BE982E58B1D /* CALayer+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB593CCDA3BC13F5FCECEB79E89A9D62 /* CALayer+Hero.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D9B0D4C7CBD1D5672CA642064F382885 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 22352E159A2769BD5BCBC14F95BBD235 /* it.lproj */; };
 		D9DBFC2CC81A43B02FE76432A12EB757 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DFF7E0F6E24AE4D806E17229D06EFE /* Helper.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		DA364652D336078D2E599FE03F2E808B /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95783DE7FB4381D2187C724C18847F38 /* Object.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		DBCD93E5327F8965B4D5E1EA3468564C /* Pods-SparkImageNetworkTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FFEAA8D0F6616EC68A4E41BF7A1AF1A /* Pods-SparkImageNetworkTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC6ABDCA0BB70374783D554CEC70697F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D7BED008A2550304077F41BE32AFAD /* Foundation.framework */; };
 		DCE9491392F7D5D2B7987F4BFB0F632B /* RealmCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DBBC6A37EA1093F9261B7CBB8935D9 /* RealmCollection.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		DDFA8B7BE2EA5E19E7B475915355D477 /* video@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEEC1E71B977AB8139637CC4DFBD41D1 /* video@3x.png */; };
@@ -418,7 +418,7 @@
 		E80493437FDBFDD2003078A9E9CD8519 /* TOCropViewController-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 48404AFC0A71CDC3201E8BD5EF94B813 /* TOCropViewController-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9BAB3234A5275D0516BE2FA43D09B27 /* EndWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAF95C9D655A6B9F2C12361E5783F98 /* EndWith.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		EA7C04087EBA55BEF1F8E70170E6B2D2 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 836FC72DDA31E0211E34D733C579D545 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB32CC8FB5DC05DA42A9B7BC70A3E4E3 /* Pods-ImageGallery-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C94F0B09D1232997A403E7D9706A82AF /* Pods-ImageGallery-dummy.m */; };
+		EB32CC8FB5DC05DA42A9B7BC70A3E4E3 /* Pods-ImageGallery-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA4F43E16CE343783DABA581448817E /* Pods-ImageGallery-dummy.m */; };
 		EBCA5FE4020847541A9DCD60F7A3CBB4 /* SortDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF4ACCEEE77CDD604393344E3408DD4 /* SortDescriptor.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		EC9B4D7142277FC8E921D946C99341BB /* RLMThreadSafeReference.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA228C5006B8C5D4EB4FDB73E7AF4A15 /* RLMThreadSafeReference.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.1.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		ECA097C7002A8AC826B9C59662F6D511 /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3597881F3D19EC7AA38158B09D009FF8 /* Stringers.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -461,12 +461,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0C3F1E14C16CCE16E4B0EE75E43375C3 /* PBXContainerItemProxy */ = {
+		0082F00E8B6C703F89658FBCEBCEBBF0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8A17CB894371F02E0326064851AF7C43;
-			remoteInfo = ImagePicker;
+			remoteGlobalIDString = 41DA3BB5313B21E9ED2998B7EFECD7CB;
+			remoteInfo = Realm;
 		};
 		1AB3DC552FEBB7BC46A32C68E366B1C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -482,12 +482,12 @@
 			remoteGlobalIDString = 8A17CB894371F02E0326064851AF7C43;
 			remoteInfo = ImagePicker;
 		};
-		2A83A5AE43372E61EBBE49E0AB5B441F /* PBXContainerItemProxy */ = {
+		2410D1A1C768D81E572FDEE7A7D46625 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0AEC202531AF47B692B3C9DA6D58675C;
-			remoteInfo = CropViewController;
+			remoteGlobalIDString = 41DA3BB5313B21E9ED2998B7EFECD7CB;
+			remoteInfo = Realm;
 		};
 		39E8B45A1BEC9450A77C87C572236CA6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -503,20 +503,6 @@
 			remoteGlobalIDString = 2990770985796EEC3C38E8AB9E52CB0D;
 			remoteInfo = "CropViewController-TOCropViewControllerBundle";
 		};
-		4D8BB6E257B98EFAEB0C470CB38C49F4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3354FD001FF629676A13767C68AFCEAF;
-			remoteInfo = RealmSwift;
-		};
-		69B96020A831B2946D8343D6337C789A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4193FB138016C1B1F73D9BBBB174F390;
-			remoteInfo = Quick;
-		};
 		6B8986630584C6CBE06F80050CD944A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -524,26 +510,12 @@
 			remoteGlobalIDString = 88D0D45A202C76CDCB9546091A25AB0B;
 			remoteInfo = "ImagePicker-ImagePicker";
 		};
-		7A10F47380DD0A73C10EF72BC631107B /* PBXContainerItemProxy */ = {
+		7863B3E6C931743B03769E1088D17C6B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9C13CF7F13B883769BA440C16F9FFD00;
-			remoteInfo = Hero;
-		};
-		7F693EF4DFB70D9E2F1CA97BF3BD8485 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 41DA3BB5313B21E9ED2998B7EFECD7CB;
-			remoteInfo = Realm;
-		};
-		83B0D1D518D6064FC918DFB6DDEFF094 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 41DA3BB5313B21E9ED2998B7EFECD7CB;
-			remoteInfo = Realm;
+			remoteGlobalIDString = DD7C8BF89FE8053D0A2A2D88BB49CF07;
+			remoteInfo = Nimble;
 		};
 		83D10AEDF404FE89BA53349B4858BEC2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -552,33 +524,12 @@
 			remoteGlobalIDString = 0AEC202531AF47B692B3C9DA6D58675C;
 			remoteInfo = CropViewController;
 		};
-		ABB286F66C59A0786573EC15F845C6ED /* PBXContainerItemProxy */ = {
+		935B26FD689821A248957BFE2960E43D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9C13CF7F13B883769BA440C16F9FFD00;
-			remoteInfo = Hero;
-		};
-		ADAE43432FAADF80787B44809EEA0C01 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9525465D01A35EFDC2CBEAAF0587EF35;
-			remoteInfo = SVProgressHUD;
-		};
-		B20309F7BACC8D22BA91CBE07AC62EB3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8A17CB894371F02E0326064851AF7C43;
-			remoteInfo = ImagePicker;
-		};
-		BFBE3027ED7776D09438C45D081C8583 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DD7C8BF89FE8053D0A2A2D88BB49CF07;
-			remoteInfo = Nimble;
+			remoteGlobalIDString = 4193FB138016C1B1F73D9BBBB174F390;
+			remoteInfo = Quick;
 		};
 		C764AAFDCFB6641FAA891967A2E88963 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -587,13 +538,6 @@
 			remoteGlobalIDString = 9C13CF7F13B883769BA440C16F9FFD00;
 			remoteInfo = Hero;
 		};
-		CE004A8F7CF80A040ADF2255C59A2083 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0AEC202531AF47B692B3C9DA6D58675C;
-			remoteInfo = CropViewController;
-		};
 		CE1C816C1353CB3146285B930A88557F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -601,14 +545,7 @@
 			remoteGlobalIDString = 3354FD001FF629676A13767C68AFCEAF;
 			remoteInfo = RealmSwift;
 		};
-		D735869B971CB9011D8A5536B306004B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9525465D01A35EFDC2CBEAAF0587EF35;
-			remoteInfo = SVProgressHUD;
-		};
-		DCE6DEB4A0F158BC4F25D104C3A7978F /* PBXContainerItemProxy */ = {
+		E79F064385E7282E334E94660ECFB471 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -621,6 +558,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 9525465D01A35EFDC2CBEAAF0587EF35;
 			remoteInfo = SVProgressHUD;
+		};
+		EF24C60DF0359588787E23298A38402F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3354FD001FF629676A13767C68AFCEAF;
+			remoteInfo = RealmSwift;
 		};
 		F2E289491365FE6C2DE115C9A7E1B4E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -715,12 +659,11 @@
 		01C15CDB601F856F83CE7F867A2AE0D3 /* HeroAnimatorViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroAnimatorViewContext.swift; path = Sources/Animator/HeroAnimatorViewContext.swift; sourceTree = "<group>"; };
 		03CF0A97B89D80CE6228D1E273802F9F /* ExampleMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleMetadata.swift; path = Sources/Quick/ExampleMetadata.swift; sourceTree = "<group>"; };
 		040C912F3C29BE474A238AA765840F93 /* ImageStack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageStack.swift; path = Source/BottomView/ImageStack.swift; sourceTree = "<group>"; };
-		052265724E54A440F891F7CC72637904 /* Pods_SparkImageNetworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SparkImageNetworkTests.framework; path = "Pods-SparkImageNetworkTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05EB4737160CF0404E386B859528D1FF /* RLMUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMUtil.mm; path = Realm/RLMUtil.mm; sourceTree = "<group>"; };
 		068B38C0F1E1FF93114059C05A9548AA /* HeroCoreAnimationViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroCoreAnimationViewContext.swift; path = Sources/Animator/HeroCoreAnimationViewContext.swift; sourceTree = "<group>"; };
 		06A87DD7F60604D5F0453C03E488F4DF /* HeroModifier+HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroModifier+HeroStringConvertible.swift"; path = "Sources/HeroModifier+HeroStringConvertible.swift"; sourceTree = "<group>"; };
+		0731D9979EC8B87B900AA13B14DF3209 /* Pods-SparkImageNetwork-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SparkImageNetwork-resources.sh"; sourceTree = "<group>"; };
 		07486E2A01319B40FE491D94B606886A /* UIImage+CropRotate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CropRotate.m"; path = "Objective-C/TOCropViewController/Models/UIImage+CropRotate.m"; sourceTree = "<group>"; };
-		07A84782501A41199DE6FE4984CDAF38 /* Pods-SparkImageNetworkTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SparkImageNetworkTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		08688F65E94AA5AC63D0866CBC2EC2A6 /* RLMSyncConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncConfiguration.h; path = include/RLMSyncConfiguration.h; sourceTree = "<group>"; };
 		0894799CE1BF80A4E94BEB51C1EAC51C /* ThrowAssertion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowAssertion.swift; path = Sources/Nimble/Matchers/ThrowAssertion.swift; sourceTree = "<group>"; };
 		0908DFE20A09E26F419B2A7C9470F9A2 /* Contain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Contain.swift; path = Sources/Nimble/Matchers/Contain.swift; sourceTree = "<group>"; };
@@ -729,61 +672,60 @@
 		0957ACC16F247D8B5D246014CC8405B8 /* HeroViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroViewControllerDelegate.swift; path = Sources/HeroViewControllerDelegate.swift; sourceTree = "<group>"; };
 		096EEF12D89CC00B9976ECE85F647030 /* Hero-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-umbrella.h"; sourceTree = "<group>"; };
 		0A5E597967F0DF99423063519560B34D /* CG+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CG+Hero.swift"; path = "Sources/Extensions/CG+Hero.swift"; sourceTree = "<group>"; };
-		0A85FABD5B03EA18BF2333CEA45FEABA /* Pods-ImageGallery-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageGallery-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0A89D86383E39B37B0052F4CC3574812 /* MatchPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchPreprocessor.swift; path = Sources/Preprocessors/MatchPreprocessor.swift; sourceTree = "<group>"; };
 		0B17245EE5691B23D08E3D5D427C481C /* Hero-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-prefix.pch"; sourceTree = "<group>"; };
+		0B5AFED8F30E3881C45FF717C214335F /* Pods_SparkImageNetworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SparkImageNetworkTests.framework; path = "Pods-SparkImageNetworkTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D94FECFE9C1F59496DCC757C6FC34A3 /* CwlCatchException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlCatchException.m; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/CwlCatchException.m; sourceTree = "<group>"; };
 		0F0EF8EE74930EC826494D845EF1F84E /* BeCloseTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeCloseTo.swift; path = Sources/Nimble/Matchers/BeCloseTo.swift; sourceTree = "<group>"; };
 		0F87EA883E1EA6D650AFBE485A7144A4 /* URL+FileName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+FileName.swift"; path = "Sources/Quick/URL+FileName.swift"; sourceTree = "<group>"; };
+		1011B6B3B065AA25F252454BDAFFCE1F /* Pods-SparkImageNetworkTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SparkImageNetworkTests.modulemap"; sourceTree = "<group>"; };
 		1062034FA6CC69602F07585A2E856D90 /* ObjectiveCSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectiveCSupport.swift; path = RealmSwift/ObjectiveCSupport.swift; sourceTree = "<group>"; };
+		10A7CB4B5FE92F50B3EFC8E571D8AA96 /* Pods-ImageGallery-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageGallery-resources.sh"; sourceTree = "<group>"; };
 		11141D3791647979CF2D97C1C6DA3BE2 /* SourcePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourcePreprocessor.swift; path = Sources/Preprocessors/SourcePreprocessor.swift; sourceTree = "<group>"; };
 		122D0E33A0BB5A937C35D5549C937B33 /* NSError+RLMSync.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+RLMSync.m"; path = "Realm/NSError+RLMSync.m"; sourceTree = "<group>"; };
 		12449BF1FE1C57ED3E2F2C35A40DA515 /* OFF@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "OFF@3x.png"; path = "Images/OFF@3x.png"; sourceTree = "<group>"; };
 		12544243BD895E35B15BD34EBBA3CA1C /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = "Objective-C/TOCropViewController/en.lproj"; sourceTree = "<group>"; };
 		12A7C88B9B7CC2CBB55221AC2AFB009A /* RLMRealm_Dynamic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealm_Dynamic.h; path = include/RLMRealm_Dynamic.h; sourceTree = "<group>"; };
+		1300E96787E003ECE517F751D0118BE9 /* Pods-SparkImageNetwork-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SparkImageNetwork-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1302AAB1044B741DBC4184D19DB0FEAE /* CascadePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CascadePreprocessor.swift; path = Sources/Preprocessors/CascadePreprocessor.swift; sourceTree = "<group>"; };
 		1309D7ADE2F83860ED5242ABE6BA45A4 /* HaveCount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HaveCount.swift; path = Sources/Nimble/Matchers/HaveCount.swift; sourceTree = "<group>"; };
 		13B6C811A2B3FCE5CF6EDAB4B57AD0C2 /* CropViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropViewController.swift; path = Swift/CropViewController/CropViewController.swift; sourceTree = "<group>"; };
 		1477E8C671538613263667C33678E0B6 /* Nimble.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nimble.xcconfig; sourceTree = "<group>"; };
+		14853A0E868C4CD5B34D38D618E0126F /* Pods-SparkImageNetworkTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SparkImageNetworkTests-frameworks.sh"; sourceTree = "<group>"; };
 		15207CD9EDF354F467E2282CA629BA35 /* ConstraintsSetup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintsSetup.swift; path = Source/Extensions/ConstraintsSetup.swift; sourceTree = "<group>"; };
 		154BDB71F01837B1185EA61ADD2BD785 /* NSBundle+CurrentTestBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+CurrentTestBundle.swift"; path = "Sources/Quick/NSBundle+CurrentTestBundle.swift"; sourceTree = "<group>"; };
-		15566CC4B2F25BAA633EC8533251185C /* CropViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CropViewController.framework; path = CropViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1669CDB481E3A1B5F2F17AC5F295E388 /* RLMRealmConfiguration+Sync.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "RLMRealmConfiguration+Sync.mm"; path = "Realm/RLMRealmConfiguration+Sync.mm"; sourceTree = "<group>"; };
+		16DD711C2B9DB149615452E9981B603D /* ImagePicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ImagePicker.bundle; path = ImagePicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		17061E0BAAF8898BA3B70125D5BD7C59 /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCroppedImageAttributes.h; path = "Objective-C/TOCropViewController/Models/TOCroppedImageAttributes.h"; sourceTree = "<group>"; };
-		17E29D7C1164B0E28B21C658F6F3E836 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Realm.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1811FD9B636E160D94B827D95C125310 /* Pods-ImageGallery-SparkImageNetwork-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageGallery-SparkImageNetwork-acknowledgements.plist"; sourceTree = "<group>"; };
 		185DDE956EDDE2C371A8A17406A60771 /* librealmcore-ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "librealmcore-ios.a"; path = "core/librealmcore-ios.a"; sourceTree = "<group>"; };
-		18E0070CDE44419765A2D35715C65F6B /* Pods-ImageGallery-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageGallery-acknowledgements.plist"; sourceTree = "<group>"; };
 		1A03FAB250915BDC059DCF6149E30FAD /* RLMSyncCredentials.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncCredentials.h; path = include/RLMSyncCredentials.h; sourceTree = "<group>"; };
 		1A4E6D6E4B312164DB1D68FD70FD8ED9 /* RealmConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RealmConfiguration.swift; path = RealmSwift/RealmConfiguration.swift; sourceTree = "<group>"; };
 		1B174C7AFD730BA92C3042DADEC79DDB /* RealmSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RealmSwift.modulemap; sourceTree = "<group>"; };
-		1B8D32C1CDBB1315B1A64BF5B3C1E564 /* Hero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hero.framework; path = Hero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BC5EEF3E8C9AF6E88DD993C43F61145 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		1BE283CCE703A949579F9651A1762754 /* Pods-ImageGallery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageGallery.release.xcconfig"; sourceTree = "<group>"; };
 		1C074F7609D79C4601086ABFF2617150 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		1D93780DEDB51A6728F3DF7FE7B37829 /* BasePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasePreprocessor.swift; path = Sources/Preprocessors/BasePreprocessor.swift; sourceTree = "<group>"; };
 		1E3DCAA0F1C170542288038FFBF6C8A4 /* AdapterProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdapterProtocols.swift; path = Sources/Nimble/Adapters/AdapterProtocols.swift; sourceTree = "<group>"; };
 		1E6742C0C1B57C97591A9BE88A7DC583 /* ImageGalleryLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageGalleryLayout.swift; path = Source/ImageGallery/ImageGalleryLayout.swift; sourceTree = "<group>"; };
 		1F1885BD1DCCCCA578CCD626C5AFEC74 /* RLMAccessor.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMAccessor.mm; path = Realm/RLMAccessor.mm; sourceTree = "<group>"; };
-		201BCADD9E79DCED16F33516289D58E1 /* Pods-ImageGallery-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageGallery-resources.sh"; sourceTree = "<group>"; };
 		2022F7B605A55990F8AD5BD8D3DE7302 /* RLMCollection.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMCollection.mm; path = Realm/RLMCollection.mm; sourceTree = "<group>"; };
 		204957F8DB7BA62A7B202BB0C6E501AE /* BeLogical.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLogical.swift; path = Sources/Nimble/Matchers/BeLogical.swift; sourceTree = "<group>"; };
 		208B1D0C0B2FEBC2A3A5E469AAE21DC7 /* ImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImagePicker-dummy.m"; sourceTree = "<group>"; };
 		20DDF87A2EB359F302D6E73F1E926D7C /* RLMRealmConfiguration+Sync.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RLMRealmConfiguration+Sync.h"; path = "include/RLMRealmConfiguration+Sync.h"; sourceTree = "<group>"; };
 		215F4533DA3331BE90B29A76B309AF9B /* RLMThreadSafeReference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMThreadSafeReference.h; path = include/RLMThreadSafeReference.h; sourceTree = "<group>"; };
+		21FC782305BABA718D0D41DCF50F6C1F /* Pods_ImageGallery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageGallery.framework; path = "Pods-ImageGallery.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22352E159A2769BD5BCBC14F95BBD235 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = it.lproj; path = "Objective-C/TOCropViewController/it.lproj"; sourceTree = "<group>"; };
 		2245CAB54E893B8F9BD54499E5B341C9 /* ImagePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImagePicker.xcconfig; sourceTree = "<group>"; };
 		234B4D70F0493E2E0FB66B9FFA6C6895 /* RLMSchema_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSchema_Private.h; path = include/RLMSchema_Private.h; sourceTree = "<group>"; };
 		241F65DB0399528A7B736AB06F4151EE /* ImagePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ImagePicker.modulemap; sourceTree = "<group>"; };
 		24E0ED22445BF2B0CA79DE88E1EA2DEF /* RLMQueryUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMQueryUtil.mm; path = Realm/RLMQueryUtil.mm; sourceTree = "<group>"; };
 		24FEBEC81A471D774A58E48DE3994B9C /* ar.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ar.lproj; path = "Objective-C/TOCropViewController/ar.lproj"; sourceTree = "<group>"; };
-		25FE1FB09C6D5EB2190039D15E018D04 /* Pods-ImageGalleryTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageGalleryTests-frameworks.sh"; sourceTree = "<group>"; };
 		2612657F0FCB2E52B6F9D8785DDB09D5 /* HeroProgressRunner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroProgressRunner.swift; path = Sources/Transition/HeroProgressRunner.swift; sourceTree = "<group>"; };
 		26602AC3DE8026D8BA9740D0818C5AC8 /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Sources/Quick/Example.swift; sourceTree = "<group>"; };
 		26A493B3198206540F0FFF85CC25EAA4 /* Nimble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nimble-dummy.m"; sourceTree = "<group>"; };
-		2723C392D2DC3622F53040A78008F63E /* Pods-ImageGallery-SparkImageNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageGallery-SparkImageNetwork-umbrella.h"; sourceTree = "<group>"; };
+		26E806E4DC460F6D50A8D90FDD3A99F2 /* Pods-SparkImageNetworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SparkImageNetworkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		282184C617FFD5E9CE107CE6B8ECA2AC /* da.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = da.lproj; path = "Objective-C/TOCropViewController/da.lproj"; sourceTree = "<group>"; };
 		293DD5172BFAC605F80A648C8151AEAF /* RLMResults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMResults.h; path = include/RLMResults.h; sourceTree = "<group>"; };
+		295B3CD13C52ACC6A329733133AA0405 /* Pods-ImageGallery-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageGallery-acknowledgements.markdown"; sourceTree = "<group>"; };
 		29E4E40CADB566E7CA466BF3BC317151 /* HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroStringConvertible.swift; path = Sources/Parser/HeroStringConvertible.swift; sourceTree = "<group>"; };
 		2A9CE360E4204C86BC4CE1C001005A3F /* HeroTransition+UITabBarControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UITabBarControllerDelegate.swift"; path = "Sources/Transition/HeroTransition+UITabBarControllerDelegate.swift"; sourceTree = "<group>"; };
 		2CFCF19E1DC0A6DC2322B0570BE98AA7 /* Array+HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+HeroModifier.swift"; path = "Sources/Extensions/Array+HeroModifier.swift"; sourceTree = "<group>"; };
@@ -791,41 +733,35 @@
 		2EC2BEFDC83DFFEB4FFAEEA04733CF74 /* RLMJSONModels.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMJSONModels.m; path = Realm/RLMJSONModels.m; sourceTree = "<group>"; };
 		2F2D0ABD7953D8EB0C637310BA4A88DA /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewControllerTransitioning.h; path = "Objective-C/TOCropViewController/Models/TOCropViewControllerTransitioning.h"; sourceTree = "<group>"; };
 		2F4FD674385DF0A9905F21DAF2ADA688 /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ko.lproj; path = "Objective-C/TOCropViewController/ko.lproj"; sourceTree = "<group>"; };
+		2FDB7D8EE1CFDD4B586FD31617CD43D3 /* Pods-SparkImageNetworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SparkImageNetworkTests.release.xcconfig"; sourceTree = "<group>"; };
 		3015C50267D8ACC7CB73CE2E17219372 /* CropViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CropViewController.xcconfig; sourceTree = "<group>"; };
 		306DE861C4341BC0830D71B5100E4FCB /* TOCropView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropView.m; path = "Objective-C/TOCropViewController/Views/TOCropView.m"; sourceTree = "<group>"; };
-		314A3AD2E5405D6AFBD5EBEEC76D733F /* Pods-ImageGallery-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageGallery-frameworks.sh"; sourceTree = "<group>"; };
 		3182E5FB77035446D150A95115FD32B6 /* RealmSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RealmSwift-umbrella.h"; sourceTree = "<group>"; };
 		31D7BED008A2550304077F41BE32AFAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		33044F9C0FFC847E9806503694713477 /* CwlCatchException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchException.swift; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchException/CwlCatchException.swift; sourceTree = "<group>"; };
 		3385A49E90DDAFC2A86D1FE31F4AD611 /* Quick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-umbrella.h"; sourceTree = "<group>"; };
 		34188BACAE13592EBCDA4F20CC04F360 /* Lexer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lexer.swift; path = Sources/Parser/Lexer.swift; sourceTree = "<group>"; };
 		34351D1E06E1406644A87EFDA2DC7A13 /* Regex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Regex.swift; path = Sources/Parser/Regex.swift; sourceTree = "<group>"; };
+		34A4341BCDFE9A2855BB839A45508277 /* Pods-ImageGallery-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageGallery-acknowledgements.plist"; sourceTree = "<group>"; };
 		3597881F3D19EC7AA38158B09D009FF8 /* Stringers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stringers.swift; path = Sources/Nimble/Utils/Stringers.swift; sourceTree = "<group>"; };
 		3635EBED12CFC3CD9B7284FB342AB3AB /* MatcherProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherProtocols.swift; path = Sources/Nimble/Matchers/MatcherProtocols.swift; sourceTree = "<group>"; };
 		3722FBC1BC8EAF0D771A74F1703F2C4D /* HeroViewPropertyViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroViewPropertyViewContext.swift; path = Sources/Animator/HeroViewPropertyViewContext.swift; sourceTree = "<group>"; };
 		3862D2B40F4E5936C7EF90AEE004286F /* NMBObjCMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBObjCMatcher.swift; path = Sources/Nimble/Adapters/NMBObjCMatcher.swift; sourceTree = "<group>"; };
-		3866BB117152E7F3BA5B851205E66724 /* ImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImagePicker.framework; path = ImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3869588D8D43A7A399798BF9475DCCF8 /* IgnoreSubviewModifiersPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IgnoreSubviewModifiersPreprocessor.swift; path = Sources/Preprocessors/IgnoreSubviewModifiersPreprocessor.swift; sourceTree = "<group>"; };
+		3914DA00E8682AD11D60E29E1C6A0DEF /* Pods-SparkImageNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SparkImageNetwork-dummy.m"; sourceTree = "<group>"; };
 		39F6886E52D6F11BD119F2C03359865B /* TOActivityCroppedImageProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOActivityCroppedImageProvider.h; path = "Objective-C/TOCropViewController/Models/TOActivityCroppedImageProvider.h"; sourceTree = "<group>"; };
 		3ACF0AE726274B7F6C1E5BB67AF7CEA5 /* partial_sync.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = partial_sync.cpp; path = Realm/ObjectStore/src/sync/partial_sync.cpp; sourceTree = "<group>"; };
 		3BAE86192D16272D03FBDF9AD9A2544C /* Results.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Results.swift; path = RealmSwift/Results.swift; sourceTree = "<group>"; };
 		3CDEDFD84C07C1A200A5F8A7FF5BDEBF /* sync_file.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_file.cpp; path = Realm/ObjectStore/src/sync/impl/sync_file.cpp; sourceTree = "<group>"; };
 		3D60BDE5BAE3BAD3D18B9D3683E1111F /* transact_log_handler.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = transact_log_handler.cpp; path = Realm/ObjectStore/src/impl/transact_log_handler.cpp; sourceTree = "<group>"; };
-		3E8350674E9B2FD639BB2A45CFC520BB /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F878FC9291BB1F9E07B09C24798F4C6 /* Pods-ImageGallery-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageGallery-umbrella.h"; sourceTree = "<group>"; };
 		3FDD78E701DCB5F235AB02DFB6CDEB72 /* HooksPhase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HooksPhase.swift; path = Sources/Quick/Hooks/HooksPhase.swift; sourceTree = "<group>"; };
 		4007DD1DD01CB768A269ECB75386B8CC /* CropViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CropViewController-dummy.m"; sourceTree = "<group>"; };
-		401E3A4F0ECD84AF56EE25EA5F15DCB5 /* Pods-SparkImageNetworkTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SparkImageNetworkTests-resources.sh"; sourceTree = "<group>"; };
-		40221335F44D02B81744B926B44D4C0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		402FCCD06EEF1776D41DB80CC289299C /* Equal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Equal.swift; path = Sources/Nimble/Matchers/Equal.swift; sourceTree = "<group>"; };
-		408897A17275C060962CE6A4090A1EE1 /* Pods-ImageGalleryTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageGalleryTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4122F7367F2E0C515A73976C44446783 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Quick/Filter.swift; sourceTree = "<group>"; };
 		41564F2ACB8E6483CF98B2DF1D00C427 /* TOCropViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewController.m; path = "Objective-C/TOCropViewController/TOCropViewController.m"; sourceTree = "<group>"; };
 		4159328C26B4B235928FD9068325571C /* SatisfyAnyOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SatisfyAnyOf.swift; path = Sources/Nimble/Matchers/SatisfyAnyOf.swift; sourceTree = "<group>"; };
 		4159D43F4C9462F2500EC34206A56DA7 /* TOCropScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropScrollView.m; path = "Objective-C/TOCropViewController/Views/TOCropScrollView.m"; sourceTree = "<group>"; };
-		416A08DB2CA8AE41C6871AD20BB384CC /* Pods-SparkImageNetworkTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SparkImageNetworkTests-frameworks.sh"; sourceTree = "<group>"; };
 		42641272B7D16DAFF57657199260A7D7 /* RLMSyncSessionRefreshHandle.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncSessionRefreshHandle.mm; path = Realm/RLMSyncSessionRefreshHandle.mm; sourceTree = "<group>"; };
-		429DA5A78C86F48CEA0A1D82B56D1EF7 /* Pods_ImageGalleryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageGalleryTests.framework; path = "Pods-ImageGalleryTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42C4DD0025CD8EB4BE75128A056DC7B6 /* AUTO@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AUTO@3x.png"; path = "Images/AUTO@3x.png"; sourceTree = "<group>"; };
 		43D0922BD6D85C18F30C2807287004E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44A157898790A20EE9E51F736D1D0715 /* QuickSpecBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpecBase.h; path = Sources/QuickSpecBase/include/QuickSpecBase.h; sourceTree = "<group>"; };
@@ -837,9 +773,11 @@
 		4AB71513032C61F9672CAA25518B2C04 /* CwlPreconditionTesting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlPreconditionTesting.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/Mach/CwlPreconditionTesting.h; sourceTree = "<group>"; };
 		4AE6CC04F8FC96D71AD706FA9AB48FCF /* HeroCompatible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroCompatible.swift; path = Sources/HeroCompatible.swift; sourceTree = "<group>"; };
 		4AF85D33ACF9792DC1666B152B1D00CC /* ResourceBundle-ImagePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ImagePicker-Info.plist"; sourceTree = "<group>"; };
+		4B168761A79C0BACCDB3E282368A2138 /* Pods-ImageGalleryTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageGalleryTests-frameworks.sh"; sourceTree = "<group>"; };
 		4B3AE1E5F512DBF24C2984BDF3900565 /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ja.lproj; path = "Objective-C/TOCropViewController/ja.lproj"; sourceTree = "<group>"; };
 		4B95BB919E894D6640612CB974BAE67D /* RLMCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMCollection.h; path = include/RLMCollection.h; sourceTree = "<group>"; };
 		4CBCAD979A6EFEDC3C49C05FC8DD8C98 /* sync_user.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_user.cpp; path = Realm/ObjectStore/src/sync/sync_user.cpp; sourceTree = "<group>"; };
+		4DA4F43E16CE343783DABA581448817E /* Pods-ImageGallery-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageGallery-dummy.m"; sourceTree = "<group>"; };
 		4DE5EBDEA76B4208580E1F77F79A1F14 /* World.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = World.h; path = Sources/QuickObjectiveC/World.h; sourceTree = "<group>"; };
 		4E6AA0B5D46C21FE04368025E9B094EC /* RLMConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMConstants.m; path = Realm/RLMConstants.m; sourceTree = "<group>"; };
 		4EC2BADA117239418533840533CAA6E8 /* collection_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = collection_notifier.cpp; path = Realm/ObjectStore/src/impl/collection_notifier.cpp; sourceTree = "<group>"; };
@@ -848,22 +786,26 @@
 		5044668A5DB5E4B7D1E2DB551F1475B8 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = es.lproj; path = "Objective-C/TOCropViewController/es.lproj"; sourceTree = "<group>"; };
 		504A26E9D88DFED1475A3F59421C0EB2 /* ResourceBundle-TOCropViewControllerBundle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TOCropViewControllerBundle-Info.plist"; sourceTree = "<group>"; };
 		5094F9EBA33557962E49EAD9FE6089B1 /* Hero.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hero.xcconfig; sourceTree = "<group>"; };
+		5126577AB3D6CFC1F81A3C44B08A1386 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nimble.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		513227E4FDD6876F772DFF58CB410DF8 /* object_store.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = object_store.cpp; path = Realm/ObjectStore/src/object_store.cpp; sourceTree = "<group>"; };
+		5151BF877EE264E1E89AFF3CEDB0DBAF /* Pods-ImageGallery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageGallery.debug.xcconfig"; sourceTree = "<group>"; };
 		5245CA2E7048538486D8A7B4C67E1B91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53713E9C615A202880A273B3AAB34285 /* ImagePickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePickerController.swift; path = Source/ImagePickerController.swift; sourceTree = "<group>"; };
 		537CE2CE055A99EB6C39B3B494F76740 /* HeroTargetState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTargetState.swift; path = Sources/HeroTargetState.swift; sourceTree = "<group>"; };
 		53C03AE79627D38AE57B55E9276F4521 /* AsyncMatcherWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncMatcherWrapper.swift; path = Sources/Nimble/Matchers/AsyncMatcherWrapper.swift; sourceTree = "<group>"; };
 		546E2E39C36248BE894ACCF2018A3B4D /* RLMSyncManager_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncManager_Private.h; path = include/RLMSyncManager_Private.h; sourceTree = "<group>"; };
-		55072EA4F21064EDCA6F044350884495 /* Pods-ImageGalleryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageGalleryTests.release.xcconfig"; sourceTree = "<group>"; };
 		551418B3C89A63245740134A137AE2A0 /* CAMediaTimingFunction+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAMediaTimingFunction+Hero.swift"; path = "Sources/Extensions/CAMediaTimingFunction+Hero.swift"; sourceTree = "<group>"; };
 		556B572FA4816ED58799EBA99185750C /* results_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = results_notifier.cpp; path = Realm/ObjectStore/src/impl/results_notifier.cpp; sourceTree = "<group>"; };
 		55AE44EBEA98ADBDE1CC29D98FD0C441 /* RLMSyncPermission.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncPermission.mm; path = Realm/RLMSyncPermission.mm; sourceTree = "<group>"; };
 		56DFF7E0F6E24AE4D806E17229D06EFE /* Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = Source/Helper.swift; sourceTree = "<group>"; };
 		585B06DF333AD7EFAED5AD2EAF2A3D2D /* RLMArray.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMArray.mm; path = Realm/RLMArray.mm; sourceTree = "<group>"; };
 		588EED5CD70958506B71C6D60191D54D /* RLMObjectBase.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMObjectBase.mm; path = Realm/RLMObjectBase.mm; sourceTree = "<group>"; };
+		58FA8AE114FC592753E4DED70FC7F613 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RealmSwift.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		595625AAAA0D9A2F77CEA76C7B6075CF /* RLMSyncManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncManager.mm; path = Realm/RLMSyncManager.mm; sourceTree = "<group>"; };
 		597A568812B03160C0462B2FA32A6EA4 /* Behavior.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Behavior.swift; path = Sources/Quick/Behavior.swift; sourceTree = "<group>"; };
+		5996239AD81837A021CD18F9366F1BB5 /* ImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImagePicker.framework; path = ImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59E83D35A0B74FA92F753542789670BE /* QCKDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QCKDSL.h; path = Sources/QuickObjectiveC/DSL/QCKDSL.h; sourceTree = "<group>"; };
+		5B4C907F8D699EBC5750F5AE43957D9F /* Pods-ImageGalleryTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageGalleryTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5B5369E92A8D398B67479900F1FEDB0F /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fr.lproj; path = "Objective-C/TOCropViewController/fr.lproj"; sourceTree = "<group>"; };
 		5B900DCA0E7DDDF83FE6A7681C4011F3 /* RLMRealmConfiguration.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMRealmConfiguration.mm; path = Realm/RLMRealmConfiguration.mm; sourceTree = "<group>"; };
 		5C67D338A93D45F20BBABAFC144F6800 /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Quick/DSL/DSL.swift; sourceTree = "<group>"; };
@@ -878,57 +820,58 @@
 		612CF27F10AAA827DD86ADA9F9FB1563 /* RLMSyncUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncUser.h; path = include/RLMSyncUser.h; sourceTree = "<group>"; };
 		6147B879E8AB6B4B532928FF0C33CFC9 /* Expectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expectation.swift; path = Sources/Nimble/Expectation.swift; sourceTree = "<group>"; };
 		6161E202AF1274B192917AC7734E41DC /* ThreadSafeReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadSafeReference.swift; path = RealmSwift/ThreadSafeReference.swift; sourceTree = "<group>"; };
+		616D4D99198361DBB3D97E61D2EF8B78 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6231EA13C106A4EDC50D6FFB4E9ADAFC /* LinkingObjects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinkingObjects.swift; path = RealmSwift/LinkingObjects.swift; sourceTree = "<group>"; };
 		625D3C241BD82AA64205007CA951A4BE /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Optional.swift; path = RealmSwift/Optional.swift; sourceTree = "<group>"; };
 		6260A7CD45E94553C4F03B9A8E0C2EB0 /* RLMMigration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMMigration.h; path = include/RLMMigration.h; sourceTree = "<group>"; };
 		62E51631FAF81E2A785B8762541D156C /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = RealmSwift/Schema.swift; sourceTree = "<group>"; };
-		6359B92CF6BF703D2C78ACE699D855FD /* Pods-ImageGallery-SparkImageNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageGallery-SparkImageNetwork.debug.xcconfig"; sourceTree = "<group>"; };
-		63FB169A59C2CA826B507840D7D15C37 /* Pods-ImageGalleryTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageGalleryTests-resources.sh"; sourceTree = "<group>"; };
 		641658E2E1279242605E8FC6B189A9CF /* RLMObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObject.h; path = include/RLMObject.h; sourceTree = "<group>"; };
+		641AF171DECCB2EEBFC0608986DAE437 /* Pods-ImageGalleryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageGalleryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		649D833936226EE85BEEC68157303195 /* RLMResults_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMResults_Private.h; path = include/RLMResults_Private.h; sourceTree = "<group>"; };
 		655E72EA21D4C61301EF5B1559362ABE /* Realm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Realm.swift; path = RealmSwift/Realm.swift; sourceTree = "<group>"; };
 		65DD6177CD2B70854F48BBAE59439CBF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		6629FFB4106CA0A3B85C501869652E85 /* Pods-ImageGalleryTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageGalleryTests-dummy.m"; sourceTree = "<group>"; };
 		6656461F35F3FABC8A611DA676298F89 /* uuid.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = uuid.cpp; path = Realm/ObjectStore/src/util/uuid.cpp; sourceTree = "<group>"; };
 		6670C9CD215EE13F63BDBEAD303260A2 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = nl.lproj; path = "Objective-C/TOCropViewController/nl.lproj"; sourceTree = "<group>"; };
 		67608471A3BDDA9E36E823AB84E01883 /* HeroTransition+Complete.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Complete.swift"; path = "Sources/Transition/HeroTransition+Complete.swift"; sourceTree = "<group>"; };
 		676815BF64298A71B1AA5FBCD655C175 /* RLMNetworkClient.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMNetworkClient.mm; path = Realm/RLMNetworkClient.mm; sourceTree = "<group>"; };
+		683359C7C7B1A16A7E2D141B16E24C32 /* Pods-ImageGallery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageGallery.release.xcconfig"; sourceTree = "<group>"; };
 		68B2AB567C865CC4E3A815756B38B6CA /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
 		6A19274DACDE5930958B2E157974AC92 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
 		6A43D181D255B61BC5EAA29B0C366987 /* TopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TopView.swift; path = Source/TopView/TopView.swift; sourceTree = "<group>"; };
 		6A73DDB6A32D2FCB4FFE554853E3EE7C /* RLMObject.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMObject.mm; path = Realm/RLMObject.mm; sourceTree = "<group>"; };
-		6AC81641C5729227D94E14AB6191F551 /* Pods-ImageGallery-SparkImageNetwork-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageGallery-SparkImageNetwork-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6B00F12F6FF5EB2CB716E81A6513A28D /* List.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = List.swift; path = RealmSwift/List.swift; sourceTree = "<group>"; };
 		6B491D58D139A1EAC9A670BE18122E5A /* RLMOptionalBase.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMOptionalBase.mm; path = Realm/RLMOptionalBase.mm; sourceTree = "<group>"; };
-		6B622225547788434096B683C804B709 /* Pods_ImageGallery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageGallery.framework; path = "Pods-ImageGallery.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B761FD6BFF34D375D4E1795395AE6A7 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
 		6C2F99AEDF01E2C781BA784393581F40 /* sync_manager.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_manager.cpp; path = Realm/ObjectStore/src/sync/sync_manager.cpp; sourceTree = "<group>"; };
 		6CEEBC7973B0B094F2EB86A49929343E /* LocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = Source/LocationManager.swift; sourceTree = "<group>"; };
 		6CEF5E3BEC970C62B0663F296E17FABD /* DSL+Wait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DSL+Wait.swift"; path = "Sources/Nimble/DSL+Wait.swift"; sourceTree = "<group>"; };
+		6D015584E3DA04FD76083CC5EEA44F7E /* Pods-ImageGallery.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ImageGallery.modulemap"; sourceTree = "<group>"; };
 		6D1BF9CE980EC52F7A4529C806096292 /* RLMConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMConstants.h; path = include/RLMConstants.h; sourceTree = "<group>"; };
 		6F0A3C9415C42D21582A71FF9F577060 /* Closures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Closures.swift; path = Sources/Quick/Hooks/Closures.swift; sourceTree = "<group>"; };
 		6F14BC084D0B281AC1B2455455995100 /* VideoInfoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoInfoView.swift; path = Source/ImageGallery/VideoInfoView.swift; sourceTree = "<group>"; };
 		6F1D8805493952F71666BBAFB2F7831C /* RLMObjectBase_Dynamic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectBase_Dynamic.h; path = include/RLMObjectBase_Dynamic.h; sourceTree = "<group>"; };
+		6F6E104D11B163212028870FC67DEF5C /* Pods-ImageGallery-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageGallery-umbrella.h"; sourceTree = "<group>"; };
 		70093D162AF5816F9B0E9183220C1E24 /* RLMMigration_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMMigration_Private.h; path = include/RLMMigration_Private.h; sourceTree = "<group>"; };
 		701E58DC8820BFC77F760E4DCD925FF0 /* AssertionDispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionDispatcher.swift; path = Sources/Nimble/Adapters/AssertionDispatcher.swift; sourceTree = "<group>"; };
 		71A865482824587B521FAC42801A5597 /* id.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = id.lproj; path = "Objective-C/TOCropViewController/id.lproj"; sourceTree = "<group>"; };
 		72391E18757132BBCB08131B33B03C35 /* NSString+C99ExtendedIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSString+C99ExtendedIdentifier.swift"; path = "Sources/Quick/NSString+C99ExtendedIdentifier.swift"; sourceTree = "<group>"; };
 		7483130D28F05763117140E9938E0A39 /* TOCroppedImageAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCroppedImageAttributes.m; path = "Objective-C/TOCropViewController/Models/TOCroppedImageAttributes.m"; sourceTree = "<group>"; };
 		757E840596C01DCA1D120D776072CA9C /* ExampleGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleGroup.swift; path = Sources/Quick/ExampleGroup.swift; sourceTree = "<group>"; };
+		75D24FA2424ADFFECA200FD9D8BE8D8F /* Pods_SparkImageNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SparkImageNetwork.framework; path = "Pods-SparkImageNetwork.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761F7901FA0493F26573F9D9F7F97B28 /* HeroTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTypes.swift; path = Sources/HeroTypes.swift; sourceTree = "<group>"; };
 		766DB1496A28E1297F38B8D6BCE82C0D /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "Objective-C/TOCropViewController/zh-Hans.lproj"; sourceTree = "<group>"; };
 		777CAE02F094FE8DAA862A8E9A75AF56 /* NMBExceptionCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBExceptionCapture.h; path = Sources/NimbleObjectiveC/NMBExceptionCapture.h; sourceTree = "<group>"; };
+		78250DFC86C7B3D1FEC2B40A69890F23 /* Pods-SparkImageNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SparkImageNetwork.modulemap"; sourceTree = "<group>"; };
 		7844D9B9212EFD4DB594DC90EC44B9FB /* ImagePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImagePicker-umbrella.h"; sourceTree = "<group>"; };
 		788D7E977C5F89520B7C53A2CC1969F6 /* QuickSelectedTestSuiteBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickSelectedTestSuiteBuilder.swift; path = Sources/Quick/QuickSelectedTestSuiteBuilder.swift; sourceTree = "<group>"; };
 		78CAD3E9236699525FCC3E4B2EED779E /* HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroModifier.swift; path = Sources/HeroModifier.swift; sourceTree = "<group>"; };
-		7908E6C392207F014B7D3665C50E7341 /* Pods-ImageGallery-SparkImageNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ImageGallery-SparkImageNetwork.modulemap"; sourceTree = "<group>"; };
 		792CF706C4DD406FF600EBA54D56DDF8 /* RLMSyncCredentials.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMSyncCredentials.m; path = Realm/RLMSyncCredentials.m; sourceTree = "<group>"; };
+		797752B1545AABDE8103D33FF939DF2D /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7978431B1AD607E35E335D6F9D0899E0 /* RLMObjectSchema_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectSchema_Private.h; path = include/RLMObjectSchema_Private.h; sourceTree = "<group>"; };
 		79ECDFF88806D449C971018152D79504 /* index_set.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = index_set.cpp; path = Realm/ObjectStore/src/index_set.cpp; sourceTree = "<group>"; };
 		79F1435546DA1F375F3965F7FC5EBD18 /* NMBExceptionCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBExceptionCapture.m; path = Sources/NimbleObjectiveC/NMBExceptionCapture.m; sourceTree = "<group>"; };
 		7A8156606414107799E3CE1BB24080C3 /* HeroTransition+CustomTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+CustomTransition.swift"; path = "Sources/Transition/HeroTransition+CustomTransition.swift"; sourceTree = "<group>"; };
 		7AE01E9A61ECE594026495112A7E1952 /* Realm-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Realm-dummy.m"; sourceTree = "<group>"; };
-		7AF79DE250AC0B9266206654C0CE87B0 /* Pods-SparkImageNetworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SparkImageNetworkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B2AEBF222DD5BEAFFFFC877C8915FF6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B48A5F7B82CFE7BC4066E91A333872E /* RLMSyncPermissionResults.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncPermissionResults.mm; path = Realm/RLMSyncPermissionResults.mm; sourceTree = "<group>"; };
 		7B4E8C0C0681787257F4F34EF24238E1 /* ButtonPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonPicker.swift; path = Source/BottomView/ButtonPicker.swift; sourceTree = "<group>"; };
@@ -968,25 +911,20 @@
 		8F6A78D2ED3BF5E62455C81452468452 /* Quick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Quick.h; path = Sources/QuickObjectiveC/Quick.h; sourceTree = "<group>"; };
 		8FA5410AEF5BF51D06B97D702141BFEE /* mach_excServer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mach_excServer.c; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.c; sourceTree = "<group>"; };
 		8FA8638DDF68003B74E76E81E1DFC084 /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = RealmSwift/Property.swift; sourceTree = "<group>"; };
-		8FFEAA8D0F6616EC68A4E41BF7A1AF1A /* Pods-SparkImageNetworkTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SparkImageNetworkTests-umbrella.h"; sourceTree = "<group>"; };
 		90474CF8A21F54F7FC6D08C5614C4FAC /* collection_change_builder.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = collection_change_builder.cpp; path = Realm/ObjectStore/src/impl/collection_change_builder.cpp; sourceTree = "<group>"; };
 		919E10809EE03C190810983FB5AF49F6 /* SwiftVersion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftVersion.swift; path = RealmSwift/SwiftVersion.swift; sourceTree = "<group>"; };
 		925EC0ED88A756573F9B0BF6B7C0FFE7 /* RealmSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RealmSwift-prefix.pch"; sourceTree = "<group>"; };
 		927F0348042CA9FAC3BAC5FCFED73A09 /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Nimble/DSL.swift; sourceTree = "<group>"; };
-		9309EAF8E8AA116BCB0A0578198DCAF6 /* Pods-ImageGallery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageGallery.debug.xcconfig"; sourceTree = "<group>"; };
+		9363C5FD3436FBA1ABA96F557BA509AF /* Pods-SparkImageNetworkTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SparkImageNetworkTests-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93C9FC24308DBE3F076D0F19868D554A /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
 		940C4A30F76D38AB39B4750CCD000188 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
 		947BB0BAB86EE9EB5C67FD55A5B40C00 /* RLMObjectSchema.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMObjectSchema.mm; path = Realm/RLMObjectSchema.mm; sourceTree = "<group>"; };
 		948FE4B11398DF79ECE1658AF4863D16 /* Migration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Migration.swift; path = RealmSwift/Migration.swift; sourceTree = "<group>"; };
-		94AC433D8386EBCF3A9E7AF0B8D5E011 /* Pods-ImageGallery.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ImageGallery.modulemap"; sourceTree = "<group>"; };
 		94BBC3AC6676AE1059721B99ACA98514 /* RLMRealm+Sync.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RLMRealm+Sync.h"; path = "include/RLMRealm+Sync.h"; sourceTree = "<group>"; };
 		94E50B7642C0403D54682D4B1E27B681 /* TOCropScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropScrollView.h; path = "Objective-C/TOCropViewController/Views/TOCropScrollView.h"; sourceTree = "<group>"; };
 		95783DE7FB4381D2187C724C18847F38 /* Object.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Object.swift; path = RealmSwift/Object.swift; sourceTree = "<group>"; };
 		95BDEB9B49AAD987B6E20C8FF9937642 /* RLMObjectSchema.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectSchema.h; path = include/RLMObjectSchema.h; sourceTree = "<group>"; };
-		960FAA6C160DB321A67EE0EAC33AF752 /* Pods-ImageGalleryTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ImageGalleryTests.modulemap"; sourceTree = "<group>"; };
-		966F52AC48C391BBF5799B658857B937 /* Pods-SparkImageNetworkTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SparkImageNetworkTests.modulemap"; sourceTree = "<group>"; };
-		96EA110B98C05A13113781A2A8B0892A /* Pods-SparkImageNetworkTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SparkImageNetworkTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		96EF5DEDCEFBFC08EE347DE8BEB92F00 /* ErrorUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorUtility.swift; path = Sources/Quick/ErrorUtility.swift; sourceTree = "<group>"; };
 		9703D87AA03E9B01F2201B876B167A63 /* Hero-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hero-dummy.m"; sourceTree = "<group>"; };
 		9962C7EE4CECD310F3E3CF1E922C11B5 /* system_configuration.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = system_configuration.cpp; path = Realm/ObjectStore/src/sync/impl/apple/system_configuration.cpp; sourceTree = "<group>"; };
@@ -996,27 +934,28 @@
 		9AA0A48285F670B36ABD90A0E94E4351 /* Realm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Realm.h; path = include/Realm.h; sourceTree = "<group>"; };
 		9ADF2DA023E2E894A97443AA32AAC11C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		9B3001EBCEA3BAAE45D29B53070B03C5 /* SourceLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceLocation.swift; path = Sources/Nimble/Utils/SourceLocation.swift; sourceTree = "<group>"; };
-		9B5F485985BE8CEB0174DCB4E1FD7D0C /* Pods-ImageGalleryTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageGalleryTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9B85B58A35ACE9FAAAAEF443AEE09F05 /* Pods_ImageGallery_SparkImageNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageGallery_SparkImageNetwork.framework; path = "Pods-ImageGallery-SparkImageNetwork.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF43CA5F9818C4B6C24F60E6DFB0C7D /* Pods-SparkImageNetworkTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SparkImageNetworkTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9BF6A57D0C3F523D5ED4C0BF09DC171F /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOActivityCroppedImageProvider.m; path = "Objective-C/TOCropViewController/Models/TOActivityCroppedImageProvider.m"; sourceTree = "<group>"; };
 		9D729C2712BBF418CFDD646899D59822 /* network_reachability_observer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = network_reachability_observer.cpp; path = Realm/ObjectStore/src/sync/impl/apple/network_reachability_observer.cpp; sourceTree = "<group>"; };
 		9D9B33163E0C2D9EDC72D834CA34FA65 /* schema.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = schema.cpp; path = Realm/ObjectStore/src/schema.cpp; sourceTree = "<group>"; };
 		9DF7708BCDBA8DA466E1788D69BF5B1F /* ObjectSchema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectSchema.swift; path = RealmSwift/ObjectSchema.swift; sourceTree = "<group>"; };
-		9E2209A958EC5146B97A9AD2E09D4315 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E440B3EFA9C069CF69D9C582E075487 /* results.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = results.cpp; path = Realm/ObjectStore/src/results.cpp; sourceTree = "<group>"; };
 		9E6751BB64DEB0440F6B96B88D7C0742 /* RLMOptionalBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMOptionalBase.h; path = include/RLMOptionalBase.h; sourceTree = "<group>"; };
 		9EB7D392C0CA1EFDA9BB19892F5C9D31 /* list_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = list_notifier.cpp; path = Realm/ObjectStore/src/impl/list_notifier.cpp; sourceTree = "<group>"; };
+		9EED44C6070E3D7C710FC8FCC1485233 /* Pods-ImageGalleryTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageGalleryTests-resources.sh"; sourceTree = "<group>"; };
 		9F0A5F704537E20A29B1B25C43DCBB27 /* object_schema.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = object_schema.cpp; path = Realm/ObjectStore/src/object_schema.cpp; sourceTree = "<group>"; };
 		A003B976E347DE559107B4DF70F3BBF4 /* RLMArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMArray.h; path = include/RLMArray.h; sourceTree = "<group>"; };
+		A05FE4CFC3A6D154F215262140D5BAD0 /* Pods-ImageGalleryTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageGalleryTests-umbrella.h"; sourceTree = "<group>"; };
 		A0C09C56E2B8E154D496A00CE48CA88E /* CwlBadInstructionException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlBadInstructionException.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlBadInstructionException.swift; sourceTree = "<group>"; };
 		A0C1A94D923FD4C94A426609606379D2 /* Util.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Util.swift; path = RealmSwift/Util.swift; sourceTree = "<group>"; };
-		A155D105DCF1CAF777F2578CD6FDE6D5 /* TOCropViewControllerBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TOCropViewControllerBundle.bundle; path = TOCropViewControllerBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A123844049399108B8D558DA7CBA8FC8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A15DB39CC0274312FB85B7067764A54F /* Pods-SparkImageNetworkTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SparkImageNetworkTests-resources.sh"; sourceTree = "<group>"; };
 		A17C65AB8D88C432505E6033F26EF377 /* weak_realm_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = weak_realm_notifier.cpp; path = Realm/ObjectStore/src/impl/weak_realm_notifier.cpp; sourceTree = "<group>"; };
+		A216104E80CE0C6320A0C1D8025CCBBB /* Pods-SparkImageNetworkTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SparkImageNetworkTests-dummy.m"; sourceTree = "<group>"; };
 		A26CC99CA91740251432B7F5C0DFD840 /* RLMPredicateUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMPredicateUtil.mm; path = Realm/RLMPredicateUtil.mm; sourceTree = "<group>"; };
 		A3EC2D3EBF33290317F9F23267C6318E /* CropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CropViewController.h; path = Swift/CropViewController/CropViewController.h; sourceTree = "<group>"; };
 		A50CF0B37DAD06D743D94FDEA5015A42 /* HeroTransition+Animate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Animate.swift"; path = "Sources/Transition/HeroTransition+Animate.swift"; sourceTree = "<group>"; };
 		A561CFB1DBAD84E0D96FE3F7CB5D9FE1 /* QCKDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCKDSL.m; path = Sources/QuickObjectiveC/DSL/QCKDSL.m; sourceTree = "<group>"; };
-		A59C91D45E146E882CD8BD50A5CCC577 /* Pods-SparkImageNetworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SparkImageNetworkTests.release.xcconfig"; sourceTree = "<group>"; };
 		A5B355182434A303C5A3F4C2CEF0BF6E /* HeroTransition+UINavigationControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UINavigationControllerDelegate.swift"; path = "Sources/Transition/HeroTransition+UINavigationControllerDelegate.swift"; sourceTree = "<group>"; };
 		A5BFEF3CF550AB079E2B294FE40E512D /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
 		A649B5674FADF62A7349053076F1E946 /* ExampleHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleHooks.swift; path = Sources/Quick/Hooks/ExampleHooks.swift; sourceTree = "<group>"; };
@@ -1024,7 +963,9 @@
 		A85EA56747E0A5CC04381E1475A98DC8 /* Hero.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Hero.modulemap; sourceTree = "<group>"; };
 		A8BB102BAF256956E2E88452CD3C6781 /* HeroDefaultAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDefaultAnimator.swift; path = Sources/Animator/HeroDefaultAnimator.swift; sourceTree = "<group>"; };
 		A8BBB28857E0F5B77BE9331EDA2B4B3E /* RLMAccessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMAccessor.h; path = include/RLMAccessor.h; sourceTree = "<group>"; };
+		AA38B39EC870F21BE72481344C8188A0 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Quick.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA45CA1E0E3C35EDF3D798156067A583 /* shared_realm.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = shared_realm.cpp; path = Realm/ObjectStore/src/shared_realm.cpp; sourceTree = "<group>"; };
+		AB61F023F1FAB87E6D4A98A398E3D797 /* Pods-ImageGalleryTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageGalleryTests-dummy.m"; sourceTree = "<group>"; };
 		AD8B02020E859EB73C77B6D68C5A663D /* UIImage+CropRotate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+CropRotate.h"; path = "Objective-C/TOCropViewController/Models/UIImage+CropRotate.h"; sourceTree = "<group>"; };
 		ADC913F271B2E8BC67E3C450BFD1C1BA /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = RealmSwift/Error.swift; sourceTree = "<group>"; };
 		ADE5CC7276A827557DADABD01E1B799D /* RLMSyncUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncUtil.mm; path = Realm/RLMSyncUtil.mm; sourceTree = "<group>"; };
@@ -1032,19 +973,18 @@
 		AF1A597CF02B476F7362FB827E0A0E19 /* keychain_helper.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = keychain_helper.cpp; path = Realm/ObjectStore/src/impl/apple/keychain_helper.cpp; sourceTree = "<group>"; };
 		AFC52157FA5FCA8F96653BAB12ADC9E9 /* QuickSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpec.h; path = Sources/QuickObjectiveC/QuickSpec.h; sourceTree = "<group>"; };
 		B00AA818374940513F7B06233AB89972 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/Nimble/Utils/Errors.swift; sourceTree = "<group>"; };
+		B0B9736ED1A2F26B16479B6C8BAD761B /* Pods-ImageGalleryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageGalleryTests.release.xcconfig"; sourceTree = "<group>"; };
 		B0C89B7F7598AA07BE5A3AC098103253 /* ImageGalleryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageGalleryView.swift; path = Source/ImageGallery/ImageGalleryView.swift; sourceTree = "<group>"; };
 		B0FBD351D85FA4070FDC77DD61CFBBBF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B12FDDA0CB2E5D84BBC10E2B9421880D /* Hero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hero.framework; path = Hero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1325A321F7DAF7590BE5049AEF36008 /* Realm-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Realm-prefix.pch"; sourceTree = "<group>"; };
 		B1C68C823776852D8EAAE6D519B42953 /* BeLessThanOrEqual.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThanOrEqual.swift; path = Sources/Nimble/Matchers/BeLessThanOrEqual.swift; sourceTree = "<group>"; };
-		B2A3D85BD03265298AE6AE239A767743 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RealmSwift.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B36C3617206E713606BF57DDAB130379 /* sync_session.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_session.cpp; path = Realm/ObjectStore/src/sync/sync_session.cpp; sourceTree = "<group>"; };
 		B37703EFB610585502745A88A3810245 /* thread_safe_reference.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = thread_safe_reference.cpp; path = Realm/ObjectStore/src/thread_safe_reference.cpp; sourceTree = "<group>"; };
 		B40ABB8CAD45DD67D48715BAB840D7E9 /* TOCropView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropView.h; path = "Objective-C/TOCropViewController/Views/TOCropView.h"; sourceTree = "<group>"; };
 		B496F809405FB213993E9223190CBD25 /* BeEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeEmpty.swift; path = Sources/Nimble/Matchers/BeEmpty.swift; sourceTree = "<group>"; };
 		B49B2EC8A3E6CC62CDCBC3AC5143EE7B /* DSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DSL.m; path = Sources/NimbleObjectiveC/DSL.m; sourceTree = "<group>"; };
-		B49C82E845CE276FB878DA0C108DF7A8 /* Pods-SparkImageNetworkTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SparkImageNetworkTests-dummy.m"; sourceTree = "<group>"; };
 		B4A3F968728F6D92207985B9BADBF511 /* MatchError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchError.swift; path = Sources/Nimble/Matchers/MatchError.swift; sourceTree = "<group>"; };
-		B4F1986CEAA56DC1FD7E23320F9323DF /* ImagePicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ImagePicker.bundle; path = ImagePicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D16DAF6F966CDEA72342847BD9B81C /* cameraIcon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "cameraIcon@3x.png"; path = "Images/cameraIcon@3x.png"; sourceTree = "<group>"; };
 		B658CE7F21587CC74ED156D36CA4B249 /* RLMSyncUtil_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncUtil_Private.h; path = include/RLMSyncUtil_Private.h; sourceTree = "<group>"; };
 		B6A5D5722F9F573F399746B5435D69A0 /* RLMListBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMListBase.h; path = include/RLMListBase.h; sourceTree = "<group>"; };
@@ -1066,20 +1006,21 @@
 		BC3E3AC79E959D91A32848324B5E012C /* UIViewController+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Hero.swift"; path = "Sources/Extensions/UIViewController+Hero.swift"; sourceTree = "<group>"; };
 		BC8D2C3785565EEC8C468B3E7D709660 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD2768300EC87FC33504696D56DA2218 /* RLMObject_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObject_Private.h; path = include/RLMObject_Private.h; sourceTree = "<group>"; };
+		BD418063997FD00DFDB976DF87ADF7D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD475D1323514330A79BDB24DD4E8FEC /* CameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraView.swift; path = Source/CameraView/CameraView.swift; sourceTree = "<group>"; };
 		BDAF95C9D655A6B9F2C12361E5783F98 /* EndWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndWith.swift; path = Sources/Nimble/Matchers/EndWith.swift; sourceTree = "<group>"; };
 		BF31248B55F2A2DEAD4C4B15038413DA /* NimbleEnvironment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleEnvironment.swift; path = Sources/Nimble/Adapters/NimbleEnvironment.swift; sourceTree = "<group>"; };
 		BF57F011384831DB06A65A8E9AD5974D /* ImageGalleryViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageGalleryViewCell.swift; path = Source/ImageGallery/ImageGalleryViewCell.swift; sourceTree = "<group>"; };
-		BF5EC66C9A08AC2CBD1C9EE984667E91 /* Pods-ImageGallery-SparkImageNetwork-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageGallery-SparkImageNetwork-resources.sh"; sourceTree = "<group>"; };
 		BFA83BFFEB5A74394B6DD67AA6363C59 /* RLMResults.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMResults.mm; path = Realm/RLMResults.mm; sourceTree = "<group>"; };
 		C17474A2050BCBDED8CD7DA906EC180C /* RLMCollection_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMCollection_Private.h; path = include/RLMCollection_Private.h; sourceTree = "<group>"; };
 		C26587E1FBC6049D01035338D59C6A73 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C2E77489EC8721BBD03E5079CE6E7079 /* sync_permission.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_permission.cpp; path = Realm/ObjectStore/src/sync/sync_permission.cpp; sourceTree = "<group>"; };
 		C30E4CEB0E6A0714E3B1F67086626FC9 /* Quick-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-prefix.pch"; sourceTree = "<group>"; };
 		C32F045F3933FE4307EFA4D126A7A9DA /* ms.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ms.lproj; path = "Objective-C/TOCropViewController/ms.lproj"; sourceTree = "<group>"; };
-		C50F3545E0536BAF8F0A61697606F154 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C377D60666BEF4CB948AA05366BD893D /* TOCropViewControllerBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TOCropViewControllerBundle.bundle; path = TOCropViewControllerBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		C514A52069BE2468E7EB159DC02A4985 /* RLMSyncSession.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncSession.mm; path = Realm/RLMSyncSession.mm; sourceTree = "<group>"; };
 		C529BEF315C528A95B3AA0DD1909714B /* AllPass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllPass.swift; path = Sources/Nimble/Matchers/AllPass.swift; sourceTree = "<group>"; };
+		C5B812FED617E54EFB6B14B6B94E0490 /* Pods-SparkImageNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SparkImageNetwork-umbrella.h"; sourceTree = "<group>"; };
 		C607D611F467AB2047635B82556F010F /* ToSucceed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToSucceed.swift; path = Sources/Nimble/Matchers/ToSucceed.swift; sourceTree = "<group>"; };
 		C653B301171A745008BB64B334946EA4 /* HeroTransitionState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTransitionState.swift; path = Sources/Transition/HeroTransitionState.swift; sourceTree = "<group>"; };
 		C67A290C8ED045CF445AA37906844E05 /* MatcherFunc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherFunc.swift; path = Sources/Nimble/Matchers/MatcherFunc.swift; sourceTree = "<group>"; };
@@ -1089,16 +1030,17 @@
 		C8BF5B5CEC17B2EC917A967B51274090 /* BeNil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeNil.swift; path = Sources/Nimble/Matchers/BeNil.swift; sourceTree = "<group>"; };
 		C8CDA3DA8B5F280C65337B9BD6EE745B /* Realm.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Realm.modulemap; sourceTree = "<group>"; };
 		C8F83C19F0AE0318E67A0378704E48B5 /* external_commit_helper.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = external_commit_helper.cpp; path = Realm/ObjectStore/src/impl/apple/external_commit_helper.cpp; sourceTree = "<group>"; };
-		C94F0B09D1232997A403E7D9706A82AF /* Pods-ImageGallery-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageGallery-dummy.m"; sourceTree = "<group>"; };
 		C9746D33D49E02D78D21071914385071 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/Nimble/Expression.swift; sourceTree = "<group>"; };
 		C9F02275ECE478B3CDF135ACDF34D4E7 /* Quick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Quick.modulemap; sourceTree = "<group>"; };
+		CA26F3205F04A5676E13A04985C3AF1A /* CropViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CropViewController.framework; path = CropViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA81BE801E30652D01D9153B705E9198 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		CB0E30EDA5899C4D706E034091279322 /* Realm.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Realm.xcconfig; sourceTree = "<group>"; };
 		CB934BD17B9B7B6C2C0628314B6BE7A9 /* RLMObjectStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectStore.h; path = include/RLMObjectStore.h; sourceTree = "<group>"; };
 		CB9CC683F6E7144C73D946C57B375879 /* RLMPlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMPlatform.h; path = include/RLMPlatform.h; sourceTree = "<group>"; };
 		CBF4FDFAD6D8EC1EB680D97F59A7194A /* BeIdenticalTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeIdenticalTo.swift; path = Sources/Nimble/Matchers/BeIdenticalTo.swift; sourceTree = "<group>"; };
-		CCD9B42836BD12F7EB1C3990B861F9C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC3186245F80821BCE5DFB8FCDE2B454 /* Pods-SparkImageNetwork-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SparkImageNetwork-acknowledgements.plist"; sourceTree = "<group>"; };
 		CE20A79F9AFC3B904E75C4FE7AA6641D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2907A4278F953A81B9439FDC65C0DB /* Pods-SparkImageNetworkTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SparkImageNetworkTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CE621B38C82AF8F3378665E0DF090EF7 /* RLMSyncUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncUtil.h; path = include/RLMSyncUtil.h; sourceTree = "<group>"; };
 		CF3DA6930E7E60B1AEDD93396F62E40D /* realm_coordinator.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = realm_coordinator.cpp; path = Realm/ObjectStore/src/impl/realm_coordinator.cpp; sourceTree = "<group>"; };
 		CF6BAFE9B465B6CDCE377FC6A6800260 /* HeroContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroContext.swift; path = Sources/HeroContext.swift; sourceTree = "<group>"; };
@@ -1116,15 +1058,17 @@
 		D6DEABA120785A717D43B49026746A4D /* RLMRealmConfiguration_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealmConfiguration_Private.h; path = include/RLMRealmConfiguration_Private.h; sourceTree = "<group>"; };
 		D6F8561B121E2AAF7E206162EDDDADF3 /* ImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImagePicker-prefix.pch"; sourceTree = "<group>"; };
 		D9DE0625F9A821D2D532CB6C9987672E /* RLMObjectBase_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectBase_Private.h; path = include/RLMObjectBase_Private.h; sourceTree = "<group>"; };
-		DA90770B13ECF7B959D8B71D3D78D80D /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nimble.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB41688CD13EB95B1C41AA1A3E790B97 /* World.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = World.swift; path = Sources/Quick/World.swift; sourceTree = "<group>"; };
 		DB593CCDA3BC13F5FCECEB79E89A9D62 /* CALayer+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Hero.swift"; path = "Sources/Extensions/CALayer+Hero.swift"; sourceTree = "<group>"; };
 		DB79F722173E53FAA2E76F3EB6F96038 /* RLMSyncManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncManager.h; path = include/RLMSyncManager.h; sourceTree = "<group>"; };
+		DC20D2A0A08FF37A21477204EE4DDA38 /* Pods-ImageGalleryTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageGalleryTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DCD94B1A89F24E57849E294A1906B379 /* Pods-ImageGallery-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageGallery-frameworks.sh"; sourceTree = "<group>"; };
 		DD5F25968186AD861B280102E4F5FF1A /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
 		DD7CEEEA2714BFF3D65ACBCAD45532A0 /* UIKit+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Hero.swift"; path = "Sources/Extensions/UIKit+Hero.swift"; sourceTree = "<group>"; };
 		DDE61C6201114B8707387F6BADF67D44 /* RaisesException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RaisesException.swift; path = Sources/Nimble/Matchers/RaisesException.swift; sourceTree = "<group>"; };
 		DE6DDCF3A8792D2815D62427994F3C81 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = de.lproj; path = "Objective-C/TOCropViewController/de.lproj"; sourceTree = "<group>"; };
 		DEEC1E71B977AB8139637CC4DFBD41D1 /* video@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "video@3x.png"; path = "Images/video@3x.png"; sourceTree = "<group>"; };
+		DFAA3446CA41EA1739F0AD007FF62F03 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFDF7ADC390DA844864E828EB70B3232 /* World+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "World+DSL.swift"; path = "Sources/Quick/DSL/World+DSL.swift"; sourceTree = "<group>"; };
 		E095075E6C173534E922040C46575EF4 /* BeAnInstanceOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAnInstanceOf.swift; path = Sources/Nimble/Matchers/BeAnInstanceOf.swift; sourceTree = "<group>"; };
 		E116CCD718E9D4E6E2014EB821E6C0CE /* CwlMachBadInstructionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlMachBadInstructionHandler.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/include/CwlMachBadInstructionHandler.h; sourceTree = "<group>"; };
@@ -1132,6 +1076,7 @@
 		E360E94786CA7F6545EC617752A7237C /* RLMRealmConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealmConfiguration.h; path = include/RLMRealmConfiguration.h; sourceTree = "<group>"; };
 		E390D187136DF575034BABF3F54A9D09 /* DispatchQueue+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Hero.swift"; path = "Sources/Extensions/DispatchQueue+Hero.swift"; sourceTree = "<group>"; };
 		E3A1E2422118CFFC70CECDE12E90E354 /* CurrentTestCaseTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CurrentTestCaseTracker.h; path = Sources/NimbleObjectiveC/CurrentTestCaseTracker.h; sourceTree = "<group>"; };
+		E41C40669A4383D5E5A787D24699FA54 /* Pods-SparkImageNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SparkImageNetwork.release.xcconfig"; sourceTree = "<group>"; };
 		E4D27383121D90FBA48C3072A0D8E724 /* CropViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CropViewController.modulemap; sourceTree = "<group>"; };
 		E55391DBA9CEA34680055B24B26AD0C4 /* World+DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "World+DSL.h"; path = "Sources/QuickObjectiveC/DSL/World+DSL.h"; sourceTree = "<group>"; };
 		E5991C312769232B60C21D5DA11F7471 /* RLMSwiftSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMSwiftSupport.m; path = Realm/RLMSwiftSupport.m; sourceTree = "<group>"; };
@@ -1142,21 +1087,19 @@
 		E810479A1A0CA542F1B755F19DED6385 /* PostNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PostNotification.swift; path = Sources/Nimble/Matchers/PostNotification.swift; sourceTree = "<group>"; };
 		E9C1EF5F4E35493987417646EEC0BB62 /* ImageGalleryViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageGalleryViewDataSource.swift; path = Source/ImageGallery/ImageGalleryViewDataSource.swift; sourceTree = "<group>"; };
 		EA228C5006B8C5D4EB4FDB73E7AF4A15 /* RLMThreadSafeReference.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMThreadSafeReference.mm; path = Realm/RLMThreadSafeReference.mm; sourceTree = "<group>"; };
-		EB1B4B273801A152166E9A9358DE547C /* Pods-ImageGalleryTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageGalleryTests-umbrella.h"; sourceTree = "<group>"; };
+		EC18977EDFBE96C6DE683335D2834D15 /* Pods-ImageGalleryTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ImageGalleryTests.modulemap"; sourceTree = "<group>"; };
 		ED0A947F9523A17E0BB447824596CB44 /* Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Async.swift; path = Sources/Nimble/Utils/Async.swift; sourceTree = "<group>"; };
-		ED7166FD2A1C2B3E27628400A892C176 /* Pods-ImageGalleryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageGalleryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EDA9CA081F81443ABE8854502657024A /* BeginWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeginWith.swift; path = Sources/Nimble/Matchers/BeginWith.swift; sourceTree = "<group>"; };
-		EE30A7C2D9C31B0E3EE23F06304BA1E3 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Quick.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE670FD270C17204ACB6795B625D799C /* collection_notifications.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = collection_notifications.cpp; path = Realm/ObjectStore/src/collection_notifications.cpp; sourceTree = "<group>"; };
 		EE8F8342AD68389B9428DD58BF998DB9 /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pl.lproj; path = "Objective-C/TOCropViewController/pl.lproj"; sourceTree = "<group>"; };
 		EF5FDF8B1F72FEF5CC6ADACCDF39E01F /* mach_excServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mach_excServer.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.h; sourceTree = "<group>"; };
 		EFBF804D34FBBFAEA00E001C992FEC92 /* primitive_list_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = primitive_list_notifier.cpp; path = Realm/ObjectStore/src/impl/primitive_list_notifier.cpp; sourceTree = "<group>"; };
-		EFD81CA2AE7B9F9651E96D5BF21BB318 /* Pods-ImageGallery-SparkImageNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageGallery-SparkImageNetwork.release.xcconfig"; sourceTree = "<group>"; };
 		F0739ED8EEF0EBE5B34FFA7D322A54D7 /* CwlCatchException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlCatchException.h; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchException.h; sourceTree = "<group>"; };
 		F102D6041AD4C2EA6C5BB6D460A9E388 /* NSError+RLMSync.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+RLMSync.h"; path = "include/NSError+RLMSync.h"; sourceTree = "<group>"; };
 		F13A72373A992FED718C4D93378D1B2D /* RLMSyncSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncSession.h; path = include/RLMSyncSession.h; sourceTree = "<group>"; };
 		F1D1F05100909D54718E934505609E68 /* TOCropToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropToolbar.h; path = "Objective-C/TOCropViewController/Views/TOCropToolbar.h"; sourceTree = "<group>"; };
 		F20CEB239AB9DD7EC36FF26BF930F477 /* AssertionRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionRecorder.swift; path = Sources/Nimble/Adapters/AssertionRecorder.swift; sourceTree = "<group>"; };
+		F23B0329FB96DA5808032E2540C25E21 /* Pods-SparkImageNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SparkImageNetwork.debug.xcconfig"; sourceTree = "<group>"; };
 		F35101798F94E15659C97FBDCD21FD79 /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = Base.lproj; path = "Objective-C/TOCropViewController/Base.lproj"; sourceTree = "<group>"; };
 		F46C35239ED66B42F71839CC32F26E5E /* RLMSyncConfiguration_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncConfiguration_Private.h; path = include/RLMSyncConfiguration_Private.h; sourceTree = "<group>"; };
 		F5A1E82C6FE71804065B6B965FA63365 /* CameraMan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraMan.swift; path = Source/CameraView/CameraMan.swift; sourceTree = "<group>"; };
@@ -1166,8 +1109,8 @@
 		F7DBBC6A37EA1093F9261B7CBB8935D9 /* RealmCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RealmCollection.swift; path = RealmSwift/RealmCollection.swift; sourceTree = "<group>"; };
 		F804E399B84B0E22E3FFEA363029FB4E /* XCTestSuite+QuickTestSuiteBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestSuite+QuickTestSuiteBuilder.m"; path = "Sources/QuickObjectiveC/XCTestSuite+QuickTestSuiteBuilder.m"; sourceTree = "<group>"; };
 		F87074D89535936336177A11E3CE90F8 /* Callsite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callsite.swift; path = Sources/Quick/Callsite.swift; sourceTree = "<group>"; };
+		F9058A4AE42FE91F10EA480BC7D741D5 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Realm.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F93CF96E35198DF83E993ACC61417920 /* CwlDarwinDefinitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlDarwinDefinitions.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlDarwinDefinitions.swift; sourceTree = "<group>"; };
-		F9C69D694BAD2B604CDAD0E8A865A0F4 /* Pods-ImageGallery-SparkImageNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageGallery-SparkImageNetwork-dummy.m"; sourceTree = "<group>"; };
 		FA4FE018833F8A61FD224CE5CE21F810 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Quick/Configuration/Configuration.swift; sourceTree = "<group>"; };
 		FA510D41B0C05610961BE9734D69E297 /* CwlMachBadInstructionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlMachBadInstructionHandler.m; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/CwlMachBadInstructionHandler.m; sourceTree = "<group>"; };
 		FAD992352D3124BB9366EF5CC61579A1 /* TOCropToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropToolbar.m; path = "Objective-C/TOCropViewController/Views/TOCropToolbar.m"; sourceTree = "<group>"; };
@@ -1175,6 +1118,7 @@
 		FD759849C83347E37762E0A405429D82 /* ConditionalPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConditionalPreprocessor.swift; path = Sources/Preprocessors/ConditionalPreprocessor.swift; sourceTree = "<group>"; };
 		FD7CF0F46F2DD606D856A363D64C77E0 /* RLMObjectStore.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMObjectStore.mm; path = Realm/RLMObjectStore.mm; sourceTree = "<group>"; };
 		FE2284887859F54504E98FC568C00D12 /* CwlCatchBadInstruction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchBadInstruction.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlCatchBadInstruction.swift; sourceTree = "<group>"; };
+		FE2FCF334BF391EF3A1F83BB9F655A9F /* Pods_ImageGalleryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageGalleryTests.framework; path = "Pods-ImageGalleryTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE5542E7A51961D155D866667D70335D /* ContainElementSatisfying.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainElementSatisfying.swift; path = Sources/Nimble/Matchers/ContainElementSatisfying.swift; sourceTree = "<group>"; };
 		FEC4B06958073FD383C54AA323AC2D0E /* Quick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Quick-dummy.m"; sourceTree = "<group>"; };
 		FF4CFD6F3EF7DD285540F9A5624E7C3D /* RLMRealm_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealm_Private.h; path = include/RLMRealm_Private.h; sourceTree = "<group>"; };
@@ -1184,20 +1128,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0B75EB8FE4E63D807E7B78398C788E0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8596BA8F7BF411F287AE9CDC787CF7C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		110E2611FD5754C36D751DFF05044166 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7750B41B6FEAF447DD89237E2920FE30 /* AVFoundation.framework in Frameworks */,
 				8ADC7BE06862E7A8D631BD7A987CC983 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4C1410708D68808D8B18909BC147DB6F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				33D720F446C6704B8E3AEC9EEF0EAA15 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1275,11 +1219,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E46685C7B3E12133BD73A3780083E924 /* Frameworks */ = {
+		C71D0B5E55D3BCB564C3CC9ADCA6BD79 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B15E3DF10A34408F3EDE030D94C1066 /* Foundation.framework in Frameworks */,
+				91B8E0CD1667F679D89E21D3568A54A3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1343,27 +1287,6 @@
 				19427D5710664D32E74EA534C35067B9 /* SVProgressHUD */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		16201A3D9CA5B286D78B52256134F232 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				15566CC4B2F25BAA633EC8533251185C /* CropViewController.framework */,
-				1B8D32C1CDBB1315B1A64BF5B3C1E564 /* Hero.framework */,
-				B4F1986CEAA56DC1FD7E23320F9323DF /* ImagePicker.bundle */,
-				3866BB117152E7F3BA5B851205E66724 /* ImagePicker.framework */,
-				DA90770B13ECF7B959D8B71D3D78D80D /* Nimble.framework */,
-				6B622225547788434096B683C804B709 /* Pods_ImageGallery.framework */,
-				9B85B58A35ACE9FAAAAEF443AEE09F05 /* Pods_ImageGallery_SparkImageNetwork.framework */,
-				429DA5A78C86F48CEA0A1D82B56D1EF7 /* Pods_ImageGalleryTests.framework */,
-				052265724E54A440F891F7CC72637904 /* Pods_SparkImageNetworkTests.framework */,
-				EE30A7C2D9C31B0E3EE23F06304BA1E3 /* Quick.framework */,
-				17E29D7C1164B0E28B21C658F6F3E836 /* Realm.framework */,
-				B2A3D85BD03265298AE6AE239A767743 /* RealmSwift.framework */,
-				3E8350674E9B2FD639BB2A45CFC520BB /* SVProgressHUD.framework */,
-				A155D105DCF1CAF777F2578CD6FDE6D5 /* TOCropViewControllerBundle.bundle */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		181606C2D0A5E43734A383BF9C4F59E6 /* Support Files */ = {
@@ -1575,17 +1498,6 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		36CFA64548D36A15C7080E59568D9D44 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7E03ED075BC83074E431A7959DD34CC8 /* Pods-ImageGallery */,
-				E4ECF4CA94BF64BE73F6BD2DA1224890 /* Pods-ImageGallery-SparkImageNetwork */,
-				4ADA279415D7AF22C36B2B5D5ED207B4 /* Pods-ImageGalleryTests */,
-				CD22F22A01AC6E0DB1978E71C29969ED /* Pods-SparkImageNetworkTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		4113C82431DC2293ED87B9095434FA19 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1599,19 +1511,30 @@
 			path = "../Target Support Files/Realm";
 			sourceTree = "<group>";
 		};
-		4ADA279415D7AF22C36B2B5D5ED207B4 /* Pods-ImageGalleryTests */ = {
+		56370F7BE1B51B0B1239CA33B300344A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9E2209A958EC5146B97A9AD2E09D4315 /* Info.plist */,
-				960FAA6C160DB321A67EE0EAC33AF752 /* Pods-ImageGalleryTests.modulemap */,
-				408897A17275C060962CE6A4090A1EE1 /* Pods-ImageGalleryTests-acknowledgements.markdown */,
-				9B5F485985BE8CEB0174DCB4E1FD7D0C /* Pods-ImageGalleryTests-acknowledgements.plist */,
-				6629FFB4106CA0A3B85C501869652E85 /* Pods-ImageGalleryTests-dummy.m */,
-				25FE1FB09C6D5EB2190039D15E018D04 /* Pods-ImageGalleryTests-frameworks.sh */,
-				63FB169A59C2CA826B507840D7D15C37 /* Pods-ImageGalleryTests-resources.sh */,
-				EB1B4B273801A152166E9A9358DE547C /* Pods-ImageGalleryTests-umbrella.h */,
-				ED7166FD2A1C2B3E27628400A892C176 /* Pods-ImageGalleryTests.debug.xcconfig */,
-				55072EA4F21064EDCA6F044350884495 /* Pods-ImageGalleryTests.release.xcconfig */,
+				993C6559E83DFA0750438C9156DE4AD1 /* Pods-ImageGallery */,
+				66CA98135F261D4D60E2DE05DCC782CC /* Pods-ImageGalleryTests */,
+				EA3F1A6BCA641B133600F63F1D0142FC /* Pods-SparkImageNetwork */,
+				8839B20A402EF4E65793399318DC8B13 /* Pods-SparkImageNetworkTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		66CA98135F261D4D60E2DE05DCC782CC /* Pods-ImageGalleryTests */ = {
+			isa = PBXGroup;
+			children = (
+				A123844049399108B8D558DA7CBA8FC8 /* Info.plist */,
+				EC18977EDFBE96C6DE683335D2834D15 /* Pods-ImageGalleryTests.modulemap */,
+				DC20D2A0A08FF37A21477204EE4DDA38 /* Pods-ImageGalleryTests-acknowledgements.markdown */,
+				5B4C907F8D699EBC5750F5AE43957D9F /* Pods-ImageGalleryTests-acknowledgements.plist */,
+				AB61F023F1FAB87E6D4A98A398E3D797 /* Pods-ImageGalleryTests-dummy.m */,
+				4B168761A79C0BACCDB3E282368A2138 /* Pods-ImageGalleryTests-frameworks.sh */,
+				9EED44C6070E3D7C710FC8FCC1485233 /* Pods-ImageGalleryTests-resources.sh */,
+				A05FE4CFC3A6D154F215262140D5BAD0 /* Pods-ImageGalleryTests-umbrella.h */,
+				641AF171DECCB2EEBFC0608986DAE437 /* Pods-ImageGalleryTests.debug.xcconfig */,
+				B0B9736ED1A2F26B16479B6C8BAD761B /* Pods-ImageGalleryTests.release.xcconfig */,
 			);
 			name = "Pods-ImageGalleryTests";
 			path = "Target Support Files/Pods-ImageGalleryTests";
@@ -1670,27 +1593,9 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				320E020AEE597972C2DFF567A3CC666C /* Frameworks */,
 				11830FA9A77D64603A5B07A3C458F9F6 /* Pods */,
-				16201A3D9CA5B286D78B52256134F232 /* Products */,
-				36CFA64548D36A15C7080E59568D9D44 /* Targets Support Files */,
+				93FD379765ACEC707D9EB6FE0E0D2808 /* Products */,
+				56370F7BE1B51B0B1239CA33B300344A /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7E03ED075BC83074E431A7959DD34CC8 /* Pods-ImageGallery */ = {
-			isa = PBXGroup;
-			children = (
-				C50F3545E0536BAF8F0A61697606F154 /* Info.plist */,
-				94AC433D8386EBCF3A9E7AF0B8D5E011 /* Pods-ImageGallery.modulemap */,
-				0A85FABD5B03EA18BF2333CEA45FEABA /* Pods-ImageGallery-acknowledgements.markdown */,
-				18E0070CDE44419765A2D35715C65F6B /* Pods-ImageGallery-acknowledgements.plist */,
-				C94F0B09D1232997A403E7D9706A82AF /* Pods-ImageGallery-dummy.m */,
-				314A3AD2E5405D6AFBD5EBEEC76D733F /* Pods-ImageGallery-frameworks.sh */,
-				201BCADD9E79DCED16F33516289D58E1 /* Pods-ImageGallery-resources.sh */,
-				3F878FC9291BB1F9E07B09C24798F4C6 /* Pods-ImageGallery-umbrella.h */,
-				9309EAF8E8AA116BCB0A0578198DCAF6 /* Pods-ImageGallery.debug.xcconfig */,
-				1BE283CCE703A949579F9651A1762754 /* Pods-ImageGallery.release.xcconfig */,
-			);
-			name = "Pods-ImageGallery";
-			path = "Target Support Files/Pods-ImageGallery";
 			sourceTree = "<group>";
 		};
 		859E44E3904058658905C2EE6CCB0B05 /* ImagePicker */ = {
@@ -1719,6 +1624,24 @@
 			);
 			name = ImagePicker;
 			path = ImagePicker;
+			sourceTree = "<group>";
+		};
+		8839B20A402EF4E65793399318DC8B13 /* Pods-SparkImageNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				616D4D99198361DBB3D97E61D2EF8B78 /* Info.plist */,
+				1011B6B3B065AA25F252454BDAFFCE1F /* Pods-SparkImageNetworkTests.modulemap */,
+				CE2907A4278F953A81B9439FDC65C0DB /* Pods-SparkImageNetworkTests-acknowledgements.markdown */,
+				9BF43CA5F9818C4B6C24F60E6DFB0C7D /* Pods-SparkImageNetworkTests-acknowledgements.plist */,
+				A216104E80CE0C6320A0C1D8025CCBBB /* Pods-SparkImageNetworkTests-dummy.m */,
+				14853A0E868C4CD5B34D38D618E0126F /* Pods-SparkImageNetworkTests-frameworks.sh */,
+				A15DB39CC0274312FB85B7067764A54F /* Pods-SparkImageNetworkTests-resources.sh */,
+				9363C5FD3436FBA1ABA96F557BA509AF /* Pods-SparkImageNetworkTests-umbrella.h */,
+				26E806E4DC460F6D50A8D90FDD3A99F2 /* Pods-SparkImageNetworkTests.debug.xcconfig */,
+				2FDB7D8EE1CFDD4B586FD31617CD43D3 /* Pods-SparkImageNetworkTests.release.xcconfig */,
+			);
+			name = "Pods-SparkImageNetworkTests";
+			path = "Target Support Files/Pods-SparkImageNetworkTests";
 			sourceTree = "<group>";
 		};
 		90C7485A4DEF45E4F416B4DE1DD57857 /* Realm */ = {
@@ -1823,6 +1746,45 @@
 			);
 			name = Realm;
 			path = Realm;
+			sourceTree = "<group>";
+		};
+		93FD379765ACEC707D9EB6FE0E0D2808 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA26F3205F04A5676E13A04985C3AF1A /* CropViewController.framework */,
+				B12FDDA0CB2E5D84BBC10E2B9421880D /* Hero.framework */,
+				16DD711C2B9DB149615452E9981B603D /* ImagePicker.bundle */,
+				5996239AD81837A021CD18F9366F1BB5 /* ImagePicker.framework */,
+				5126577AB3D6CFC1F81A3C44B08A1386 /* Nimble.framework */,
+				21FC782305BABA718D0D41DCF50F6C1F /* Pods_ImageGallery.framework */,
+				FE2FCF334BF391EF3A1F83BB9F655A9F /* Pods_ImageGalleryTests.framework */,
+				75D24FA2424ADFFECA200FD9D8BE8D8F /* Pods_SparkImageNetwork.framework */,
+				0B5AFED8F30E3881C45FF717C214335F /* Pods_SparkImageNetworkTests.framework */,
+				AA38B39EC870F21BE72481344C8188A0 /* Quick.framework */,
+				F9058A4AE42FE91F10EA480BC7D741D5 /* Realm.framework */,
+				58FA8AE114FC592753E4DED70FC7F613 /* RealmSwift.framework */,
+				797752B1545AABDE8103D33FF939DF2D /* SVProgressHUD.framework */,
+				C377D60666BEF4CB948AA05366BD893D /* TOCropViewControllerBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		993C6559E83DFA0750438C9156DE4AD1 /* Pods-ImageGallery */ = {
+			isa = PBXGroup;
+			children = (
+				BD418063997FD00DFDB976DF87ADF7D1 /* Info.plist */,
+				6D015584E3DA04FD76083CC5EEA44F7E /* Pods-ImageGallery.modulemap */,
+				295B3CD13C52ACC6A329733133AA0405 /* Pods-ImageGallery-acknowledgements.markdown */,
+				34A4341BCDFE9A2855BB839A45508277 /* Pods-ImageGallery-acknowledgements.plist */,
+				4DA4F43E16CE343783DABA581448817E /* Pods-ImageGallery-dummy.m */,
+				DCD94B1A89F24E57849E294A1906B379 /* Pods-ImageGallery-frameworks.sh */,
+				10A7CB4B5FE92F50B3EFC8E571D8AA96 /* Pods-ImageGallery-resources.sh */,
+				6F6E104D11B163212028870FC67DEF5C /* Pods-ImageGallery-umbrella.h */,
+				5151BF877EE264E1E89AFF3CEDB0DBAF /* Pods-ImageGallery.debug.xcconfig */,
+				683359C7C7B1A16A7E2D141B16E24C32 /* Pods-ImageGallery.release.xcconfig */,
+			);
+			name = "Pods-ImageGallery";
+			path = "Target Support Files/Pods-ImageGallery";
 			sourceTree = "<group>";
 		};
 		A9DB2F4C572EC2BDBC71A710D4DB3F2F /* Quick */ = {
@@ -1943,47 +1905,29 @@
 			path = "../Target Support Files/Quick";
 			sourceTree = "<group>";
 		};
-		CD22F22A01AC6E0DB1978E71C29969ED /* Pods-SparkImageNetworkTests */ = {
-			isa = PBXGroup;
-			children = (
-				40221335F44D02B81744B926B44D4C0E /* Info.plist */,
-				966F52AC48C391BBF5799B658857B937 /* Pods-SparkImageNetworkTests.modulemap */,
-				96EA110B98C05A13113781A2A8B0892A /* Pods-SparkImageNetworkTests-acknowledgements.markdown */,
-				07A84782501A41199DE6FE4984CDAF38 /* Pods-SparkImageNetworkTests-acknowledgements.plist */,
-				B49C82E845CE276FB878DA0C108DF7A8 /* Pods-SparkImageNetworkTests-dummy.m */,
-				416A08DB2CA8AE41C6871AD20BB384CC /* Pods-SparkImageNetworkTests-frameworks.sh */,
-				401E3A4F0ECD84AF56EE25EA5F15DCB5 /* Pods-SparkImageNetworkTests-resources.sh */,
-				8FFEAA8D0F6616EC68A4E41BF7A1AF1A /* Pods-SparkImageNetworkTests-umbrella.h */,
-				7AF79DE250AC0B9266206654C0CE87B0 /* Pods-SparkImageNetworkTests.debug.xcconfig */,
-				A59C91D45E146E882CD8BD50A5CCC577 /* Pods-SparkImageNetworkTests.release.xcconfig */,
-			);
-			name = "Pods-SparkImageNetworkTests";
-			path = "Target Support Files/Pods-SparkImageNetworkTests";
-			sourceTree = "<group>";
-		};
-		E4ECF4CA94BF64BE73F6BD2DA1224890 /* Pods-ImageGallery-SparkImageNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				CCD9B42836BD12F7EB1C3990B861F9C3 /* Info.plist */,
-				7908E6C392207F014B7D3665C50E7341 /* Pods-ImageGallery-SparkImageNetwork.modulemap */,
-				6AC81641C5729227D94E14AB6191F551 /* Pods-ImageGallery-SparkImageNetwork-acknowledgements.markdown */,
-				1811FD9B636E160D94B827D95C125310 /* Pods-ImageGallery-SparkImageNetwork-acknowledgements.plist */,
-				F9C69D694BAD2B604CDAD0E8A865A0F4 /* Pods-ImageGallery-SparkImageNetwork-dummy.m */,
-				BF5EC66C9A08AC2CBD1C9EE984667E91 /* Pods-ImageGallery-SparkImageNetwork-resources.sh */,
-				2723C392D2DC3622F53040A78008F63E /* Pods-ImageGallery-SparkImageNetwork-umbrella.h */,
-				6359B92CF6BF703D2C78ACE699D855FD /* Pods-ImageGallery-SparkImageNetwork.debug.xcconfig */,
-				EFD81CA2AE7B9F9651E96D5BF21BB318 /* Pods-ImageGallery-SparkImageNetwork.release.xcconfig */,
-			);
-			name = "Pods-ImageGallery-SparkImageNetwork";
-			path = "Target Support Files/Pods-ImageGallery-SparkImageNetwork";
-			sourceTree = "<group>";
-		};
 		E5CAE329D2A048A739789BC30BB33C89 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				185DDE956EDDE2C371A8A17406A60771 /* librealmcore-ios.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA3F1A6BCA641B133600F63F1D0142FC /* Pods-SparkImageNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				DFAA3446CA41EA1739F0AD007FF62F03 /* Info.plist */,
+				78250DFC86C7B3D1FEC2B40A69890F23 /* Pods-SparkImageNetwork.modulemap */,
+				1300E96787E003ECE517F751D0118BE9 /* Pods-SparkImageNetwork-acknowledgements.markdown */,
+				CC3186245F80821BCE5DFB8FCDE2B454 /* Pods-SparkImageNetwork-acknowledgements.plist */,
+				3914DA00E8682AD11D60E29E1C6A0DEF /* Pods-SparkImageNetwork-dummy.m */,
+				0731D9979EC8B87B900AA13B14DF3209 /* Pods-SparkImageNetwork-resources.sh */,
+				C5B812FED617E54EFB6B14B6B94E0490 /* Pods-SparkImageNetwork-umbrella.h */,
+				F23B0329FB96DA5808032E2540C25E21 /* Pods-SparkImageNetwork.debug.xcconfig */,
+				E41C40669A4383D5E5A787D24699FA54 /* Pods-SparkImageNetwork.release.xcconfig */,
+			);
+			name = "Pods-SparkImageNetwork";
+			path = "Target Support Files/Pods-SparkImageNetwork";
 			sourceTree = "<group>";
 		};
 		EA5CC6299C3ADE628CFAE0648E7C1A72 /* Resources */ = {
@@ -2043,6 +1987,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		02E33DDEC87840C82D7278CFA2A833D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F194ECFEC82E290A1FDE73BEFC8E57 /* Pods-SparkImageNetworkTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5A1E8CE87B81DE78D9C6CAF55847A457 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2119,14 +2071,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EB23646E42FA0D0A75CB1E914B60370 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9EB6E7A36EBEF78291876260AEAA249D /* Pods-ImageGallery-SparkImageNetwork-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		85497845823171A47E23A59621A44463 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2141,14 +2085,6 @@
 				0A2CA8B0DD7E300ABFCF1956E6B58248 /* Nimble.h in Headers */,
 				22E9F6FA56858A5F7A5D664E5968ECB0 /* NMBExceptionCapture.h in Headers */,
 				96132E7432F8DD315A88A07C6B4F9C72 /* NMBStringify.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92D76E901D5756D5AE3562DF6F1B4BCE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DBCD93E5327F8965B4D5E1EA3468564C /* Pods-SparkImageNetworkTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2207,6 +2143,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EB5C593631EC4E7A97FB08730950673E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2550BB402F7426A62827039A0FEAF71 /* Pods-SparkImageNetwork-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F60EE4068284EDB48168B6C7D436B427 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2234,7 +2178,26 @@
 			);
 			name = CropViewController;
 			productName = CropViewController;
-			productReference = 15566CC4B2F25BAA633EC8533251185C /* CropViewController.framework */;
+			productReference = CA26F3205F04A5676E13A04985C3AF1A /* CropViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1DC72BE1A42A0401E85A2A9D34AD8AE3 /* Pods-SparkImageNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CDE3F00F8E9825A82FD962321A03F1A /* Build configuration list for PBXNativeTarget "Pods-SparkImageNetwork" */;
+			buildPhases = (
+				64299052A75542F8826FB834704A94E1 /* Sources */,
+				C71D0B5E55D3BCB564C3CC9ADCA6BD79 /* Frameworks */,
+				EB5C593631EC4E7A97FB08730950673E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3A57D2546E3B409DF8BDF134148327D /* PBXTargetDependency */,
+				C04B76AF2BC4D3A649EB2399A1AB38CB /* PBXTargetDependency */,
+			);
+			name = "Pods-SparkImageNetwork";
+			productName = "Pods-SparkImageNetwork";
+			productReference = 75D24FA2424ADFFECA200FD9D8BE8D8F /* Pods_SparkImageNetwork.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2990770985796EEC3C38E8AB9E52CB0D /* CropViewController-TOCropViewControllerBundle */ = {
@@ -2251,33 +2214,8 @@
 			);
 			name = "CropViewController-TOCropViewControllerBundle";
 			productName = "CropViewController-TOCropViewControllerBundle";
-			productReference = A155D105DCF1CAF777F2578CD6FDE6D5 /* TOCropViewControllerBundle.bundle */;
+			productReference = C377D60666BEF4CB948AA05366BD893D /* TOCropViewControllerBundle.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		320D86DFC360A60F5B1E4A657F00FE64 /* Pods-SparkImageNetworkTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 93638B1E6ABCFB4B0137F412362C676F /* Build configuration list for PBXNativeTarget "Pods-SparkImageNetworkTests" */;
-			buildPhases = (
-				D2D83965EF4CA51E11A22D7721375E73 /* Sources */,
-				4C1410708D68808D8B18909BC147DB6F /* Frameworks */,
-				92D76E901D5756D5AE3562DF6F1B4BCE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				972DD04850755DEEE480A22A7473B4D2 /* PBXTargetDependency */,
-				B83A9E93258EFD98856DB3AB37DEBC5D /* PBXTargetDependency */,
-				8EA3E905C47AE3441770FB7FB64E9895 /* PBXTargetDependency */,
-				46D818802B277636297E98C1DD219D7D /* PBXTargetDependency */,
-				DF128B18A60244D3C72D1F70EBB5CDAF /* PBXTargetDependency */,
-				7E098074780FB5F9FEC282757D54F176 /* PBXTargetDependency */,
-				24A1BD80FE34B03F7DF73D1D643D141D /* PBXTargetDependency */,
-				E0597004E1BD6FCDF622141CD8ABB998 /* PBXTargetDependency */,
-			);
-			name = "Pods-SparkImageNetworkTests";
-			productName = "Pods-SparkImageNetworkTests";
-			productReference = 052265724E54A440F891F7CC72637904 /* Pods_SparkImageNetworkTests.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 		3354FD001FF629676A13767C68AFCEAF /* RealmSwift */ = {
 			isa = PBXNativeTarget;
@@ -2294,7 +2232,7 @@
 			);
 			name = RealmSwift;
 			productName = RealmSwift;
-			productReference = B2A3D85BD03265298AE6AE239A767743 /* RealmSwift.framework */;
+			productReference = 58FA8AE114FC592753E4DED70FC7F613 /* RealmSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4193FB138016C1B1F73D9BBBB174F390 /* Quick */ = {
@@ -2311,7 +2249,7 @@
 			);
 			name = Quick;
 			productName = Quick;
-			productReference = EE30A7C2D9C31B0E3EE23F06304BA1E3 /* Quick.framework */;
+			productReference = AA38B39EC870F21BE72481344C8188A0 /* Quick.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		41DA3BB5313B21E9ED2998B7EFECD7CB /* Realm */ = {
@@ -2330,7 +2268,7 @@
 			);
 			name = Realm;
 			productName = Realm;
-			productReference = 17E29D7C1164B0E28B21C658F6F3E836 /* Realm.framework */;
+			productReference = F9058A4AE42FE91F10EA480BC7D741D5 /* Realm.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		65E425BBE76DC18B3E4B59C3030A8F9C /* Pods-ImageGalleryTests */ = {
@@ -2349,7 +2287,7 @@
 			);
 			name = "Pods-ImageGalleryTests";
 			productName = "Pods-ImageGalleryTests";
-			productReference = 429DA5A78C86F48CEA0A1D82B56D1EF7 /* Pods_ImageGalleryTests.framework */;
+			productReference = FE2FCF334BF391EF3A1F83BB9F655A9F /* Pods_ImageGalleryTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		88D0D45A202C76CDCB9546091A25AB0B /* ImagePicker-ImagePicker */ = {
@@ -2366,7 +2304,7 @@
 			);
 			name = "ImagePicker-ImagePicker";
 			productName = "ImagePicker-ImagePicker";
-			productReference = B4F1986CEAA56DC1FD7E23320F9323DF /* ImagePicker.bundle */;
+			productReference = 16DD711C2B9DB149615452E9981B603D /* ImagePicker.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		8A17CB894371F02E0326064851AF7C43 /* ImagePicker */ = {
@@ -2385,7 +2323,7 @@
 			);
 			name = ImagePicker;
 			productName = ImagePicker;
-			productReference = 3866BB117152E7F3BA5B851205E66724 /* ImagePicker.framework */;
+			productReference = 5996239AD81837A021CD18F9366F1BB5 /* ImagePicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9525465D01A35EFDC2CBEAAF0587EF35 /* SVProgressHUD */ = {
@@ -2403,7 +2341,7 @@
 			);
 			name = SVProgressHUD;
 			productName = SVProgressHUD;
-			productReference = 3E8350674E9B2FD639BB2A45CFC520BB /* SVProgressHUD.framework */;
+			productReference = 797752B1545AABDE8103D33FF939DF2D /* SVProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9C13CF7F13B883769BA440C16F9FFD00 /* Hero */ = {
@@ -2420,7 +2358,7 @@
 			);
 			name = Hero;
 			productName = Hero;
-			productReference = 1B8D32C1CDBB1315B1A64BF5B3C1E564 /* Hero.framework */;
+			productReference = B12FDDA0CB2E5D84BBC10E2B9421880D /* Hero.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C8445425CB6FDC822EBC7CE74AAE4E8D /* Pods-ImageGallery */ = {
@@ -2443,30 +2381,7 @@
 			);
 			name = "Pods-ImageGallery";
 			productName = "Pods-ImageGallery";
-			productReference = 6B622225547788434096B683C804B709 /* Pods_ImageGallery.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D5DFA17B3C07CC04598536C76B86DABC /* Pods-ImageGallery-SparkImageNetwork */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 619105319D62C3ED50CE5EF2B36B0886 /* Build configuration list for PBXNativeTarget "Pods-ImageGallery-SparkImageNetwork" */;
-			buildPhases = (
-				FEBDE0514C570F206B7744344616148B /* Sources */,
-				E46685C7B3E12133BD73A3780083E924 /* Frameworks */,
-				6EB23646E42FA0D0A75CB1E914B60370 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7833C98E40F000C7BA8A37B805A97C28 /* PBXTargetDependency */,
-				F283E0E9805BF95E579EA58F9CAF2E88 /* PBXTargetDependency */,
-				042073D540D173FEDC29B07EFBB299A6 /* PBXTargetDependency */,
-				F95C1DEC854E449FFAB53704D5A1583F /* PBXTargetDependency */,
-				0AF3526D548905CF523662423EEDA999 /* PBXTargetDependency */,
-				CDCDF21473D3F723D87CD26B5C65BD16 /* PBXTargetDependency */,
-			);
-			name = "Pods-ImageGallery-SparkImageNetwork";
-			productName = "Pods-ImageGallery-SparkImageNetwork";
-			productReference = 9B85B58A35ACE9FAAAAEF443AEE09F05 /* Pods_ImageGallery_SparkImageNetwork.framework */;
+			productReference = 21FC782305BABA718D0D41DCF50F6C1F /* Pods_ImageGallery.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DD7C8BF89FE8053D0A2A2D88BB49CF07 /* Nimble */ = {
@@ -2483,7 +2398,28 @@
 			);
 			name = Nimble;
 			productName = Nimble;
-			productReference = DA90770B13ECF7B959D8B71D3D78D80D /* Nimble.framework */;
+			productReference = 5126577AB3D6CFC1F81A3C44B08A1386 /* Nimble.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F8DB18E1BA5FD97A0E3A6BFCE2C1E372 /* Pods-SparkImageNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E516821F55832E7E188E52BD1844E66C /* Build configuration list for PBXNativeTarget "Pods-SparkImageNetworkTests" */;
+			buildPhases = (
+				48BC99082A8740D71726C744F8D2992C /* Sources */,
+				0B75EB8FE4E63D807E7B78398C788E0E /* Frameworks */,
+				02E33DDEC87840C82D7278CFA2A833D6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5A751F8F2564C054884BF8ED3DB2774 /* PBXTargetDependency */,
+				4467DDB262C593607EE67A7CC558523D /* PBXTargetDependency */,
+				0D5DF9EB425BB73B20D93F7A31162D12 /* PBXTargetDependency */,
+				F89A48A929C3B148C1812560BAEDDFBD /* PBXTargetDependency */,
+			);
+			name = "Pods-SparkImageNetworkTests";
+			productName = "Pods-SparkImageNetworkTests";
+			productReference = 0B5AFED8F30E3881C45FF717C214335F /* Pods_SparkImageNetworkTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -2503,7 +2439,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 16201A3D9CA5B286D78B52256134F232 /* Products */;
+			productRefGroup = 93FD379765ACEC707D9EB6FE0E0D2808 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -2514,9 +2450,9 @@
 				88D0D45A202C76CDCB9546091A25AB0B /* ImagePicker-ImagePicker */,
 				DD7C8BF89FE8053D0A2A2D88BB49CF07 /* Nimble */,
 				C8445425CB6FDC822EBC7CE74AAE4E8D /* Pods-ImageGallery */,
-				D5DFA17B3C07CC04598536C76B86DABC /* Pods-ImageGallery-SparkImageNetwork */,
 				65E425BBE76DC18B3E4B59C3030A8F9C /* Pods-ImageGalleryTests */,
-				320D86DFC360A60F5B1E4A657F00FE64 /* Pods-SparkImageNetworkTests */,
+				1DC72BE1A42A0401E85A2A9D34AD8AE3 /* Pods-SparkImageNetwork */,
+				F8DB18E1BA5FD97A0E3A6BFCE2C1E372 /* Pods-SparkImageNetworkTests */,
 				4193FB138016C1B1F73D9BBBB174F390 /* Quick */,
 				41DA3BB5313B21E9ED2998B7EFECD7CB /* Realm */,
 				3354FD001FF629676A13767C68AFCEAF /* RealmSwift */,
@@ -2869,10 +2805,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		48BC99082A8740D71726C744F8D2992C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				603795326768BA01EFA3554168B0A68D /* Pods-SparkImageNetworkTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		640A00D7C575E7720DCE73226BE54F74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64299052A75542F8826FB834704A94E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446C571DC904044F06838956C705608E /* Pods-SparkImageNetwork-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2906,14 +2858,6 @@
 				B46BB70B248B17BE8730A7F9C56066DD /* World+DSL.swift in Sources */,
 				FEAFF2501367720BC13BB0E25F0F1E9D /* World.swift in Sources */,
 				073FD56A0DD0E3D2342C6B9899910E4D /* XCTestSuite+QuickTestSuiteBuilder.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2D83965EF4CA51E11A22D7721375E73 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6084D2E2B9686B112863C37DAD66A967 /* Pods-SparkImageNetworkTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2953,28 +2897,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEBDE0514C570F206B7744344616148B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				37DAD69C786EF414AEBF3EE4AC34CA52 /* Pods-ImageGallery-SparkImageNetwork-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		042073D540D173FEDC29B07EFBB299A6 /* PBXTargetDependency */ = {
+		0D5DF9EB425BB73B20D93F7A31162D12 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ImagePicker;
-			target = 8A17CB894371F02E0326064851AF7C43 /* ImagePicker */;
-			targetProxy = B20309F7BACC8D22BA91CBE07AC62EB3 /* PBXContainerItemProxy */;
-		};
-		0AF3526D548905CF523662423EEDA999 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RealmSwift;
-			target = 3354FD001FF629676A13767C68AFCEAF /* RealmSwift */;
-			targetProxy = DCE6DEB4A0F158BC4F25D104C3A7978F /* PBXContainerItemProxy */;
+			name = Realm;
+			target = 41DA3BB5313B21E9ED2998B7EFECD7CB /* Realm */;
+			targetProxy = 2410D1A1C768D81E572FDEE7A7D46625 /* PBXContainerItemProxy */;
 		};
 		14843F796D5F1CDB58ADBE43C3BC91D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3000,12 +2930,6 @@
 			target = 88D0D45A202C76CDCB9546091A25AB0B /* ImagePicker-ImagePicker */;
 			targetProxy = 6B8986630584C6CBE06F80050CD944A8 /* PBXContainerItemProxy */;
 		};
-		24A1BD80FE34B03F7DF73D1D643D141D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RealmSwift;
-			target = 3354FD001FF629676A13767C68AFCEAF /* RealmSwift */;
-			targetProxy = 4D8BB6E257B98EFAEB0C470CB38C49F4 /* PBXContainerItemProxy */;
-		};
 		257A1DF8BB1F318E0B568EBDD8EF3952 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Realm;
@@ -3024,23 +2948,11 @@
 			target = 3354FD001FF629676A13767C68AFCEAF /* RealmSwift */;
 			targetProxy = CE1C816C1353CB3146285B930A88557F /* PBXContainerItemProxy */;
 		};
-		46D818802B277636297E98C1DD219D7D /* PBXTargetDependency */ = {
+		4467DDB262C593607EE67A7CC558523D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Nimble;
-			target = DD7C8BF89FE8053D0A2A2D88BB49CF07 /* Nimble */;
-			targetProxy = BFBE3027ED7776D09438C45D081C8583 /* PBXContainerItemProxy */;
-		};
-		7833C98E40F000C7BA8A37B805A97C28 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CropViewController;
-			target = 0AEC202531AF47B692B3C9DA6D58675C /* CropViewController */;
-			targetProxy = 2A83A5AE43372E61EBBE49E0AB5B441F /* PBXContainerItemProxy */;
-		};
-		7E098074780FB5F9FEC282757D54F176 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Realm;
-			target = 41DA3BB5313B21E9ED2998B7EFECD7CB /* Realm */;
-			targetProxy = 7F693EF4DFB70D9E2F1CA97BF3BD8485 /* PBXContainerItemProxy */;
+			name = Quick;
+			target = 4193FB138016C1B1F73D9BBBB174F390 /* Quick */;
+			targetProxy = 935B26FD689821A248957BFE2960E43D /* PBXContainerItemProxy */;
 		};
 		8A0C614F2D00996ABF1F4F84AA864B35 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3048,29 +2960,23 @@
 			target = 8A17CB894371F02E0326064851AF7C43 /* ImagePicker */;
 			targetProxy = 1EC6A5D3DF3AAD1DB4A1DC2B88A6906A /* PBXContainerItemProxy */;
 		};
-		8EA3E905C47AE3441770FB7FB64E9895 /* PBXTargetDependency */ = {
+		A5A751F8F2564C054884BF8ED3DB2774 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ImagePicker;
-			target = 8A17CB894371F02E0326064851AF7C43 /* ImagePicker */;
-			targetProxy = 0C3F1E14C16CCE16E4B0EE75E43375C3 /* PBXContainerItemProxy */;
+			name = Nimble;
+			target = DD7C8BF89FE8053D0A2A2D88BB49CF07 /* Nimble */;
+			targetProxy = 7863B3E6C931743B03769E1088D17C6B /* PBXContainerItemProxy */;
 		};
-		972DD04850755DEEE480A22A7473B4D2 /* PBXTargetDependency */ = {
+		B3A57D2546E3B409DF8BDF134148327D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = CropViewController;
-			target = 0AEC202531AF47B692B3C9DA6D58675C /* CropViewController */;
-			targetProxy = CE004A8F7CF80A040ADF2255C59A2083 /* PBXContainerItemProxy */;
+			name = Realm;
+			target = 41DA3BB5313B21E9ED2998B7EFECD7CB /* Realm */;
+			targetProxy = 0082F00E8B6C703F89658FBCEBCEBBF0 /* PBXContainerItemProxy */;
 		};
-		B83A9E93258EFD98856DB3AB37DEBC5D /* PBXTargetDependency */ = {
+		C04B76AF2BC4D3A649EB2399A1AB38CB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Hero;
-			target = 9C13CF7F13B883769BA440C16F9FFD00 /* Hero */;
-			targetProxy = ABB286F66C59A0786573EC15F845C6ED /* PBXContainerItemProxy */;
-		};
-		CDCDF21473D3F723D87CD26B5C65BD16 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SVProgressHUD;
-			target = 9525465D01A35EFDC2CBEAAF0587EF35 /* SVProgressHUD */;
-			targetProxy = D735869B971CB9011D8A5536B306004B /* PBXContainerItemProxy */;
+			name = RealmSwift;
+			target = 3354FD001FF629676A13767C68AFCEAF /* RealmSwift */;
+			targetProxy = EF24C60DF0359588787E23298A38402F /* PBXContainerItemProxy */;
 		};
 		D80F071166F353F7DC29E3E7B71DA23B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3084,42 +2990,24 @@
 			target = 0AEC202531AF47B692B3C9DA6D58675C /* CropViewController */;
 			targetProxy = 83D10AEDF404FE89BA53349B4858BEC2 /* PBXContainerItemProxy */;
 		};
-		DF128B18A60244D3C72D1F70EBB5CDAF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Quick;
-			target = 4193FB138016C1B1F73D9BBBB174F390 /* Quick */;
-			targetProxy = 69B96020A831B2946D8343D6337C789A /* PBXContainerItemProxy */;
-		};
-		E0597004E1BD6FCDF622141CD8ABB998 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SVProgressHUD;
-			target = 9525465D01A35EFDC2CBEAAF0587EF35 /* SVProgressHUD */;
-			targetProxy = ADAE43432FAADF80787B44809EEA0C01 /* PBXContainerItemProxy */;
-		};
-		F283E0E9805BF95E579EA58F9CAF2E88 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Hero;
-			target = 9C13CF7F13B883769BA440C16F9FFD00 /* Hero */;
-			targetProxy = 7A10F47380DD0A73C10EF72BC631107B /* PBXContainerItemProxy */;
-		};
 		F7A7F25A90E74CEE2A328E7FDCC8690F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Nimble;
 			target = DD7C8BF89FE8053D0A2A2D88BB49CF07 /* Nimble */;
 			targetProxy = F2E289491365FE6C2DE115C9A7E1B4E1 /* PBXContainerItemProxy */;
 		};
-		F95C1DEC854E449FFAB53704D5A1583F /* PBXTargetDependency */ = {
+		F89A48A929C3B148C1812560BAEDDFBD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Realm;
-			target = 41DA3BB5313B21E9ED2998B7EFECD7CB /* Realm */;
-			targetProxy = 83B0D1D518D6064FC918DFB6DDEFF094 /* PBXContainerItemProxy */;
+			name = RealmSwift;
+			target = 3354FD001FF629676A13767C68AFCEAF /* RealmSwift */;
+			targetProxy = E79F064385E7282E334E94660ECFB471 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		014FA8560B6EC9257F0522E9A72FF27B /* Release */ = {
+		03201863874C3A33063F9652B45DFDEF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A59C91D45E146E882CD8BD50A5CCC577 /* Pods-SparkImageNetworkTests.release.xcconfig */;
+			baseConfigurationReference = F23B0329FB96DA5808032E2540C25E21 /* Pods-SparkImageNetwork.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3130,26 +3018,26 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SparkImageNetworkTests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SparkImageNetwork/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SparkImageNetworkTests/Pods-SparkImageNetworkTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SparkImageNetwork/Pods-SparkImageNetwork.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SparkImageNetworkTests;
+				PRODUCT_NAME = Pods_SparkImageNetwork;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		0B229C0798B35C924C1FC7A299EA2265 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -3247,7 +3135,7 @@
 		};
 		1F7E9EDC7D44DA443FA8AF3C8384E9BF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BE283CCE703A949579F9651A1762754 /* Pods-ImageGallery.release.xcconfig */;
+			baseConfigurationReference = 683359C7C7B1A16A7E2D141B16E24C32 /* Pods-ImageGallery.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3310,9 +3198,9 @@
 			};
 			name = Debug;
 		};
-		37BE96BA66C793B2A56AD5C07EEB5CC9 /* Release */ = {
+		2DF7D1C63BD23EB727F1E88D10F4BA5D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFD81CA2AE7B9F9651E96D5BF21BB318 /* Pods-ImageGallery-SparkImageNetwork.release.xcconfig */;
+			baseConfigurationReference = 26E806E4DC460F6D50A8D90FDD3A99F2 /* Pods-SparkImageNetworkTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3323,26 +3211,26 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ImageGallery-SparkImageNetwork/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SparkImageNetworkTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ImageGallery-SparkImageNetwork/Pods-ImageGallery-SparkImageNetwork.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SparkImageNetworkTests/Pods-SparkImageNetworkTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ImageGallery_SparkImageNetwork;
+				PRODUCT_NAME = Pods_SparkImageNetworkTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		3923FF9FD99259265285BC1F237F45A3 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -3409,7 +3297,7 @@
 		};
 		5348E31165320DF6CBBB08A0C4DFBE67 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED7166FD2A1C2B3E27628400A892C176 /* Pods-ImageGalleryTests.debug.xcconfig */;
+			baseConfigurationReference = 641AF171DECCB2EEBFC0608986DAE437 /* Pods-ImageGalleryTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3466,6 +3354,40 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75604972BB5566E5126F8E765D1F89DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FDB7D8EE1CFDD4B586FD31617CD43D3 /* Pods-SparkImageNetworkTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SparkImageNetworkTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SparkImageNetworkTests/Pods-SparkImageNetworkTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SparkImageNetworkTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -3659,7 +3581,7 @@
 		};
 		8EEE8CE998A04F773A3CD3ADDFA3466C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9309EAF8E8AA116BCB0A0578198DCAF6 /* Pods-ImageGallery.debug.xcconfig */;
+			baseConfigurationReference = 5151BF877EE264E1E89AFF3CEDB0DBAF /* Pods-ImageGallery.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3681,40 +3603,6 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_ImageGallery;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		92D399CB89B4AE6424C90C90AAD18723 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AF79DE250AC0B9266206654C0CE87B0 /* Pods-SparkImageNetworkTests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SparkImageNetworkTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SparkImageNetworkTests/Pods-SparkImageNetworkTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SparkImageNetworkTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -3798,7 +3686,7 @@
 		};
 		B5208F4F46E0CE1E3BF89464C2FEAFE0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55072EA4F21064EDCA6F044350884495 /* Pods-ImageGalleryTests.release.xcconfig */;
+			baseConfigurationReference = B0B9736ED1A2F26B16479B6C8BAD761B /* Pods-ImageGalleryTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3829,40 +3717,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		BBF8D3B3D0C684381A9D4074E9EF5A97 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6359B92CF6BF703D2C78ACE699D855FD /* Pods-ImageGallery-SparkImageNetwork.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ImageGallery-SparkImageNetwork/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ImageGallery-SparkImageNetwork/Pods-ImageGallery-SparkImageNetwork.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ImageGallery_SparkImageNetwork;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		E488FDBC764ACC3E703C416CA08AA5D6 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -4037,6 +3891,40 @@
 			};
 			name = Release;
 		};
+		FE8BA751826584ED177851F6FEF0E580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E41C40669A4383D5E5A787D24699FA54 /* Pods-SparkImageNetwork.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SparkImageNetwork/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SparkImageNetwork/Pods-SparkImageNetwork.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SparkImageNetwork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		FF8988392342BCA7DE28A30E005A7173 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0016D8D36269D636A90CECB47423D83E /* Quick.xcconfig */;
@@ -4116,11 +4004,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		619105319D62C3ED50CE5EF2B36B0886 /* Build configuration list for PBXNativeTarget "Pods-ImageGallery-SparkImageNetwork" */ = {
+		8CDE3F00F8E9825A82FD962321A03F1A /* Build configuration list for PBXNativeTarget "Pods-SparkImageNetwork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BBF8D3B3D0C684381A9D4074E9EF5A97 /* Debug */,
-				37BE96BA66C793B2A56AD5C07EEB5CC9 /* Release */,
+				03201863874C3A33063F9652B45DFDEF /* Debug */,
+				FE8BA751826584ED177851F6FEF0E580 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4139,15 +4027,6 @@
 			buildConfigurations = (
 				5348E31165320DF6CBBB08A0C4DFBE67 /* Debug */,
 				B5208F4F46E0CE1E3BF89464C2FEAFE0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		93638B1E6ABCFB4B0137F412362C676F /* Build configuration list for PBXNativeTarget "Pods-SparkImageNetworkTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				92D399CB89B4AE6424C90C90AAD18723 /* Debug */,
-				014FA8560B6EC9257F0522E9A72FF27B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4175,6 +4054,15 @@
 			buildConfigurations = (
 				FF8988392342BCA7DE28A30E005A7173 /* Debug */,
 				E488FDBC764ACC3E703C416CA08AA5D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E516821F55832E7E188E52BD1844E66C /* Build configuration list for PBXNativeTarget "Pods-SparkImageNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DF7D1C63BD23EB727F1E88D10F4BA5D /* Debug */,
+				75604972BB5566E5126F8E765D1F89DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

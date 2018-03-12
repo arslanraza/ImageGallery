@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2587B8B50CEBF77EE55989CE /* Pods_SparkImageNetworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC2A1DF54AD13C2FD520A1C /* Pods_SparkImageNetworkTests.framework */; };
 		47CB571A1E3ED8C691111890 /* Pods_ImageGalleryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD007F820C02160651A42B5 /* Pods_ImageGalleryTests.framework */; };
-		675DB2B3ACF86503C461B30C /* Pods_SparkImageNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD6C3166AB14C90763D86EA /* Pods_SparkImageNetwork.framework */; };
+		901E0C2074AB0BDDEAEB40E7 /* Pods_SparkImageNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD6C3166AB14C90763D86EA /* Pods_SparkImageNetwork.framework */; };
 		A81E62752050020A004A5A8E /* SparkImageGalleryCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A85D16E5204ED2B00047C80E /* SparkImageGalleryCore.framework */; };
 		A81E62772050071A004A5A8E /* PicturesFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81E62762050071A004A5A8E /* PicturesFeedTests.swift */; };
 		A81E627C2050C140004A5A8E /* APIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81E627B2050C140004A5A8E /* APIClientTests.swift */; };
@@ -71,7 +71,9 @@
 		A89F90B820550B2800EE8138 /* AboutViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89F90B720550B2800EE8138 /* AboutViewControllerTests.swift */; };
 		A89F90BB20551EE000EE8138 /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89F90BA20551EE000EE8138 /* ImageDetailViewController.swift */; };
 		A89F90BD205532DC00EE8138 /* ImageDetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89F90BC205532DC00EE8138 /* ImageDetailViewControllerTests.swift */; };
-		AD0D6E72C8E21E2C7AAD6487 /* Pods_ImageGallery_SparkImageNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCBA44AF9B3DE898B58E721 /* Pods_ImageGallery_SparkImageNetwork.framework */; };
+		A8DB98372056186B00BE385A /* ImageCaptureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB98362056186B00BE385A /* ImageCaptureViewModel.swift */; };
+		A8DB983820561DBA00BE385A /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DB983920561DBA00BE385A /* RealmSwift.framework */; };
+		A8DB983A20561DC600BE385A /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DB983B20561DC600BE385A /* Realm.framework */; };
 		F0FDFBEC8BB000C7F17A9BA8 /* Pods_ImageGallery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A538E51409CE8EBF9A2FAC /* Pods_ImageGallery.framework */; };
 /* End PBXBuildFile section */
 
@@ -211,9 +213,12 @@
 		A89F90BC205532DC00EE8138 /* ImageDetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewControllerTests.swift; sourceTree = "<group>"; };
 		A89F90C02055582300EE8138 /* RealmConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmConfig.swift; sourceTree = "<group>"; };
 		A89F90C22055586600EE8138 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
-		A991CC0829C26E7974355A8F /* Pods-SparkImageNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkImageNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SparkImageNetwork/Pods-SparkImageNetwork.debug.xcconfig"; sourceTree = "<group>"; };
+		A8DB98362056186B00BE385A /* ImageCaptureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCaptureViewModel.swift; sourceTree = "<group>"; };
+		A8DB983920561DBA00BE385A /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8DB983B20561DC600BE385A /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1F5F7A1569432C88BC883F1 /* Pods-SparkImageNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkImageNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-SparkImageNetwork/Pods-SparkImageNetwork.release.xcconfig"; sourceTree = "<group>"; };
 		CAD6C3166AB14C90763D86EA /* Pods_SparkImageNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparkImageNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5C8C15657CA078A2781F22D /* Pods-SparkImageNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkImageNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-SparkImageNetwork/Pods-SparkImageNetwork.release.xcconfig"; sourceTree = "<group>"; };
+		D4E2100F3E215391B2EDE860 /* Pods-SparkImageNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkImageNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SparkImageNetwork/Pods-SparkImageNetwork.debug.xcconfig"; sourceTree = "<group>"; };
 		EFC2A1DF54AD13C2FD520A1C /* Pods_SparkImageNetworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparkImageNetworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F72A206A6E1AA2B9BBDDB16B /* Pods-SparkImageNetworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkImageNetworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SparkImageNetworkTests/Pods-SparkImageNetworkTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -248,9 +253,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8DB983A20561DC600BE385A /* Realm.framework in Frameworks */,
+				A8DB983820561DBA00BE385A /* RealmSwift.framework in Frameworks */,
 				A81E62752050020A004A5A8E /* SparkImageGalleryCore.framework in Frameworks */,
-				AD0D6E72C8E21E2C7AAD6487 /* Pods_ImageGallery_SparkImageNetwork.framework in Frameworks */,
-				675DB2B3ACF86503C461B30C /* Pods_SparkImageNetwork.framework in Frameworks */,
+				901E0C2074AB0BDDEAEB40E7 /* Pods_SparkImageNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +275,8 @@
 		19D81195E7488803DE620E8B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A8DB983B20561DC600BE385A /* Realm.framework */,
+				A8DB983920561DBA00BE385A /* RealmSwift.framework */,
 				47A538E51409CE8EBF9A2FAC /* Pods_ImageGallery.framework */,
 				4CD007F820C02160651A42B5 /* Pods_ImageGalleryTests.framework */,
 				EFC2A1DF54AD13C2FD520A1C /* Pods_SparkImageNetworkTests.framework */,
@@ -289,8 +297,8 @@
 				F72A206A6E1AA2B9BBDDB16B /* Pods-SparkImageNetworkTests.release.xcconfig */,
 				123BF1B8B5D11ABA886D4940 /* Pods-ImageGallery-SparkImageNetwork.debug.xcconfig */,
 				8A37ED110196A974D05AB102 /* Pods-ImageGallery-SparkImageNetwork.release.xcconfig */,
-				A991CC0829C26E7974355A8F /* Pods-SparkImageNetwork.debug.xcconfig */,
-				D5C8C15657CA078A2781F22D /* Pods-SparkImageNetwork.release.xcconfig */,
+				D4E2100F3E215391B2EDE860 /* Pods-SparkImageNetwork.debug.xcconfig */,
+				B1F5F7A1569432C88BC883F1 /* Pods-SparkImageNetwork.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -450,6 +458,7 @@
 		A85D15BD204D73380047C80E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A8DB98362056186B00BE385A /* ImageCaptureViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -720,12 +729,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A89C4BD1204EF91100E91C61 /* Build configuration list for PBXNativeTarget "SparkImageNetwork" */;
 			buildPhases = (
-				4D02BDBC6F8E536627740DF4 /* [CP] Check Pods Manifest.lock */,
+				6EA95D3BAE3782015DD82FFE /* [CP] Check Pods Manifest.lock */,
 				A89C4BB1204EF91100E91C61 /* Sources */,
 				A89C4BB2204EF91100E91C61 /* Frameworks */,
 				A89C4BB3204EF91100E91C61 /* Headers */,
 				A89C4BB4204EF91100E91C61 /* Resources */,
-				631FE8F33B8A31BBE6F02E57 /* [CP] Copy Pods Resources */,
+				08689688B24E814173EF8CBF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -875,6 +884,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		08689688B24E814173EF8CBF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SparkImageNetwork/Pods-SparkImageNetwork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		13919193988233F9AEBB6B01 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -954,7 +978,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4D02BDBC6F8E536627740DF4 /* [CP] Check Pods Manifest.lock */ = {
+		6EA95D3BAE3782015DD82FFE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -965,26 +989,11 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ImageGallery-SparkImageNetwork-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SparkImageNetwork-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		631FE8F33B8A31BBE6F02E57 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageGallery-SparkImageNetwork/Pods-ImageGallery-SparkImageNetwork-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6F4B2DE2EF1A178BC2BF08CF /* [CP] Check Pods Manifest.lock */ = {
@@ -1014,10 +1023,6 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-SparkImageNetworkTests/Pods-SparkImageNetworkTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
-				"${BUILT_PRODUCTS_DIR}/CropViewController/CropViewController.framework",
-				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
-				"${BUILT_PRODUCTS_DIR}/ImagePicker/ImagePicker.framework",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 			);
@@ -1025,10 +1030,6 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CropViewController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImagePicker.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 			);
@@ -1095,6 +1096,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A81E628E20516A2B004A5A8E /* GalleryViewModel.swift in Sources */,
+				A8DB98372056186B00BE385A /* ImageCaptureViewModel.swift in Sources */,
 				A85D1598204D70AF0047C80E /* AppDelegate.swift in Sources */,
 				A85D15CC204D7F1B0047C80E /* ImageCaptureViewController.swift in Sources */,
 				A85D15D0204D80EB0047C80E /* TabBarController.swift in Sources */,
@@ -1446,7 +1448,7 @@
 		};
 		A89C4BCD204EF91100E91C61 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 123BF1B8B5D11ABA886D4940 /* Pods-ImageGallery-SparkImageNetwork.debug.xcconfig */;
+			baseConfigurationReference = D4E2100F3E215391B2EDE860 /* Pods-SparkImageNetwork.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1474,7 +1476,7 @@
 		};
 		A89C4BCE204EF91100E91C61 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A37ED110196A974D05AB102 /* Pods-ImageGallery-SparkImageNetwork.release.xcconfig */;
+			baseConfigurationReference = B1F5F7A1569432C88BC883F1 /* Pods-SparkImageNetwork.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";

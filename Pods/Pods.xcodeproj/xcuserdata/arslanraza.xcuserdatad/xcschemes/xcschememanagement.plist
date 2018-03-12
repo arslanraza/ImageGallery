@@ -46,13 +46,6 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
-		<key>Pods-ImageGallery-SparkImageNetwork.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>8</integer>
-		</dict>
 		<key>Pods-ImageGallery.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -61,6 +54,13 @@
 			<integer>7</integer>
 		</dict>
 		<key>Pods-ImageGalleryTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>Pods-SparkImageNetwork.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

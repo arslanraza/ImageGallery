@@ -11,6 +11,7 @@ import SparkImageGalleryCore
 
 protocol PicturesService {
   func getFeed(from picturesFeedType: PicturesFeed, completion: @escaping (Result<SparkPicturesResult?, APIError>) -> Void)
+  func uploadImage(_ image: UIImage , completion: @escaping (APIError) -> Void)
 }
 
 public class PicturesAPIClient: APIClient, PicturesService {
@@ -38,6 +39,10 @@ public class PicturesAPIClient: APIClient, PicturesService {
       }
       return picturesFeedResult
     }, completion: completion)
+  }
+  
+  func uploadImage(_ image: UIImage , completion: @escaping (APIError) -> Void) {
+    
   }
 }
 

@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_ImageGallery_SparkImageNetworkVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_ImageGallery_SparkImageNetworkVersionString[];
+FOUNDATION_EXPORT double Pods_SparkImageNetworkVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_SparkImageNetworkVersionString[];
 
