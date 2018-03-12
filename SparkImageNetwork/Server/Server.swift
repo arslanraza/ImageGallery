@@ -74,19 +74,36 @@ class RealmDataTask: URLSessionDataTaskProtocol {
   }
 }
 
+class RealmUploadTask: URLSessionUploadTaskProtocol {
+  func resume() {
+    // STUB
+  }
+}
+
 extension Server: URLSessionProtocol {
   
   func successHttpURLResponse(request: URLRequest) -> URLResponse {
     return HTTPURLResponse(url: request.url!, statusCode: 200, httpVersion: "HTTP/1.1", headerFields: nil)!
   }
   
+  
+  func uploadTask(with request: URLRequest, from bodyData: Data, completionHandler: @escaping URLSessionProtocol.DataTaskResult) -> URLSessionUploadTaskProtocol {
+    let uploadTask = RealmUploadTask()
+    return uploadTask
+  }
+  
   func dataTask(with request: URLRequest, completionHandler: @escaping URLSessionProtocol.DataTaskResult) -> URLSessionDataTaskProtocol {
     
     let dataTask = RealmDataTask()
     
-    allPictures { jsonData in
-      completionHandler(jsonData, successHttpURLResponse(request: request), nil)
+    if request.httpMethod == "GET" {
+      allPictures { jsonData in
+        completionHandler(jsonData, successHttpURLResponse(request: request), nil)
+      }
+    } else if request.httpMethod == "POST" {
+      print("Perform image upload")
     }
+    
     return dataTask
   }
   

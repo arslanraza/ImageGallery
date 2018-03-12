@@ -11,7 +11,7 @@ import SparkImageGalleryCore
 
 protocol PicturesService {
   func getFeed(from picturesFeedType: PicturesFeed, completion: @escaping (Result<SparkPicturesResult?, APIError>) -> Void)
-  func uploadImage(_ image: UIImage , completion: @escaping (APIError) -> Void)
+  func uploadImage(_ image: UIImage , completion: @escaping (APIError?) -> Void)
 }
 
 public class PicturesAPIClient: APIClient, PicturesService {
@@ -28,10 +28,9 @@ public class PicturesAPIClient: APIClient, PicturesService {
   
   public func getFeed(from picturesFeedType: PicturesFeed, completion: @escaping (Result<SparkPicturesResult?, APIError>) -> Void) {
     
-    //    completion(Result.success(SparkPicturesResult.generateMockPictures()))
-    
     let endpoint = picturesFeedType
-    let request = endpoint.request
+    var request = endpoint.request
+    request.httpMethod = "get"
     
     fetch(with: request, decode: { json -> SparkPicturesResult? in
       guard let picturesFeedResult = json as? SparkPicturesResult else {
@@ -41,19 +40,18 @@ public class PicturesAPIClient: APIClient, PicturesService {
     }, completion: completion)
   }
   
-  func uploadImage(_ image: UIImage , completion: @escaping (APIError) -> Void) {
+  func uploadImage(_ image: UIImage, completion: @escaping (APIError?) -> Void) {
+    let endpoint = PicturesFeed.pictures
+    var request = endpoint.request
+    request.httpMethod = "post"
     
+    let imageData = UIImageJPEGRepresentation(image, 1)
+    
+    upload(with: request, data: imageData!, completion: completion)
   }
 }
 
-extension SparkPicturesResult {
-  static func generateMockPictures() -> SparkPicturesResult {
-    var pictures: [Picture] = []
-    for i in 1...14 {
-      let picture = Picture(id: "id_\(i)", url: "image_\(i).jpg", title: "Vacation", description: "", dateUpdated: Date(), dateTaken: Date())
-      pictures.append(picture)
-    }
-    return SparkPicturesResult(pictures: pictures)
-  }
+public struct PictureResponse: Codable {
+  let status: String
 }
 

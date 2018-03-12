@@ -74,6 +74,7 @@
 		A8DB98372056186B00BE385A /* ImageCaptureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB98362056186B00BE385A /* ImageCaptureViewModel.swift */; };
 		A8DB983820561DBA00BE385A /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DB983920561DBA00BE385A /* RealmSwift.framework */; };
 		A8DB983A20561DC600BE385A /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DB983B20561DC600BE385A /* Realm.framework */; };
+		A8DB983D205640E300BE385A /* URLSessionUploadTaskProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB983C205640E300BE385A /* URLSessionUploadTaskProtocol.swift */; };
 		F0FDFBEC8BB000C7F17A9BA8 /* Pods_ImageGallery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A538E51409CE8EBF9A2FAC /* Pods_ImageGallery.framework */; };
 /* End PBXBuildFile section */
 
@@ -216,6 +217,7 @@
 		A8DB98362056186B00BE385A /* ImageCaptureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCaptureViewModel.swift; sourceTree = "<group>"; };
 		A8DB983920561DBA00BE385A /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8DB983B20561DC600BE385A /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8DB983C205640E300BE385A /* URLSessionUploadTaskProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionUploadTaskProtocol.swift; sourceTree = "<group>"; };
 		B1F5F7A1569432C88BC883F1 /* Pods-SparkImageNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkImageNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-SparkImageNetwork/Pods-SparkImageNetwork.release.xcconfig"; sourceTree = "<group>"; };
 		CAD6C3166AB14C90763D86EA /* Pods_SparkImageNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparkImageNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E2100F3E215391B2EDE860 /* Pods-SparkImageNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkImageNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SparkImageNetwork/Pods-SparkImageNetwork.debug.xcconfig"; sourceTree = "<group>"; };
@@ -561,6 +563,7 @@
 				A875260C204F70D300C21FBA /* ApiClient.swift */,
 				A81E62842051454A004A5A8E /* URLSessionProtocol.swift */,
 				A81E628620514580004A5A8E /* URLSessionDataTaskProtocol.swift */,
+				A8DB983C205640E300BE385A /* URLSessionUploadTaskProtocol.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -1136,6 +1139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A86396BB20560323002C42BF /* Server.swift in Sources */,
+				A8DB983D205640E300BE385A /* URLSessionUploadTaskProtocol.swift in Sources */,
 				A86396BD20560323002C42BF /* Image.swift in Sources */,
 				A8752614204F750C00C21FBA /* PicturesAPIClient.swift in Sources */,
 				A875260B204F70A100C21FBA /* EndPoint.swift in Sources */,

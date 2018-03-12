@@ -11,8 +11,12 @@ import Foundation
 
 /// Generic APIClient
 protocol APIClient {
+  
   var session: URLSessionProtocol { get }
+  
   func fetch<T: Decodable>(with request: URLRequest, decode: @escaping (Decodable) -> T?, completion: @escaping (Result<T, APIError>) -> Void)
+  func upload(with request: URLRequest, data: Data, completion: @escaping (APIError?) -> Void)
+  
   func cancel()
 }
 
@@ -65,6 +69,17 @@ extension APIClient {
           completion(.failure(.jsonParsingFailure))
         }
       }
+    }
+    task.resume()
+  }
+  
+  func upload(with request: URLRequest, data: Data, completion: @escaping (APIError?) -> Void) {
+    let task = session.uploadTask(with: request, from: data) { (data, response, error) in
+      guard error == nil else {
+        completion(APIError.failed)
+        return
+      }
+      completion(nil)
     }
     task.resume()
   }
