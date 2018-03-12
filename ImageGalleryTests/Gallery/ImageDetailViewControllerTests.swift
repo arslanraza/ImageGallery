@@ -19,7 +19,7 @@ class ImageDetailViewControllerTests: QuickSpec {
         
         let sut = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ImageDetailViewController") as! ImageDetailViewController
         
-        let mockPicture = Picture.init(id: "1354", url: "image_1.jpg", title: "Title", description: "Some description", dateUpdated: "123123123", dateTaken: "1231232312")
+        let mockPicture = Picture.init(id: "1354", url: "image_1.jpg", title: "Title", description: "Some description", dateUpdated: Date(), dateTaken: Date())
         sut.picture = mockPicture
         
         let _ = sut.view

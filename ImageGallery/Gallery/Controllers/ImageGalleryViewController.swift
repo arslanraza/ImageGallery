@@ -53,14 +53,6 @@ class ImageGalleryViewController: UIViewController {
       }
     }
     
-//    let realm = try! Realm(configuration: RealmConfig.main.configuration)
-//    let image = realm.object(ofType: Image.self, forPrimaryKey: "id_1")
-//    let encoder = JSONEncoder()
-//    let jsonData = try! encoder.encode(image)
-//    let string = String(data: jsonData, encoding: .utf8)
-//    print("Encoded JSON: \(String(describing: string))")
-    
-    
   }
   
   // MARK: Navigation
@@ -82,7 +74,7 @@ extension ImageGalleryViewController: UICollectionViewDataSource, UICollectionVi
     let cell = collectionView.dequeueReusableCell(withReuseIdentifier: PictureCollectionViewCell.reuseIdentifier, for: indexPath) as! PictureCollectionViewCell
     let picture = viewModel.pictures[indexPath.row]
     cell.imageView.hero.id = picture.url
-    cell.imageView.image = UIImage(named: picture.url)
+    cell.imageView.image = picture.image
     
     return cell
   }
@@ -99,5 +91,11 @@ extension ImageGalleryViewController: UICollectionViewDelegate {
   func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
     collectionView.deselectItem(at: indexPath, animated: true)
     viewModel.didSelectPicture(viewModel.pictures[indexPath.row])
+  }
+}
+
+extension Picture {
+  var image: UIImage? {
+    return UIImage(named: url) ?? UIImage(contentsOfFile: url)
   }
 }
