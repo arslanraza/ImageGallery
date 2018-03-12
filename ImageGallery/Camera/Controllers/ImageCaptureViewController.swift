@@ -12,6 +12,11 @@ import CropViewController
 
 class ImageCaptureViewController: ImagePickerController {
   
+  // MARK: Properties
+  
+  let viewModel = ImageCaptureViewModel()
+  
+  // MARK: Life Cycle Methods
   convenience init() {
     var configuration = Configuration()
     configuration.doneButtonTitle = "Done"
@@ -53,6 +58,7 @@ extension ImageCaptureViewController: CropViewControllerDelegate {
     navigationController?.popViewController(animated: true)
   }
   func cropViewController(_ cropViewController: CropViewController, didCropToImage image: UIImage, withRect cropRect: CGRect, angle: Int) {
+    viewModel.upload(image)
     cropViewController.dismiss(animated: true, completion: nil)
   }
 }

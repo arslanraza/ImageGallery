@@ -96,6 +96,6 @@ extension ImageGalleryViewController: UICollectionViewDelegate {
 
 extension Picture {
   var image: UIImage? {
-    return UIImage(named: url) ?? UIImage(contentsOfFile: url)
+    return UIImage(named: url) ?? UIImage(contentsOfFile: URL.inDocumentsFolder(fileName: url).path)
   }
 }

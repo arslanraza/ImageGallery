@@ -29,8 +29,7 @@ public class PicturesAPIClient: APIClient, PicturesService {
   public func getFeed(from picturesFeedType: PicturesFeed, completion: @escaping (Result<SparkPicturesResult?, APIError>) -> Void) {
     
     let endpoint = picturesFeedType
-    var request = endpoint.request
-    request.httpMethod = "get"
+    let request = endpoint.request
     
     fetch(with: request, decode: { json -> SparkPicturesResult? in
       guard let picturesFeedResult = json as? SparkPicturesResult else {
@@ -40,10 +39,9 @@ public class PicturesAPIClient: APIClient, PicturesService {
     }, completion: completion)
   }
   
-  func uploadImage(_ image: UIImage, completion: @escaping (APIError?) -> Void) {
+  public func uploadImage(_ image: UIImage, completion: @escaping (APIError?) -> Void) {
     let endpoint = PicturesFeed.pictures
-    var request = endpoint.request
-    request.httpMethod = "post"
+    let request = endpoint.request
     
     let imageData = UIImageJPEGRepresentation(image, 1)
     

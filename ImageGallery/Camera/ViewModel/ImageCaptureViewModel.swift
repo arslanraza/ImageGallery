@@ -22,22 +22,10 @@ class ImageCaptureViewModel {
   
   // MARK: Public Methods
   
-  func uploadPicture(for feedType: PicturesFeed) {
-    picturesAPI.getFeed(from: feedType) { [weak self] result in
-      guard let strongSelf = self else { return }
-      switch result {
-      case .success(let picturesResult):
-//        strongSelf.picturesDidFinishLoading?(strongSelf.pictures, nil)
-        break
-      case .failure(let error):
-//        strongSelf.picturesDidFinishLoading?([], error)
-        break
-      }
+  func upload(_ image: UIImage) {
+    picturesAPI.uploadImage(image) { error in
+      print("Do Something now")
     }
-  }
-  
-  func didSelectPicture(_ picture: Picture) {
-    
   }
   
 }

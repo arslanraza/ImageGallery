@@ -66,6 +66,24 @@ public class Server {
     }
   }
   
+  func saveImage(_ data: Data, completion: (APIError?) -> Void) {
+    do {
+      let realm = try Realm(configuration: RealmConfig.main.configuration)
+      let imageID = UUID()
+      let fileName = "image_\(imageID).jpg"
+      let image = Image(id: "id_\(imageID)", url: fileName, title: "Title", description: "description")
+      try realm.write {
+        realm.add(image)
+      }
+      
+      let pathURL =  URL.inDocumentsFolder(fileName: fileName)
+      try data.write(to: pathURL, options: .atomic)
+      completion(nil)
+    } catch {
+      completion(APIError.failed)
+    }
+  }
+  
 }
 
 class RealmDataTask: URLSessionDataTaskProtocol {
@@ -89,6 +107,9 @@ extension Server: URLSessionProtocol {
   
   func uploadTask(with request: URLRequest, from bodyData: Data, completionHandler: @escaping URLSessionProtocol.DataTaskResult) -> URLSessionUploadTaskProtocol {
     let uploadTask = RealmUploadTask()
+    saveImage(bodyData) { error in
+      completionHandler(nil, successHttpURLResponse(request: request), nil)
+    }
     return uploadTask
   }
   
@@ -96,12 +117,8 @@ extension Server: URLSessionProtocol {
     
     let dataTask = RealmDataTask()
     
-    if request.httpMethod == "GET" {
-      allPictures { jsonData in
-        completionHandler(jsonData, successHttpURLResponse(request: request), nil)
-      }
-    } else if request.httpMethod == "POST" {
-      print("Perform image upload")
+    allPictures { jsonData in
+      completionHandler(jsonData, successHttpURLResponse(request: request), nil)
     }
     
     return dataTask

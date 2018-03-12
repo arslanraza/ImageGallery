@@ -15,7 +15,7 @@ enum RealmConfig {
   
   // MARK: - private configurations
   private static let mainConfig = Realm.Configuration(
-    fileURL: NSURL.inDocumentsFolder(fileName: "main.realm"),
+    fileURL: URL.inDocumentsFolder(fileName: "main.realm"),
     schemaVersion: 1,
     objectTypes: [Image.self]
   )
@@ -34,9 +34,9 @@ enum RealmConfig {
 }
 
 
-extension NSURL {
+extension URL {
   // returns an absolute URL to the desired file in documents folder
-  class func inDocumentsFolder(fileName: String) -> URL {
+  public static func inDocumentsFolder(fileName: String) -> URL {
     return URL(fileURLWithPath: NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0], isDirectory: true)
       .appendingPathComponent(fileName)
   }

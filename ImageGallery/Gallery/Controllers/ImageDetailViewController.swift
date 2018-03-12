@@ -20,7 +20,7 @@ class ImageDetailViewController: UIViewController {
     precondition(picture != nil, "Picture should never be nil")
     
     imageView.hero.id = picture?.url
-    imageView.image = UIImage(named: (picture?.url)!)
+    imageView.image = picture?.image
   }
   
 }
