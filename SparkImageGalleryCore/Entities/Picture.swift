@@ -10,9 +10,6 @@ import Foundation
 
 public struct SparkPicturesResult: Codable {
   public let pictures: [Picture]
-  public init(pictures: [Picture]) {
-    self.pictures = pictures
-  }
 }
 
 public struct Picture: Codable {

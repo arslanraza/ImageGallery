@@ -31,6 +31,7 @@ class ImageGalleryViewController: UIViewController {
     
     // Setting up observer
     viewModel.picturesDidFinishLoading = { [weak self] pictures, error in
+      SVProgressHUD.dismiss()
       guard let strongSelf = self,
         error == nil else {
         print("Error occured to retrive pictures")
@@ -48,11 +49,20 @@ class ImageGalleryViewController: UIViewController {
     SVProgressHUD.show()
     Server.configureForInitialData { [weak self] in
       DispatchQueue.main.async {
-        self?.viewModel.getPictures(for: .all)
-        SVProgressHUD.dismiss()
+//        self?.viewModel.getPictures(for: .all)
+        self?.refresh()
       }
     }
     
+    NotificationCenter.default.addObserver(self, selector: #selector(refresh),
+                                           name: NSNotification.Name(rawValue: Notification.imageUploaded.rawValue),
+                                           object: nil)
+    
+  }
+  
+  @objc func refresh() {
+    SVProgressHUD.show()
+    viewModel.getPictures(for: .all)
   }
   
   // MARK: Navigation

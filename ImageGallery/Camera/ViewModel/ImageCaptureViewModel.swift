@@ -22,10 +22,8 @@ class ImageCaptureViewModel {
   
   // MARK: Public Methods
   
-  func upload(_ image: UIImage) {
-    picturesAPI.uploadImage(image) { error in
-      print("Do Something now")
-    }
+  func upload(_ image: UIImage, completion: @escaping (APIError?) -> Void) {
+    picturesAPI.uploadImage(image, completion: completion)
   }
   
 }
