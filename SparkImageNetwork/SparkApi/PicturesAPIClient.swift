@@ -10,7 +10,8 @@ import Foundation
 import SparkImageGalleryCore
 
 protocol PicturesService {
-   func getFeed(from picturesFeedType: PicturesFeed, completion: @escaping (Result<SparkPicturesResult?, APIError>) -> Void)
+  func getFeed(from picturesFeedType: PicturesFeed, completion: @escaping (Result<SparkPicturesResult?, APIError>) -> Void)
+  func uploadImage(_ image: UIImage , completion: @escaping (APIError?) -> Void)
 }
 
 public class PicturesAPIClient: APIClient, PicturesService {
@@ -18,7 +19,7 @@ public class PicturesAPIClient: APIClient, PicturesService {
   let session: URLSessionProtocol
   
   public init(configuration: URLSessionConfiguration) {
-    self.session = URLSession(configuration: configuration)
+    self.session = Server() //URLSession(configuration: configuration)
   }
   
   convenience public init() {
@@ -27,28 +28,28 @@ public class PicturesAPIClient: APIClient, PicturesService {
   
   public func getFeed(from picturesFeedType: PicturesFeed, completion: @escaping (Result<SparkPicturesResult?, APIError>) -> Void) {
     
-    completion(Result.success(SparkPicturesResult.generateMockPictures()))
+    let endpoint = picturesFeedType
+    let request = endpoint.request
     
-//    let endpoint = picturesFeedType
-//    let request = endpoint.request
-//
-//    fetch(with: request, decode: { json -> SparkPicturesResult? in
-//      guard let picturesFeedResult = json as? SparkPicturesResult else {
-//        return  nil
-//      }
-//      return picturesFeedResult
-//    }, completion: completion)
+    fetch(with: request, decode: { json -> SparkPicturesResult? in
+      guard let picturesFeedResult = json as? SparkPicturesResult else {
+        return  nil
+      }
+      return picturesFeedResult
+    }, completion: completion)
+  }
+  
+  public func uploadImage(_ image: UIImage, completion: @escaping (APIError?) -> Void) {
+    let endpoint = PicturesFeed.pictures
+    let request = endpoint.request
+    
+    let imageData = UIImageJPEGRepresentation(image, 1)
+    
+    upload(with: request, data: imageData!, completion: completion)
   }
 }
 
-extension SparkPicturesResult {
-  static func generateMockPictures() -> SparkPicturesResult {
-    var pictures: [Picture] = []
-    for i in 1...14 {
-      let picture = Picture(id: "id_\(i)", url: "image_\(i).jpg", title: "Vacation", description: "", dateUpdated: "12312312", dateTaken: "1234231231")
-      pictures.append(picture)
-    }
-    return SparkPicturesResult(pictures: pictures)
-  }
+public struct PictureResponse: Codable {
+  let status: String
 }
 

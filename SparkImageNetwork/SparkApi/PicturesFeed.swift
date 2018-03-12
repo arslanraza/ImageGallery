@@ -16,6 +16,8 @@ import Foundation
 public enum PicturesFeed {
   case all
   case favorites
+  case pictures
+  
 }
 
 extension PicturesFeed: EndPoint {
@@ -29,6 +31,8 @@ extension PicturesFeed: EndPoint {
       return "/all"
     case .favorites:
       return "/favorites"
+    case .pictures:
+      return "/pictures"
     }
   }
 }

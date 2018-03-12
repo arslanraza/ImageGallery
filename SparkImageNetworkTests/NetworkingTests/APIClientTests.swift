@@ -13,6 +13,7 @@ import Nimble
 
 class MockURLSession: URLSessionProtocol {
   
+  
   private(set) var invalidateCalled = false
   var nextDataTask = MockURLSessionDataTask()
   var nextData: Data?
@@ -31,6 +32,10 @@ class MockURLSession: URLSessionProtocol {
     return nextDataTask
   }
   
+  func uploadTask(with request: URLRequest, from bodyData: Data, completionHandler: @escaping URLSessionProtocol.DataTaskResult) -> URLSessionUploadTaskProtocol {
+    return MockURLSessionUploadTask()
+  }
+  
   func invalidateAndCancel() {
     invalidateCalled = true
   }
@@ -44,6 +49,15 @@ class MockURLSessionDataTask: URLSessionDataTaskProtocol {
     resumeWasCalled = true
   }
 }
+
+class MockURLSessionUploadTask: URLSessionUploadTaskProtocol {
+  private (set) var resumeWasCalled = false
+  
+  func resume() {
+    resumeWasCalled = true
+  }
+}
+
 
 struct MockObject: Codable {
   let name: String

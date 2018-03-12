@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2587B8B50CEBF77EE55989CE /* Pods_SparkImageNetworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC2A1DF54AD13C2FD520A1C /* Pods_SparkImageNetworkTests.framework */; };
 		47CB571A1E3ED8C691111890 /* Pods_ImageGalleryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD007F820C02160651A42B5 /* Pods_ImageGalleryTests.framework */; };
+		901E0C2074AB0BDDEAEB40E7 /* Pods_SparkImageNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD6C3166AB14C90763D86EA /* Pods_SparkImageNetwork.framework */; };
 		A81E62752050020A004A5A8E /* SparkImageGalleryCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A85D16E5204ED2B00047C80E /* SparkImageGalleryCore.framework */; };
 		A81E62772050071A004A5A8E /* PicturesFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81E62762050071A004A5A8E /* PicturesFeedTests.swift */; };
 		A81E627C2050C140004A5A8E /* APIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81E627B2050C140004A5A8E /* APIClientTests.swift */; };
@@ -20,21 +21,6 @@
 		A81E628E20516A2B004A5A8E /* GalleryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81E628D20516A2B004A5A8E /* GalleryViewModel.swift */; };
 		A81E62922051709E004A5A8E /* UICollectionViewCell+ReuseIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81E62912051709E004A5A8E /* UICollectionViewCell+ReuseIdentifier.swift */; };
 		A81E62952051723B004A5A8E /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81E62942051723B004A5A8E /* UIView+Nib.swift */; };
-		A81E62A7205172F6004A5A8E /* image_14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E6298205172F5004A5A8E /* image_14.jpg */; };
-		A81E62A8205172F6004A5A8E /* image_13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E6299205172F5004A5A8E /* image_13.jpg */; };
-		A81E62A9205172F6004A5A8E /* image_12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E629A205172F5004A5A8E /* image_12.jpg */; };
-		A81E62AA205172F6004A5A8E /* image_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E629B205172F5004A5A8E /* image_10.jpg */; };
-		A81E62AB205172F6004A5A8E /* image_11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E629C205172F5004A5A8E /* image_11.jpg */; };
-		A81E62AC205172F6004A5A8E /* image_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E629D205172F5004A5A8E /* image_8.jpg */; };
-		A81E62AD205172F6004A5A8E /* image_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E629E205172F5004A5A8E /* image_9.jpg */; };
-		A81E62AE205172F6004A5A8E /* image_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E629F205172F5004A5A8E /* image_2.jpg */; };
-		A81E62AF205172F6004A5A8E /* image_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E62A0205172F5004A5A8E /* image_3.jpg */; };
-		A81E62B0205172F6004A5A8E /* image_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E62A1205172F5004A5A8E /* image_1.jpg */; };
-		A81E62B1205172F6004A5A8E /* image_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E62A2205172F5004A5A8E /* image_0.jpg */; };
-		A81E62B2205172F6004A5A8E /* image_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E62A3205172F5004A5A8E /* image_4.jpg */; };
-		A81E62B3205172F6004A5A8E /* image_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E62A4205172F5004A5A8E /* image_5.jpg */; };
-		A81E62B4205172F6004A5A8E /* image_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E62A5205172F5004A5A8E /* image_7.jpg */; };
-		A81E62B5205172F6004A5A8E /* image_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E62A6205172F5004A5A8E /* image_6.jpg */; };
 		A81E62B8205173A8004A5A8E /* PictureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81E62B6205173A8004A5A8E /* PictureCollectionViewCell.swift */; };
 		A81E62B9205173A8004A5A8E /* PictureCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A81E62B7205173A8004A5A8E /* PictureCollectionViewCell.xib */; };
 		A85D1598204D70AF0047C80E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D1597204D70AF0047C80E /* AppDelegate.swift */; };
@@ -50,6 +36,24 @@
 		A85D16ED204ED2B00047C80E /* SparkImageGalleryCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A85D16E5204ED2B00047C80E /* SparkImageGalleryCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A85D16F4204ED2C00047C80E /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D16F3204ED2C00047C80E /* Picture.swift */; };
 		A85D16F7204ED4630047C80E /* SparkGalleryCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D16F6204ED4630047C80E /* SparkGalleryCoreTests.swift */; };
+		A86396BB20560323002C42BF /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8585A9D2055FAA20094B1DA /* Server.swift */; };
+		A86396BC20560323002C42BF /* RealmConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89F90C02055582300EE8138 /* RealmConfig.swift */; };
+		A86396BD20560323002C42BF /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89F90C22055586600EE8138 /* Image.swift */; };
+		A86396BE205603F3002C42BF /* image_14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E6298205172F5004A5A8E /* image_14.jpg */; };
+		A86396BF205603F3002C42BF /* image_13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E6299205172F5004A5A8E /* image_13.jpg */; };
+		A86396C0205603F3002C42BF /* image_12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E629A205172F5004A5A8E /* image_12.jpg */; };
+		A86396C1205603F3002C42BF /* image_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E629B205172F5004A5A8E /* image_10.jpg */; };
+		A86396C2205603F3002C42BF /* image_11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E629C205172F5004A5A8E /* image_11.jpg */; };
+		A86396C3205603F3002C42BF /* image_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E629D205172F5004A5A8E /* image_8.jpg */; };
+		A86396C4205603F3002C42BF /* image_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E629E205172F5004A5A8E /* image_9.jpg */; };
+		A86396C5205603F3002C42BF /* image_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E629F205172F5004A5A8E /* image_2.jpg */; };
+		A86396C6205603F3002C42BF /* image_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E62A0205172F5004A5A8E /* image_3.jpg */; };
+		A86396C7205603F3002C42BF /* image_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E62A1205172F5004A5A8E /* image_1.jpg */; };
+		A86396C8205603F3002C42BF /* image_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E62A2205172F5004A5A8E /* image_0.jpg */; };
+		A86396C9205603F3002C42BF /* image_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E62A3205172F5004A5A8E /* image_4.jpg */; };
+		A86396CA205603F3002C42BF /* image_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E62A4205172F5004A5A8E /* image_5.jpg */; };
+		A86396CB205603F3002C42BF /* image_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E62A5205172F5004A5A8E /* image_7.jpg */; };
+		A86396CC205603F3002C42BF /* image_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A81E62A6205172F5004A5A8E /* image_6.jpg */; };
 		A8752608204F702100C21FBA /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8752607204F702100C21FBA /* Result.swift */; };
 		A875260B204F70A100C21FBA /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A875260A204F70A100C21FBA /* EndPoint.swift */; };
 		A875260D204F70D300C21FBA /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A875260C204F70D300C21FBA /* ApiClient.swift */; };
@@ -67,6 +71,10 @@
 		A89F90B820550B2800EE8138 /* AboutViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89F90B720550B2800EE8138 /* AboutViewControllerTests.swift */; };
 		A89F90BB20551EE000EE8138 /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89F90BA20551EE000EE8138 /* ImageDetailViewController.swift */; };
 		A89F90BD205532DC00EE8138 /* ImageDetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89F90BC205532DC00EE8138 /* ImageDetailViewControllerTests.swift */; };
+		A8DB98372056186B00BE385A /* ImageCaptureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB98362056186B00BE385A /* ImageCaptureViewModel.swift */; };
+		A8DB983820561DBA00BE385A /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DB983920561DBA00BE385A /* RealmSwift.framework */; };
+		A8DB983A20561DC600BE385A /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DB983B20561DC600BE385A /* Realm.framework */; };
+		A8DB983D205640E300BE385A /* URLSessionUploadTaskProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB983C205640E300BE385A /* URLSessionUploadTaskProtocol.swift */; };
 		F0FDFBEC8BB000C7F17A9BA8 /* Pods_ImageGallery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A538E51409CE8EBF9A2FAC /* Pods_ImageGallery.framework */; };
 /* End PBXBuildFile section */
 
@@ -131,11 +139,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		123BF1B8B5D11ABA886D4940 /* Pods-ImageGallery-SparkImageNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageGallery-SparkImageNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageGallery-SparkImageNetwork/Pods-ImageGallery-SparkImageNetwork.debug.xcconfig"; sourceTree = "<group>"; };
 		142A3E92E53086D065439A26 /* Pods-ImageGalleryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageGalleryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageGalleryTests/Pods-ImageGalleryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		27339CE57C1D0D018F82A85B /* Pods-ImageGallery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageGallery.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageGallery/Pods-ImageGallery.debug.xcconfig"; sourceTree = "<group>"; };
 		47A538E51409CE8EBF9A2FAC /* Pods_ImageGallery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageGallery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BBAFC6B1F11D4D72EA0E9A9 /* Pods-ImageGalleryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageGalleryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageGalleryTests/Pods-ImageGalleryTests.release.xcconfig"; sourceTree = "<group>"; };
 		4CD007F820C02160651A42B5 /* Pods_ImageGalleryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageGalleryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCBA44AF9B3DE898B58E721 /* Pods_ImageGallery_SparkImageNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageGallery_SparkImageNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A37ED110196A974D05AB102 /* Pods-ImageGallery-SparkImageNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageGallery-SparkImageNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageGallery-SparkImageNetwork/Pods-ImageGallery-SparkImageNetwork.release.xcconfig"; sourceTree = "<group>"; };
 		A1FA458A708820A98B42BF48 /* Pods-ImageGallery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageGallery.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageGallery/Pods-ImageGallery.release.xcconfig"; sourceTree = "<group>"; };
 		A335B75F3A1E9AE53E9B42D5 /* Pods-SparkImageNetworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkImageNetworkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SparkImageNetworkTests/Pods-SparkImageNetworkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A81E62762050071A004A5A8E /* PicturesFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesFeedTests.swift; sourceTree = "<group>"; };
@@ -165,6 +176,7 @@
 		A81E62A6205172F5004A5A8E /* image_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_6.jpg; sourceTree = "<group>"; };
 		A81E62B6205173A8004A5A8E /* PictureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCollectionViewCell.swift; sourceTree = "<group>"; };
 		A81E62B7205173A8004A5A8E /* PictureCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PictureCollectionViewCell.xib; sourceTree = "<group>"; };
+		A8585A9D2055FAA20094B1DA /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
 		A85D1594204D70AF0047C80E /* ImageGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85D1597204D70AF0047C80E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A85D159C204D70AF0047C80E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -200,6 +212,15 @@
 		A89F90B720550B2800EE8138 /* AboutViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewControllerTests.swift; sourceTree = "<group>"; };
 		A89F90BA20551EE000EE8138 /* ImageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
 		A89F90BC205532DC00EE8138 /* ImageDetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewControllerTests.swift; sourceTree = "<group>"; };
+		A89F90C02055582300EE8138 /* RealmConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmConfig.swift; sourceTree = "<group>"; };
+		A89F90C22055586600EE8138 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		A8DB98362056186B00BE385A /* ImageCaptureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCaptureViewModel.swift; sourceTree = "<group>"; };
+		A8DB983920561DBA00BE385A /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8DB983B20561DC600BE385A /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8DB983C205640E300BE385A /* URLSessionUploadTaskProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionUploadTaskProtocol.swift; sourceTree = "<group>"; };
+		B1F5F7A1569432C88BC883F1 /* Pods-SparkImageNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkImageNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-SparkImageNetwork/Pods-SparkImageNetwork.release.xcconfig"; sourceTree = "<group>"; };
+		CAD6C3166AB14C90763D86EA /* Pods_SparkImageNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparkImageNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E2100F3E215391B2EDE860 /* Pods-SparkImageNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkImageNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SparkImageNetwork/Pods-SparkImageNetwork.debug.xcconfig"; sourceTree = "<group>"; };
 		EFC2A1DF54AD13C2FD520A1C /* Pods_SparkImageNetworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparkImageNetworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F72A206A6E1AA2B9BBDDB16B /* Pods-SparkImageNetworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkImageNetworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SparkImageNetworkTests/Pods-SparkImageNetworkTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -234,7 +255,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8DB983A20561DC600BE385A /* Realm.framework in Frameworks */,
+				A8DB983820561DBA00BE385A /* RealmSwift.framework in Frameworks */,
 				A81E62752050020A004A5A8E /* SparkImageGalleryCore.framework in Frameworks */,
+				901E0C2074AB0BDDEAEB40E7 /* Pods_SparkImageNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,9 +277,13 @@
 		19D81195E7488803DE620E8B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A8DB983B20561DC600BE385A /* Realm.framework */,
+				A8DB983920561DBA00BE385A /* RealmSwift.framework */,
 				47A538E51409CE8EBF9A2FAC /* Pods_ImageGallery.framework */,
 				4CD007F820C02160651A42B5 /* Pods_ImageGalleryTests.framework */,
 				EFC2A1DF54AD13C2FD520A1C /* Pods_SparkImageNetworkTests.framework */,
+				7CCBA44AF9B3DE898B58E721 /* Pods_ImageGallery_SparkImageNetwork.framework */,
+				CAD6C3166AB14C90763D86EA /* Pods_SparkImageNetwork.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -269,6 +297,10 @@
 				4BBAFC6B1F11D4D72EA0E9A9 /* Pods-ImageGalleryTests.release.xcconfig */,
 				A335B75F3A1E9AE53E9B42D5 /* Pods-SparkImageNetworkTests.debug.xcconfig */,
 				F72A206A6E1AA2B9BBDDB16B /* Pods-SparkImageNetworkTests.release.xcconfig */,
+				123BF1B8B5D11ABA886D4940 /* Pods-ImageGallery-SparkImageNetwork.debug.xcconfig */,
+				8A37ED110196A974D05AB102 /* Pods-ImageGallery-SparkImageNetwork.release.xcconfig */,
+				D4E2100F3E215391B2EDE860 /* Pods-SparkImageNetwork.debug.xcconfig */,
+				B1F5F7A1569432C88BC883F1 /* Pods-SparkImageNetwork.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -345,7 +377,6 @@
 		A85D1596204D70AF0047C80E /* ImageGallery */ = {
 			isa = PBXGroup;
 			children = (
-				A81E6296205172EB004A5A8E /* Resources */,
 				A85D1597204D70AF0047C80E /* AppDelegate.swift */,
 				A85D15CF204D80EB0047C80E /* TabBarController.swift */,
 				A85D159B204D70AF0047C80E /* Main.storyboard */,
@@ -353,6 +384,7 @@
 				A85D15B7204D73380047C80E /* Gallery */,
 				A85D15BC204D73380047C80E /* Camera */,
 				A85D15C1204D73380047C80E /* About */,
+				A81E6296205172EB004A5A8E /* Resources */,
 				A85D159E204D70AF0047C80E /* Assets.xcassets */,
 				A85D15A0204D70AF0047C80E /* LaunchScreen.storyboard */,
 				A85D15A3204D70AF0047C80E /* Info.plist */,
@@ -428,6 +460,7 @@
 		A85D15BD204D73380047C80E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A8DB98362056186B00BE385A /* ImageCaptureViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -530,6 +563,7 @@
 				A875260C204F70D300C21FBA /* ApiClient.swift */,
 				A81E62842051454A004A5A8E /* URLSessionProtocol.swift */,
 				A81E628620514580004A5A8E /* URLSessionDataTaskProtocol.swift */,
+				A8DB983C205640E300BE385A /* URLSessionUploadTaskProtocol.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -564,6 +598,7 @@
 		A89C4BB7204EF91100E91C61 /* SparkImageNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				A89F90BF2055581700EE8138 /* Server */,
 				A875260E204F71D400C21FBA /* SparkApi */,
 				A8752609204F709000C21FBA /* Networking */,
 				A89C4BB8204EF91100E91C61 /* SparkImageNetwork.h */,
@@ -581,6 +616,32 @@
 				A89C4BC7204EF91100E91C61 /* Info.plist */,
 			);
 			path = SparkImageNetworkTests;
+			sourceTree = "<group>";
+		};
+		A89F90BF2055581700EE8138 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				A8585A9D2055FAA20094B1DA /* Server.swift */,
+				A89F90C02055582300EE8138 /* RealmConfig.swift */,
+				A89F90C6205570A200EE8138 /* Model */,
+				A89F90C420556F9D00EE8138 /* Resource */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		A89F90C420556F9D00EE8138 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A89F90C6205570A200EE8138 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A89F90C22055586600EE8138 /* Image.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -671,10 +732,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A89C4BD1204EF91100E91C61 /* Build configuration list for PBXNativeTarget "SparkImageNetwork" */;
 			buildPhases = (
+				6EA95D3BAE3782015DD82FFE /* [CP] Check Pods Manifest.lock */,
 				A89C4BB1204EF91100E91C61 /* Sources */,
 				A89C4BB2204EF91100E91C61 /* Frameworks */,
 				A89C4BB3204EF91100E91C61 /* Headers */,
 				A89C4BB4204EF91100E91C61 /* Resources */,
+				08689688B24E814173EF8CBF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -771,25 +834,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A81E62AE205172F6004A5A8E /* image_2.jpg in Resources */,
-				A81E62B3205172F6004A5A8E /* image_5.jpg in Resources */,
+				A86396C9205603F3002C42BF /* image_4.jpg in Resources */,
+				A86396C6205603F3002C42BF /* image_3.jpg in Resources */,
+				A86396C0205603F3002C42BF /* image_12.jpg in Resources */,
 				A85D15A2204D70AF0047C80E /* LaunchScreen.storyboard in Resources */,
-				A81E62B2205172F6004A5A8E /* image_4.jpg in Resources */,
-				A81E62AA205172F6004A5A8E /* image_10.jpg in Resources */,
+				A86396C5205603F3002C42BF /* image_2.jpg in Resources */,
 				A81E62B9205173A8004A5A8E /* PictureCollectionViewCell.xib in Resources */,
+				A86396BE205603F3002C42BF /* image_14.jpg in Resources */,
 				A85D159F204D70AF0047C80E /* Assets.xcassets in Resources */,
-				A81E62B0205172F6004A5A8E /* image_1.jpg in Resources */,
-				A81E62A9205172F6004A5A8E /* image_12.jpg in Resources */,
-				A81E62A8205172F6004A5A8E /* image_13.jpg in Resources */,
-				A81E62A7205172F6004A5A8E /* image_14.jpg in Resources */,
-				A81E62B4205172F6004A5A8E /* image_7.jpg in Resources */,
 				A85D159D204D70AF0047C80E /* Main.storyboard in Resources */,
-				A81E62AD205172F6004A5A8E /* image_9.jpg in Resources */,
-				A81E62B1205172F6004A5A8E /* image_0.jpg in Resources */,
-				A81E62B5205172F6004A5A8E /* image_6.jpg in Resources */,
-				A81E62AB205172F6004A5A8E /* image_11.jpg in Resources */,
-				A81E62AC205172F6004A5A8E /* image_8.jpg in Resources */,
-				A81E62AF205172F6004A5A8E /* image_3.jpg in Resources */,
+				A86396C1205603F3002C42BF /* image_10.jpg in Resources */,
+				A86396BF205603F3002C42BF /* image_13.jpg in Resources */,
+				A86396CB205603F3002C42BF /* image_7.jpg in Resources */,
+				A86396CA205603F3002C42BF /* image_5.jpg in Resources */,
+				A86396C4205603F3002C42BF /* image_9.jpg in Resources */,
+				A86396CC205603F3002C42BF /* image_6.jpg in Resources */,
+				A86396C8205603F3002C42BF /* image_0.jpg in Resources */,
+				A86396C3205603F3002C42BF /* image_8.jpg in Resources */,
+				A86396C2205603F3002C42BF /* image_11.jpg in Resources */,
+				A86396C7205603F3002C42BF /* image_1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -824,6 +887,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		08689688B24E814173EF8CBF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SparkImageNetwork/Pods-SparkImageNetwork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		13919193988233F9AEBB6B01 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -852,12 +930,18 @@
 				"${BUILT_PRODUCTS_DIR}/CropViewController/CropViewController.framework",
 				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
 				"${BUILT_PRODUCTS_DIR}/ImagePicker/ImagePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CropViewController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImagePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -897,6 +981,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6EA95D3BAE3782015DD82FFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SparkImageNetwork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6F4B2DE2EF1A178BC2BF08CF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -924,11 +1026,15 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-SparkImageNetworkTests/Pods-SparkImageNetworkTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -993,6 +1099,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A81E628E20516A2B004A5A8E /* GalleryViewModel.swift in Sources */,
+				A8DB98372056186B00BE385A /* ImageCaptureViewModel.swift in Sources */,
 				A85D1598204D70AF0047C80E /* AppDelegate.swift in Sources */,
 				A85D15CC204D7F1B0047C80E /* ImageCaptureViewController.swift in Sources */,
 				A85D15D0204D80EB0047C80E /* TabBarController.swift in Sources */,
@@ -1031,6 +1138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A86396BB20560323002C42BF /* Server.swift in Sources */,
+				A8DB983D205640E300BE385A /* URLSessionUploadTaskProtocol.swift in Sources */,
+				A86396BD20560323002C42BF /* Image.swift in Sources */,
 				A8752614204F750C00C21FBA /* PicturesAPIClient.swift in Sources */,
 				A875260B204F70A100C21FBA /* EndPoint.swift in Sources */,
 				A81E628720514580004A5A8E /* URLSessionDataTaskProtocol.swift in Sources */,
@@ -1038,6 +1148,7 @@
 				A8752608204F702100C21FBA /* Result.swift in Sources */,
 				A81E62852051454A004A5A8E /* URLSessionProtocol.swift in Sources */,
 				A89C4BD5204EFF8E00E91C61 /* ImageGalleryService.swift in Sources */,
+				A86396BC20560323002C42BF /* RealmConfig.swift in Sources */,
 				A875260D204F70D300C21FBA /* ApiClient.swift in Sources */,
 				A8752612204F72FB00C21FBA /* APIError.swift in Sources */,
 			);
@@ -1341,6 +1452,7 @@
 		};
 		A89C4BCD204EF91100E91C61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4E2100F3E215391B2EDE860 /* Pods-SparkImageNetwork.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1368,6 +1480,7 @@
 		};
 		A89C4BCE204EF91100E91C61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1F5F7A1569432C88BC883F1 /* Pods-SparkImageNetwork.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";

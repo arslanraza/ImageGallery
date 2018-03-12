@@ -10,9 +10,6 @@ import Foundation
 
 public struct SparkPicturesResult: Codable {
   public let pictures: [Picture]
-  public init(pictures: [Picture]) {
-    self.pictures = pictures
-  }
 }
 
 public struct Picture: Codable {
@@ -21,10 +18,10 @@ public struct Picture: Codable {
   public let url: String
   public let title: String
   public let description: String
-  public let dateUpdated: String
-  public let dateTaken: String
+  public let dateUpdated: Date?
+  public let dateTaken: Date?
   
-  public init(id: String, url: String, title: String, description: String, dateUpdated: String, dateTaken: String) {
+  public init(id: String, url: String, title: String, description: String, dateUpdated: Date, dateTaken: Date) {
     self.id = id
     self.url = url
     self.title = title

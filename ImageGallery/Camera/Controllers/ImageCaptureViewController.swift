@@ -9,9 +9,21 @@
 import UIKit
 import ImagePicker
 import CropViewController
+import SVProgressHUD
+
+enum Notification: String {
+  case imageUploaded
+}
 
 class ImageCaptureViewController: ImagePickerController {
   
+  
+  
+  // MARK: Properties
+  
+  let viewModel = ImageCaptureViewModel()
+  
+  // MARK: Life Cycle Methods
   convenience init() {
     var configuration = Configuration()
     configuration.doneButtonTitle = "Done"
@@ -52,8 +64,21 @@ extension ImageCaptureViewController: CropViewControllerDelegate {
   func cropViewController(_ cropViewController: CropViewController, didFinishCancelled cancelled: Bool) {
     navigationController?.popViewController(animated: true)
   }
+  
   func cropViewController(_ cropViewController: CropViewController, didCropToImage image: UIImage, withRect cropRect: CGRect, angle: Int) {
-    cropViewController.dismiss(animated: true, completion: nil)
+    SVProgressHUD.show()
+    viewModel.upload(image) { [weak self] error in
+      SVProgressHUD.dismiss()
+      guard error == nil else {
+        let alert = UIAlertController(title: "Upload error", message: "try again", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+        self?.present(alert, animated: true, completion: nil)
+        return
+      }
+      NotificationCenter.default.post(name: NSNotification.Name(Notification.imageUploaded.rawValue), object: self)
+      cropViewController.dismiss(animated: true, completion: nil)
+    }
+    
   }
 }
 

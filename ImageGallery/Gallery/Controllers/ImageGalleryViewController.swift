@@ -10,6 +10,7 @@ import UIKit
 import SparkImageGalleryCore
 import SparkImageNetwork
 import Hero
+import SVProgressHUD
 
 class ImageGalleryViewController: UIViewController {
   
@@ -30,6 +31,7 @@ class ImageGalleryViewController: UIViewController {
     
     // Setting up observer
     viewModel.picturesDidFinishLoading = { [weak self] pictures, error in
+      SVProgressHUD.dismiss()
       guard let strongSelf = self,
         error == nil else {
         print("Error occured to retrive pictures")
@@ -44,6 +46,22 @@ class ImageGalleryViewController: UIViewController {
       strongSelf.performSegue(withIdentifier: SegueIdentifier.imageDetail.rawValue, sender: strongSelf)
     }
     
+    SVProgressHUD.show()
+    Server.configureForInitialData { [weak self] in
+      DispatchQueue.main.async {
+//        self?.viewModel.getPictures(for: .all)
+        self?.refresh()
+      }
+    }
+    
+    NotificationCenter.default.addObserver(self, selector: #selector(refresh),
+                                           name: NSNotification.Name(rawValue: Notification.imageUploaded.rawValue),
+                                           object: nil)
+    
+  }
+  
+  @objc func refresh() {
+    SVProgressHUD.show()
     viewModel.getPictures(for: .all)
   }
   
@@ -66,7 +84,7 @@ extension ImageGalleryViewController: UICollectionViewDataSource, UICollectionVi
     let cell = collectionView.dequeueReusableCell(withReuseIdentifier: PictureCollectionViewCell.reuseIdentifier, for: indexPath) as! PictureCollectionViewCell
     let picture = viewModel.pictures[indexPath.row]
     cell.imageView.hero.id = picture.url
-    cell.imageView.image = UIImage(named: picture.url)
+    cell.imageView.image = picture.image
     
     return cell
   }
@@ -83,5 +101,11 @@ extension ImageGalleryViewController: UICollectionViewDelegate {
   func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
     collectionView.deselectItem(at: indexPath, animated: true)
     viewModel.didSelectPicture(viewModel.pictures[indexPath.row])
+  }
+}
+
+extension Picture {
+  var image: UIImage? {
+    return UIImage(named: url) ?? UIImage(contentsOfFile: URL.inDocumentsFolder(fileName: url).path)
   }
 }
