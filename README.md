@@ -28,7 +28,7 @@
 
 ### ImageNetwork (framework)
 
-#### Network
+##### Network
 
 * Defines a generic protocol based APIClient and Result class that carries out the network operation for fetching and uploading the image
 
