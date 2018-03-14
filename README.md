@@ -2,6 +2,14 @@
 
 # ImageGallery
 
+## Platform:
+
+* XCode 9.2
+* Minimum OS Version: 10.0
+* Recommended to run the app on device to test the image capture functionality. The app will also run and compile for simulator but the pictures can only be selected from the image gallery.
+* The app supports all orientations and screen sizes.
+
+---
 ## About:
 
 * The goal of the project is to create an image gallery that fetches the pictures from the Server.
