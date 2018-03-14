@@ -54,6 +54,10 @@
 * **HERO**: To help with viewController transition when selecting an image from the gallery.
 
 
+## Suggested Improvements:
 
+* The pictures should have thumbnails on the gallery view
+* The server should create a thumbnail of the uploaded image and store it.
+* Increase code coverage for both ImageGallery and ImageNetwork targets.
 
 
