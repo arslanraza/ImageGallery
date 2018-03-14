@@ -31,13 +31,16 @@ class ImageGalleryViewController: UIViewController {
     
     // Setting up observer
     viewModel.picturesDidFinishLoading = { [weak self] pictures, error in
-      SVProgressHUD.dismiss()
-      guard let strongSelf = self,
-        error == nil else {
-        print("Error occured to retrive pictures")
-        return
+      //MARK: change to main queue
+      DispatchQueue.main.async {
+        SVProgressHUD.dismiss()
+        guard let strongSelf = self,
+          error == nil else {
+            print("Error occured to retrive pictures")
+            return
+        }
+        strongSelf.collectionView.reloadData()
       }
-      strongSelf.collectionView.reloadData()
     }
     
     viewModel.shouldOpenImageDetail = { [weak self] picture in
@@ -49,18 +52,17 @@ class ImageGalleryViewController: UIViewController {
     SVProgressHUD.show()
     Server.configureForInitialData { [weak self] in
       DispatchQueue.main.async {
-//        self?.viewModel.getPictures(for: .all)
         self?.refresh()
       }
     }
     
     NotificationCenter.default.addObserver(self, selector: #selector(refresh),
                                            name: NSNotification.Name(rawValue: Notification.imageUploaded.rawValue),
-                                           object: nil)
-    
+                                           object: nil)    
   }
   
   @objc func refresh() {
+    tabBarController?.selectedIndex = 0
     SVProgressHUD.show()
     viewModel.getPictures(for: .all)
   }
@@ -82,10 +84,7 @@ extension ImageGalleryViewController: UICollectionViewDataSource, UICollectionVi
   
   func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
     let cell = collectionView.dequeueReusableCell(withReuseIdentifier: PictureCollectionViewCell.reuseIdentifier, for: indexPath) as! PictureCollectionViewCell
-    let picture = viewModel.pictures[indexPath.row]
-    cell.imageView.hero.id = picture.url
-    cell.imageView.image = picture.image
-    
+    cell.configure(with: viewModel.pictures[indexPath.row])
     return cell
   }
   
@@ -104,8 +103,3 @@ extension ImageGalleryViewController: UICollectionViewDelegate {
   }
 }
 
-extension Picture {
-  var image: UIImage? {
-    return UIImage(named: url) ?? UIImage(contentsOfFile: URL.inDocumentsFolder(fileName: url).path)
-  }
-}
