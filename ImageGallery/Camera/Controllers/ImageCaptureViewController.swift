@@ -29,6 +29,7 @@ class ImageCaptureViewController: ImagePickerController {
     configuration.doneButtonTitle = "Done"
     configuration.noImagesTitle = "Sorry! There are no images here!"
     configuration.recordLocation = false
+    configuration.canRotateCamera = false
     self.init(configuration: configuration)
     
     self.imageLimit = 1
@@ -46,7 +47,6 @@ class ImageCaptureViewController: ImagePickerController {
     super.viewWillAppear(animated)
     navigationController?.setNavigationBarHidden(true, animated: false)
   }
-  
   
   /*
    // MARK: - Navigation

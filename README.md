@@ -59,5 +59,8 @@
 * The pictures should have thumbnails on the gallery view
 * The server should create a thumbnail of the uploaded image and store it.
 * Increase code coverage for both ImageGallery and ImageNetwork targets.
+* Add functionality to update and remove an image.
+* Display title, description and dates on the picture.
+* Mark picture as Favorite
 
 
