@@ -31,6 +31,7 @@ extension APIClient {
         completion(nil, .failed)
         return
       }
+      
       if httpResponse.statusCode == 200 {
         if let data = data {
           do {

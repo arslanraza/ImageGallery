@@ -68,17 +68,18 @@ extension ImageCaptureViewController: CropViewControllerDelegate {
   func cropViewController(_ cropViewController: CropViewController, didCropToImage image: UIImage, withRect cropRect: CGRect, angle: Int) {
     SVProgressHUD.show()
     viewModel.upload(image) { [weak self] error in
-      SVProgressHUD.dismiss()
-      guard error == nil else {
-        let alert = UIAlertController(title: "Upload error", message: "try again", preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
-        self?.present(alert, animated: true, completion: nil)
-        return
+      DispatchQueue.main.async {
+        SVProgressHUD.dismiss()
+        guard error == nil else {
+          let alert = UIAlertController(title: "Upload error", message: "try again", preferredStyle: .alert)
+          alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+          self?.present(alert, animated: true, completion: nil)
+          return
+        }
+        NotificationCenter.default.post(name: NSNotification.Name(Notification.imageUploaded.rawValue), object: self)
+        cropViewController.dismiss(animated: true, completion: nil)
       }
-      NotificationCenter.default.post(name: NSNotification.Name(Notification.imageUploaded.rawValue), object: self)
-      cropViewController.dismiss(animated: true, completion: nil)
     }
-    
   }
 }
 
